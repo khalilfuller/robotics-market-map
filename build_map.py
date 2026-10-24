@@ -144,7 +144,7 @@ h1 {{ margin:0; font-size:var(--title-size); font-weight:700;
 .hint, .key, .count {{ font-family:var(--mono); font-size:var(--meta-size);
   letter-spacing:.08em; text-transform:uppercase; color:var(--chalk-2); }}
 .hint b {{ color:var(--accent); font-weight:500; }}
-.key i {{ font-style:normal; color:var(--chalk-2); }}
+.key i {{ font-style:normal; color:var(--accent); }}
 .count {{ margin-left:auto; }}
 
 .tier {{ margin-bottom:30px; }}
@@ -166,7 +166,7 @@ li {{ break-inside:avoid; }}
 li button {{ font-family:var(--mono); font-size:var(--name-size);
   line-height:var(--name-leading); color:var(--ink); background:none; border:0;
   padding:1px 0; text-align:left; cursor:pointer; display:block; width:100%; }}
-li.owned button {{ color:var(--ink-2); }}
+.own {{ color:var(--accent); margin-left:2px; }}
 li button:hover {{ color:var(--accent); }}
 li button:focus-visible {{ outline:2px solid var(--accent); outline-offset:2px; }}
 li.neo button::after {{ content:""; display:inline-block; width:5px; height:5px;
@@ -225,7 +225,7 @@ if SHOW_MODEL:
         out.append(f'<button class=f data-m="{key}" aria-pressed={pressed}>{label}</button>')
     out.append('</div>')
 out.append('<div class=hint><b>Click</b> a name for its blurb</div>'
-           '<div class=key><i>Grey</i> = owned by a larger company</div>')
+           '<div class=key><i>*</i> = owned by a larger company</div>')
 if SHOW_MODEL:
     out.append('<div class=legend><i></i>Neo-integrator</div>')
 out.append('<div class=count id=count></div></div>')
@@ -238,9 +238,10 @@ def li(r):
     if r.get("status", "active") != "active":
         classes.append("owned")
     name = html.escape(r["name"])
+    mark = '<span class=own>*</span>' if "owned" in classes else ""
     return (f'<li class="{" ".join(classes)}" data-m="{html.escape(r.get("model", ""))}" '
             f'data-n="{html.escape(r["name"].lower())}">'
-            f'<button data-name="{name}">{name}</button></li>')
+            f'<button data-name="{name}">{name}{mark}</button></li>')
 
 
 total = 0

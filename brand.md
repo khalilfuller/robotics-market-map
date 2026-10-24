@@ -49,7 +49,7 @@ A single committed dark look — deliberately one theme, not a missing one.
 | `--bg` | `#0E0F10` | canvas |
 | `--paper` | `#FFFFFF` | cards and panel |
 | `--ink` | `#15171A` | text on a card |
-| `--ink-2` | `#747B80` | companies owned by a larger company |
+| `--ink-2` | `#747B80` | secondary text on a card |
 | `--chalk` | `#F2F3F1` | text on the canvas |
 | `--chalk-2` | `#8C9398` | secondary text on the canvas |
 | `--rule` | `#2B2E30` | hairlines on the canvas |
@@ -65,9 +65,11 @@ A single committed dark look — deliberately one theme, not a missing one.
 
 ## Status
 
-A company owned by a larger one is set in `--ink-2` rather than `--ink`, with a
-key in the header. Acquisition is information, not a footnote: the map should not
-present a subsidiary as an independent company.
+A company owned by a larger one gets an accent-coloured `*` after its name, with
+a key in the header. The name itself stays at full contrast — greying it out made
+those 27 entries harder to read than everything around them, which punished the
+reader for a fact about the company. Acquisition is information, not a demotion:
+the map should not present a subsidiary as independent, nor bury it.
 
 ## Layout
 
