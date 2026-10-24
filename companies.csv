@@ -35,7 +35,7 @@ Labelbox,Platform,Dev Tools & Middleware,labelbox.com,"San Francisco, CA",Data l
 Voxel51,Platform,Dev Tools & Middleware,voxel51.com,"Ann Arbor, MI","FiftyOne, the open-source tool for curating and debugging visual datasets.",obvious,,voxel51.png,ok,platform,,active
 Reactor,Platform,Dev Tools & Middleware,reactor.inc,"San Francisco, CA","Developer infrastructure for real-time generative media and world models, with sub-50ms streaming.",obvious,,,no-domain,platform,,active
 Antioch,Intelligence,Simulation,antioch.ai,"New York, NY","Simulation platform for physical AI, so robot teams can test in software before touching hardware.",obvious,,,no-domain,platform,,active
-Cardinal Robotics,Market Infrastructure,Deployment & Field Service,cardinalrobotics.ai,"Palo Alto, CA","Deployment, financing and maintenance for commercial robot fleets in cleaning, delivery and hospitality.",obvious,,,no-domain,service,,active
+Cardinal Robotics,Market Infrastructure,Deployment & Field Service,cardinalrobot.com,"Palo Alto, CA","Robots as a service with its own financing arm: 35,000+ deployed and 3,000+ technicians.",obvious,,,no-domain,service,,active
 OpenMind,Platform,Dev Tools & Middleware,openmind.org,"Palo Alto, CA",Open-source robot OS / machine-to-machine protocol,baymap,,openmind.png,ok,platform,Bay Area,active
 Bucket Robotics,Platform,Dev Tools & Middleware,bucket.bot,"Pittsburgh, PA",Synthetic data for manufacturing defect detection,baymap,verify-domain,bucket-robotics.png,ok,platform,Bay Area,active
 Intrinsic,Platform,Dev Tools & Middleware,intrinsic.ai,"Mountain View, CA",Alphabet industrial robotics software platform,baymap,,intrinsic.png,ok,platform,Bay Area,part of Alphabet
@@ -145,9 +145,9 @@ Simbe Robotics,Vertical Robotics Companies,"Facilities, Retail & Security",simbe
 Scout AI,Vertical Robotics Companies,Defense & Aerospace,scoutai.com,"Sunnyvale, CA","Fury, a vision-language-action model for uncrewed ground vehicles in defense applications.",baymap,verify-domain,scout-ai.png,fallback,lab,Bay Area,active
 Trener Robotics,Platform,Dev Tools & Middleware,trener.ai,"Bay Area, CA",AI software that lets existing industrial robots adapt to variability and deploy faster.,baymap,,trener-robotics.png,ok,platform,Bay Area,active
 HowToRobot,Market Infrastructure,Marketplaces & Sourcing,howtorobot.com,"Odense, DK",Global marketplace where buyers scope automation projects and collect bids from vetted suppliers.,userlist,,howtorobot.png,ok,service,,active
-Vention,Market Infrastructure,Deployment & Field Service,vention.io,"Montreal, CA","Cloud platform to design, simulate, order and deploy an automation cell without an integrator.",userlist,,vention.png,ok,service,,active
+Vention,Market Infrastructure,Marketplaces & Sourcing,vention.io,"Montreal, CA","Self-serve platform to design, simulate, quote and order a complete automation cell.",userlist,,vention.png,ok,service,,active
 RoboStore,Market Infrastructure,Marketplaces & Sourcing,robostore.com,"New York, NY",Official US distributor of Unitree humanoids and quadrupeds for research and industry.,userlist,verify-domain,robostore.svg,ok,service,,active
-Roboworx,Market Infrastructure,Deployment & Field Service,roboworx.io,"Chicago, IL","Nationwide field service, maintenance and support for deployed robot fleets.",userlist,verify-domain,roboworx.svg,ok,service,,active
+Roboworx,Market Infrastructure,Deployment & Field Service,roboworx.io,"Chicago, IL","Nationwide field service, maintenance and support for deployed robot fleets.",userlist,verify-domain,roboworx.svg,ok,service,,part of ARO
 Mantle,Market Infrastructure,Deployment & Field Service,,"San Francisco, CA","Full-stack field service: deploys, repairs and maintains machines on behalf of the companies that build them.",userlist,,,no-domain,service,,active
 Workwise Robotics,Market Infrastructure,Marketplaces & Sourcing,,,Unconfirmed,userlist,UNVERIFIED - could not confirm this company exists,,no-domain,service,,active
 Formic,Market Infrastructure,Finance & Insurance,formic.co,"Chicago, IL","Robots-as-a-service for manufacturers: no capex, billed hourly, uptime guaranteed.",research,,,,neo-integrator,,active
@@ -158,8 +158,8 @@ Risklytics,Market Infrastructure,Finance & Insurance,risklytics.ai,"San Francisc
 Autonomy Insurance,Market Infrastructure,Finance & Insurance,autonomy.insurance,,"Liability cover for autonomous vehicle and robot fleets, with limits from $1M to $25M.",research,,,,service,,active
 Y-Risk,Market Infrastructure,Finance & Insurance,y-risk.com,"New York, NY","The Hartford unit underwriting autonomous vehicle, robotics and AI risk for commercial operators.",research,,,,service,,active
 Qviro,Market Infrastructure,Marketplaces & Sourcing,qviro.com,"Genk, BE",Industrial automation marketplace with buyer reviews across 23 robotics categories; now part of GlobalSpec.,research,,,,service,,part of GlobalSpec
-Extend Robotics,Market Infrastructure,Deployment & Field Service,extendrobotics.com,"London, UK","Sells completed physical work rather than robots, combining teleoperation with growing automation.",research,,,,neo-integrator,,active
-Logibot,Market Infrastructure,Deployment & Field Service,logibot.eu,EU,"Chooses, trains and deploys warehouse robots across vendors without rebuilding the operation.",research,,,,service,,active
+Extend Robotics,Vertical Robotics Companies,Assembly & Machine Tending,extendrobotics.com,"London, UK","Sells completed factory work rather than robots, with remote operators covering what autonomy misses.",research,,,,neo-integrator,,active
+Logibot,Platform,Fleet Ops & Remote Operations,logibot.eu,EU,"Chooses, trains and deploys warehouse robots across vendors without rebuilding the operation.",research,,,,service,,active
 FORT Robotics,Market Infrastructure,Safety & Compliance,fortrobotics.com,"Philadelphia, PA",Wireless e-stop and safety control that lets autonomous machines operate near people legally.,research,,,,service,,active
 Pilz,Market Infrastructure,Safety & Compliance,pilz.com,"Ostfildern, DE","Functional safety hardware, controllers and certification services for automated machinery.",research,,,,service,,active
 UL Solutions,Market Infrastructure,Safety & Compliance,ul.com,"Northbrook, IL","Writes and certifies against UL 3300, the safety standard for service and mobile robots.",research,,,,service,,active
@@ -312,7 +312,7 @@ Rodeo Robotics,Vertical Robotics Companies,"Facilities, Retail & Security",,,"Ro
 Neuromorphic,Vertical Robotics Companies,Healthcare & Life Sciences,,,Robots that work autonomously in existing wet labs (YC).,research,,,,neo-integrator,,active
 Primordiant,Vertical Robotics Companies,Healthcare & Life Sciences,,,Robotic experimentalists pairing scientific reasoning with physical experiments (YC).,research,,,,neo-integrator,,active
 Rhem Labs,Vertical Robotics Companies,Healthcare & Life Sciences,,,Smart home-care devices helping older adults with complex needs live independently (YC).,research,,,,neo-integrator,,active
-Deploy,Market Infrastructure,Deployment & Field Service,,,Software and infrastructure that bring generalist robots into businesses (YC).,research,,,,service,,active
+Deploy,Platform,Fleet Ops & Remote Operations,,,Deployment infrastructure for getting generalist robots running inside a business (YC).,research,,,,service,,active
 RoboShare,Market Infrastructure,Marketplaces & Sourcing,roboshare.com,"Los Angeles, CA","Rental marketplace matching robot owners with customers; handles booking, pricing and service delivery.",userlist,,,,service,,active
 UBTech,Hardware,Humanoids & Quadrupeds,ubtrobot.com,"Shenzhen, CN","Walker S industrial humanoid, shipping into Chinese auto plants; HK-listed.",research,,,,component,,active
 Fourier Intelligence,Hardware,Humanoids & Quadrupeds,fourierintelligence.com,"Shanghai, CN","GR-series humanoids, grown out of a rehabilitation robotics business.",research,,,,component,,active
@@ -345,3 +345,22 @@ Keli Sensing,Platform,Perception & Sensing,kelichina.com,"Ningbo, CN","Six-axis 
 Paxini,Platform,Perception & Sensing,paxini.com,"Shenzhen, CN",Multimodal tactile skin and fingertips for dexterous hands.,research,,,,component,,active
 Geek+,Vertical Robotics Companies,Warehouse & Logistics,geekplus.com,"Beijing, CN","The largest AMR fleet operator by units shipped, deployed across global 3PLs.",research,,,,neo-integrator,,active
 Hai Robotics,Vertical Robotics Companies,Warehouse & Logistics,hairobotics.com,"Shenzhen, CN",Case-handling robots that climb racking to pick totes at height.,research,,,,neo-integrator,,active
+Acieta,Market Infrastructure,Classic Automation Integrators,acieta.com,"Council Bluffs, IA","North American robot integrator; 10,000+ systems and $1B of installed automation.",research,,,,service,,active
+JR Automation,Market Infrastructure,Classic Automation Integrators,jrautomation.com,"Holland, MI",Custom automated manufacturing and distribution systems; 27 facilities worldwide.,research,,,,service,,part of Hitachi
+Bastian Solutions,Market Infrastructure,Classic Automation Integrators,bastiansolutions.com,"Indianapolis, IN",Warehouse automation integrator inside the largest systems integrator group in logistics.,research,,,,service,,part of Toyota
+Dematic,Market Infrastructure,Classic Automation Integrators,dematic.com,"Atlanta, GA","Intralogistics systems integrator; designs, builds and services automated warehouses.",research,,,,service,,part of KION
+Vanderlande,Market Infrastructure,Classic Automation Integrators,vanderlande.com,"Veghel, NL","Baggage, parcel and warehouse systems at airport and national scale.",research,,,,service,,part of Toyota
+Swisslog,Market Infrastructure,Classic Automation Integrators,swisslog.com,"Buchs, CH",Intralogistics and healthcare automation integration.,research,,,,service,,part of KUKA
+Honeywell Intelligrated,Market Infrastructure,Classic Automation Integrators,intelligrated.com,"Mason, OH",Full-systems warehouse integrator with its own controls and software stack.,research,,,,service,,part of Honeywell
+Applied Manufacturing Technologies,Market Infrastructure,Classic Automation Integrators,appliedmfg.com,"Orion, MI",Independent automation engineering and integration services since 1989.,research,,,,service,,active
+ATS Corporation,Market Infrastructure,Classic Automation Integrators,atsautomation.com,"Cambridge, CA","Global automation systems integrator for life sciences, EV and consumer goods.",research,,,,service,,active
+Robo Reliance,Market Infrastructure,Deployment & Field Service,roboreliance.com,"Colorado, US","OEM-agnostic nationwide field service: installs, maintains and repairs mixed robot fleets.",research,,,,service,,active
+BOW Robotics,Market Infrastructure,Deployment & Field Service,bowrobotics.com,US,"Industrial robot repair and maintenance across FANUC, ABB, KUKA and Motoman fleets.",research,,,,service,,active
+SafeWorld,Market Infrastructure,Safety & Compliance,safeworld.ai,"San Francisco, CA",Simulation that tests robot safety before deployment; $12.2M seed co-led by a16z Speedrun.,research,,,,platform,,active
+TUV Rheinland,Market Infrastructure,Safety & Compliance,tuv.com,"Cologne, DE","Functional safety certification against ISO 10218 and ISO 13482, plus CE marking.",research,,,,service,,active
+TUV SUD,Market Infrastructure,Safety & Compliance,tuvsud.com,"Munich, DE",Machinery safety audits and readiness for the EU Machinery Regulation.,research,,,,service,,active
+SGS,Market Infrastructure,Safety & Compliance,sgs.com,"Geneva, CH","CE notified body testing robotic products for electrical, mechanical and EMC safety.",research,,,,service,,active
+Automation Rangers,Market Infrastructure,Safety & Compliance,automationrangers.com,US,Independent robot and machine risk assessments and CE marking consultancy.,research,,,,service,,active
+Pacific Blue Engineering,Market Infrastructure,Safety & Compliance,pacificblueengineering.com,"Costa Mesa, CA","Machine safety consultancy: risk assessment, guarding and safety circuit validation.",research,,,,service,,active
+Inxpect,Market Infrastructure,Safety & Compliance,inxpect.com,"Brescia, IT",3D radar safety sensing that works where light curtains and lidar fail.,research,,,,component,,active
+Rockwell Automation,Market Infrastructure,Safety & Compliance,rockwellautomation.com,"Milwaukee, WI",Safety controls plus risk assessments delivered by TUV-certified consultants.,research,,,,component,,active

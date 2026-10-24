@@ -73,7 +73,7 @@ BUCKET_ORDER = [
     "Food & Hospitality", "Healthcare & Life Sciences",
     "Facilities, Retail & Security", "Consumer & Home", "Defense & Aerospace",
     "Finance & Insurance", "Marketplaces & Sourcing",
-    "Deployment & Field Service", "Safety & Compliance",
+    "Classic Automation Integrators", "Deployment & Field Service", "Safety & Compliance",
 ]
 bidx = {b: i for i, b in enumerate(BUCKET_ORDER)}
 MODELS = [("all", "All"), ("neo-integrator", "Neo-integrators"), ("lab", "Labs"),
