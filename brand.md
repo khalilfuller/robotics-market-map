@@ -1,17 +1,19 @@
-# Brand — v2
+# Brand — v3
 
 Source of truth for how the map looks. Change this first, then mirror it in
 `TOKENS` in `build_map.py`.
 
 ## Direction
 
-A technical reference document, not a poster. The subject is machinery, so the
-page borrows from the things that document machinery: parts catalogues, datasheets,
-engineering indexes. Dense, ruled, quiet. Information first.
+A dense reference document. Dark canvas, white cards, one accent.
 
-v1 was a black terminal with white cards. v2 drops the cards entirely — at 340+
-entries the boxes cost more space than the grouping they bought, and the page
-reads better as ruled columns of type.
+**Cards earn their keep.** v2 replaced them with hairline rules on a light page
+and the map got harder to use: without an edge, the eye has nothing to stop at,
+and 33 categories ran together. The boxes are back. A category is an object, and
+it should look like one.
+
+The accent — a safety amber borrowed from machine guarding — carries every
+interactive state and the tier headings. Nothing else is coloured.
 
 ## Typeface
 
@@ -31,36 +33,35 @@ Fallbacks: `ui-sans-serif, system-ui` and `ui-monospace, Menlo, monospace`.
 
 | use | face | weight | size | tracking | case |
 |---|---|---|---|---|---|
-| page title | Sans Cond | 700 | 30px | 0.02em | upper |
+| page title | Sans Cond | 700 | 32px | 0.02em | upper |
 | byline / note | Mono | 400 | 11px | 0.02em | as written |
 | tier label | Sans Cond | 700 | 12px | 0.22em | upper |
 | category label | Sans Cond | 600 | 10.5px | 0.16em | upper |
-| company name | Mono | 400 | 12.5px | 0 | as written |
+| company name | Mono | 400 | 14px | 0 | as written |
 | UI / meta | Mono | 400 | 10.5px | 0.08em | upper |
 
 ## Colour
 
-Light by default, with a real dark mode — not an inversion. Every colour is a
-token defined on `:root` first, so neither theme can go missing.
+A single committed dark look — deliberately one theme, not a missing one.
 
-| token | light | dark | use |
-|---|---|---|---|
-| `--paper` | `#FBFBF9` | `#121415` | page |
-| `--ink` | `#16181A` | `#EDEEEA` | primary text |
-| `--ink-2` | `#5E6468` | `#8A9196` | secondary text, owned companies |
-| `--rule` | `#DEDFDA` | `#2A2E30` | hairlines |
-| `--rule-2` | `#C6C8C2` | `#3A4042` | heavier rules |
-| `--accent` | `#C2410C` | `#F97316` | links, hover, focus |
+| token | value | use |
+|---|---|---|
+| `--bg` | `#0E0F10` | canvas |
+| `--paper` | `#FFFFFF` | cards and panel |
+| `--ink` | `#15171A` | text on a card |
+| `--ink-2` | `#747B80` | companies owned by a larger company |
+| `--chalk` | `#F2F3F1` | text on the canvas |
+| `--chalk-2` | `#8C9398` | secondary text on the canvas |
+| `--rule` | `#2B2E30` | hairlines on the canvas |
+| `--rule-paper` | `#E6E7E3` | hairlines on a card |
+| `--accent` | `#F26B21` | tier labels, hover, focus, links |
 
-One accent, drawn from the safety-amber of machine guarding. It appears on
-interaction and nowhere else. Emphasis otherwise comes from weight, space and case.
+## Boxes
 
-## Rules, not boxes
-
-- Categories are separated by a 1px `--rule`, never a border or a fill
-- Tier headings sit on a 2px `--rule-2`
-- No card backgrounds, no shadows, no radius above 2px
-- Nothing is pill-shaped
+- A category is a white card: `3px` radius, `18px 20px 20px` padding
+- Category label is a filled chip, `--ink` on white, `2px` radius
+- Tier headings are accent-coloured over a `--rule` hairline
+- No shadows. Nothing is pill-shaped.
 
 ## Status
 
@@ -70,10 +71,11 @@ present a subsidiary as an independent company.
 
 ## Layout
 
-- Max canvas `1700px`, page padding `36px`
-- Four columns per tier at full width, two at 1100px, one at 760px
-- Name lists run two columns inside a category, one when narrow
-- Density over whitespace
+- Max canvas `1680px`, page padding `36px`
+- Three cards across at full width, two at 1150px, one at 760px
+- Name lists use `columns: 225px 2` — a second column appears only when each
+  can hold the longest company name, so a name never breaks mid-way
+- Company names are `14px / 1.8`; readability beats density at this size
 
 ## Voice
 
