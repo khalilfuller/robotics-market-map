@@ -1,0 +1,316 @@
+name,tier,bucket,domain,hq,description,source,notes,logo_file,logo_status,model,cluster
+Physical Intelligence,Intelligence,Foundation Models,physicalintelligence.company,"San Francisco, CA",General-purpose robot foundation models (pi-0),obvious+baymap,,physical-intelligence.png,ok,lab,Bay Area
+Skild AI,Intelligence,Foundation Models,skild.ai,"Pittsburgh, PA",Omni-bodied robot brain foundation model,obvious+baymap,,skild-ai.svg,ok,lab,Bay Area
+Generalist,Intelligence,Foundation Models,generalistai.com,"Palo Alto, CA",General-purpose manipulation models aimed at dexterity across many robot bodies.,obvious+baymap,,generalist.png,ok,lab,Bay Area; Boston
+Field AI,Intelligence,Foundation Models,fieldai.com,"Mission Viejo, CA",Field foundation models for unstructured outdoor autonomy,obvious,,field-ai.png,ok,lab,
+Flexion Robotics,Intelligence,Foundation Models,flexion.ai,"Zurich, CH",Dexterous manipulation foundation models,obvious,verify-domain,flexion-robotics.png,ok,lab,Zurich
+Gemini Robotics,Intelligence,Foundation Models,deepmind.google,"London, UK","Google DeepMind's vision-language-action models, bringing Gemini's reasoning onto robot hardware.",obvious,,gemini-robotics.png,fallback,lab,
+Qwen,Intelligence,Foundation Models,qwen.ai,"Hangzhou, CN",Alibaba open model family used for embodied AI,obvious,,qwen.png,ok,lab,
+Eka Robotics,Intelligence,Foundation Models,ekarobotics.com,"Cambridge, MA","Vision-force-action model; tactile dexterity. $150M Series A at $1.45B (a16z, F-Prime), Oct 2026",obvious,,,no-domain,lab,Boston
+RLWRLD,Intelligence,Foundation Models,rlwrld.ai,"Seoul, KR","Seoul-based foundation models for industrial robots, backed by Korean manufacturing groups.",obvious,,rlwrld.svg,ok,lab,
+World Labs,Intelligence,World Models,worldlabs.ai,"San Francisco, CA",Large world models / spatial intelligence,obvious,,world-labs.svg,ok,lab,
+Odyssey,Intelligence,World Models,odyssey.ml,"Los Angeles, CA",Interactive generative world models that render explorable video environments in real time.,obvious,,odyssey.png,ok,lab,
+General Intuition,Intelligence,World Models,generalintuition.com,"New York, NY","Spatial-reasoning world models trained on gameplay video; $320M at $2.3B, reportedly raising at $6B",obvious,,general-intuition.png,ok,lab,
+AMI,Intelligence,World Models,,"Paris, FR",Yann LeCun's world-model lab. $1.03B seed at ~$3.5B,obvious,Domain unconfirmed - ami.inc is an unrelated Japanese medtech company,,no-domain,lab,
+Dream Labs,Intelligence,World Models,dreamlabs.ai,"San Francisco, CA",Dream-1 World Action Model + Dream API; ex-NVIDIA GR00T team. $90M seed,obvious,,dream-labs.svg,ok,lab,
+Embo,Intelligence,World Models,embo.ai,,Embodied world models for robot learning.,obvious,,embo.png,ok,lab,
+Veeda AI,Intelligence,World Models,veeda.ai,,Multimodal world models: scalable simulations of physical reality where embodied agents learn by interacting.,obvious,,veeda-ai.png,ok,lab,
+NVIDIA,Intelligence,World Models,nvidia.com,"Santa Clara, CA","Cosmos world models, the Isaac robotics stack and the Jetson compute nearly every robot runs on.",obvious+baymap,,nvidia.jpg,ok,lab,Bay Area
+MuJoCo,Intelligence,Simulation,mujoco.org,"London, UK","The physics engine most robot learning research runs on, open-sourced by DeepMind.",obvious,,mujoco.jpg,fallback,platform,
+Vsim,Intelligence,Simulation,vsim.ai,"Manchester, UK","GPU-accelerated physics simulation for robot training, from two ex-NVIDIA simulation engineers.",obvious,,,no-domain,platform,
+Genesis AI,Intelligence,Simulation,genesis-ai.company,"Palo Alto, CA",Generative physics engine + robot foundation model,obvious+baymap,,genesis-ai.png,ok,lab,Bay Area
+Mecka,Intelligence,Training Data & Demonstration,mecka.ai,"San Francisco, CA",Data and deployment layer for physical AI: captures and structures real-world activity into robot datasets.,obvious,,mecka.png,ok,platform,
+micro1,Intelligence,Training Data & Demonstration,micro1.ai,"San Francisco, CA",Marketplace for vetted expert humans who produce and review training data for AI labs.,obvious,,micro1.png,ok,platform,
+Scale AI,Intelligence,Training Data & Demonstration,scale.com,"San Francisco, CA","Data labeling and operations at scale, increasingly supplying robot demonstration data.",obvious,,scale-ai.png,ok,platform,
+XDOF,Intelligence,Training Data & Demonstration,xdof.ai,,Teleoperation and data-capture hardware for training manipulation policies.,obvious,verify-domain,xdof.svg,ok,platform,
+MolmoSpaces,Intelligence,Evaluation & Benchmarks,allenai.org,"Seattle, WA",Allen Institute benchmark suite for spatial reasoning in vision-language models.,obvious,,molmospaces.png,ok,platform,
+RoboArena,Intelligence,Evaluation & Benchmarks,robo-arena.github.io,,Distributed real-robot policy evaluation,obvious,,roboarena.png,ok,platform,
+RoboLab,Intelligence,Evaluation & Benchmarks,robolab.ai,,Robot policy evaluation and benchmarking.,obvious,,robolab.png,fallback,platform,
+ROS / Open Robotics,Platform,Dev Tools & Middleware,ros.org,"Mountain View, CA",The open-source middleware nearly every research and commercial robot is built on.,obvious,,ros-open-robotics.png,fallback,platform,
+Foxglove,Platform,Dev Tools & Middleware,foxglove.dev,"San Francisco, CA",Robotics data visualization and debugging,obvious+baymap,,foxglove.png,ok,platform,Bay Area
+Rerun,Platform,Dev Tools & Middleware,rerun.io,"Stockholm, SE",Multimodal data visualization for robotics,obvious,,rerun.png,ok,platform,
+Roboto,Platform,Dev Tools & Middleware,roboto.ai,"Seattle, WA","Search, triage and analysis platform for the log data robots produce in the field.",obvious,,roboto.png,ok,platform,
+ReSim,Platform,Dev Tools & Middleware,resim.ai,"New York, NY",Simulation-based continuous integration so robot teams catch regressions before deployment.,obvious,,resim.png,ok,platform,
+Labelbox,Platform,Dev Tools & Middleware,labelbox.com,"San Francisco, CA",Data labeling and annotation platform used to build training sets for perception models.,obvious,,labelbox.svg,ok,platform,
+Voxel51,Platform,Dev Tools & Middleware,voxel51.com,"Ann Arbor, MI","FiftyOne, the open-source tool for curating and debugging visual datasets.",obvious,,voxel51.png,ok,platform,
+Reactor,Platform,Dev Tools & Middleware,reactor.inc,"San Francisco, CA","Developer infrastructure for real-time generative media and world models, with sub-50ms streaming.",obvious,,,no-domain,platform,
+Antioch,Intelligence,Simulation,antioch.ai,"New York, NY","Simulation platform for physical AI, so robot teams can test in software before touching hardware.",obvious,,,no-domain,platform,
+Cardinal Robotics,Market Infrastructure,Deployment & Field Service,cardinalrobotics.ai,"Palo Alto, CA","Deployment, financing and maintenance for commercial robot fleets in cleaning, delivery and hospitality.",obvious,,,no-domain,service,
+OpenMind,Platform,Dev Tools & Middleware,openmind.org,"Palo Alto, CA",Open-source robot OS / machine-to-machine protocol,baymap,,openmind.png,ok,platform,Bay Area
+Bucket Robotics,Platform,Dev Tools & Middleware,bucket.bot,"Pittsburgh, PA",Synthetic data for manufacturing defect detection,baymap,verify-domain,bucket-robotics.png,ok,platform,Bay Area
+Intrinsic,Platform,Dev Tools & Middleware,intrinsic.ai,"Mountain View, CA",Alphabet industrial robotics software platform,baymap,,intrinsic.png,ok,platform,Bay Area
+Formant,Platform,Fleet Ops & Remote Operations,formant.io,"San Francisco, CA",Robot fleet operations and observability,baymap,,formant.png,ok,platform,Bay Area
+InOrbit,Platform,Fleet Ops & Remote Operations,inorbit.ai,"Mountain View, CA",Fleet operations and observability across mixed-vendor robot fleets in one control plane.,baymap+userlist,,inorbit.svg,ok,platform,Bay Area
+dConstruct,Platform,Perception & Sensing,dconstruct.ai,"Singapore, SG",3D perception stack for GPS-denied robots,userlist,,dconstruct.png,ok,platform,
+Ouster,Platform,Perception & Sensing,ouster.com,"San Francisco, CA","Digital lidar sensors for autonomous vehicles, robotics and industrial sensing.",baymap,,ouster.png,ok,platform,Bay Area
+RealSense,Platform,Perception & Sensing,realsenseai.com,"Santa Clara, CA","Stereo depth cameras, spun out of Intel, that give robots 3D perception off the shelf.",baymap,,realsense.png,ok,platform,Bay Area
+1X,Hardware,Humanoids & Quadrupeds,1x.tech,"Moss, NO","Builds NEO, a tendon-driven humanoid designed to work safely alongside people in the home.",obvious+baymap,,1x.svg,ok,component,Bay Area
+Figure,Hardware,Humanoids & Quadrupeds,figure.ai,"San Jose, CA","Figure 03 humanoid, with commercial pilots in logistics and a push toward the home.",baymap,,figure.svg,ok,component,Bay Area
+Apptronik,Hardware,Humanoids & Quadrupeds,apptronik.com,"Austin, TX","Builds Apollo, a general-purpose humanoid for logistics and manufacturing work.",obvious,,apptronik.png,ok,component,
+Agility Robotics,Hardware,Humanoids & Quadrupeds,agilityrobotics.com,"Corvallis, OR","Builds Digit, a bipedal humanoid already moving totes in commercial warehouses.",obvious,,agility-robotics.png,ok,component,
+Tesla,Hardware,Humanoids & Quadrupeds,tesla.com,"Austin, TX","Developing Optimus, a general-purpose humanoid intended for its own factories first.",obvious+baymap,,tesla.png,fallback,component,Bay Area
+Boston Dynamics,Hardware,Humanoids & Quadrupeds,bostondynamics.com,"Waltham, MA","The field's benchmark for dynamic locomotion: Atlas, the Spot quadruped and Stretch.",obvious,,boston-dynamics.jpg,ok,component,Boston
+Unitree,Hardware,Humanoids & Quadrupeds,unitree.com,"Hangzhou, CN",Chinese maker of humanoids and quadrupeds at a fraction of Western price points.,obvious,,unitree.svg,ok,component,
+AgiBot,Hardware,Humanoids & Quadrupeds,agibot.com,"Shanghai, CN",Shanghai humanoid maker shipping general-purpose robots at volume with an open data stack.,obvious,,agibot.ico,ok,component,
+Galbot,Hardware,Humanoids & Quadrupeds,galbot.com,"Beijing, CN",Beijing-based wheeled humanoid built for retail and unmanned store operation.,obvious,,galbot.ico,ok,component,
+Sunday Robotics,Hardware,Humanoids & Quadrupeds,sunday.ai,"Mountain View, CA","Builds Memo, a home robot taught chores through a skill-capture glove rather than teleop rigs.",obvious+baymap,,sunday-robotics.png,ok,component,Bay Area
+Neura Robotics,Hardware,Humanoids & Quadrupeds,neura-robotics.com,"Metzingen, DE","German maker of cognitive cobots and the 4NE-1 humanoid, with sensing built into the arm.",userlist,,neura-robotics.png,ok,component,
+ANYbotics,Hardware,Humanoids & Quadrupeds,anybotics.com,"Zurich, CH","Builds ANYmal, a legged inspection robot for oil and gas, power and industrial plants.",userlist,,anybotics.png,fallback,component,Zurich
+The Bot Company,Hardware,Humanoids & Quadrupeds,bot.co,"San Francisco, CA","Kyle Vogt's household robot startup, building a non-humanoid machine that tidies and puts things away.",baymap,,the-bot-company.png,ok,component,Bay Area
+Weave Robotics,Hardware,Humanoids & Quadrupeds,weaverobotics.com,"San Francisco, CA","Builds Isaac, a home robot that tidies and does laundry, sold on a monthly subscription.",baymap,,weave-robotics.png,ok,component,Bay Area
+ABB,Hardware,Arms & Cobots,abb.com,"Zurich, CH","One of the big four industrial arm makers, with a large installed base and integrator network.",obvious,,abb.png,ok,component,Zurich
+FANUC,Hardware,Arms & Cobots,fanuc.com,"Oshino, JP","The largest industrial robot maker in the world, dominant in automotive body shops.",obvious,,fanuc.png,ok,component,
+KUKA,Hardware,Arms & Cobots,kuka.com,"Augsburg, DE","German industrial arm maker, long the standard in European automotive manufacturing.",obvious,,kuka.png,ok,component,
+Yaskawa,Hardware,Arms & Cobots,yaskawa.com,"Kitakyushu, JP",Japanese maker of Motoman arms and the servo drives underneath much of the industry.,obvious,,yaskawa.png,ok,component,
+Universal Robots,Hardware,Arms & Cobots,universal-robots.com,"Odense, DK",Created the collaborative arm category; its UR series is the default cobot for small manufacturers.,obvious,,universal-robots.png,ok,component,
+Standard Bots,Hardware,Arms & Cobots,standardbots.com,"Glen Cove, NY","US-built RO1 cobot arm sold at a fraction of incumbent prices, now also owns the ForgeOS stack.",obvious,,standard-bots.png,ok,component,
+Flexiv,Hardware,Arms & Cobots,flexiv.com,"Santa Clara, CA","Adaptive arms with force control at the joint, aimed at contact-rich tasks incumbents handle badly.",baymap,,flexiv.png,ok,component,Bay Area
+LeRobot,Platform,Dev Tools & Middleware,huggingface.co,"New York, NY","Hugging Face's open-source robot learning library, datasets and low-cost reference arms.",obvious,,lerobot.svg,ok,component,
+Cobot,Hardware,Mobile Bases & AMRs,co.bot,"Boston, MA","Builds Proxie, a mobile collaborative robot for material movement in warehouses and hospitals.",obvious+baymap,,cobot.png,ok,component,Bay Area
+Mytra,Vertical Robotics Companies,Warehouse & Logistics,mytra.ai,"San Francisco, CA",Dense 3D storage and retrieval that replaces racking and forklifts in warehouses.,baymap,,mytra.png,ok,component,Bay Area
+Locus Robotics,Vertical Robotics Companies,Warehouse & Logistics,locusrobotics.com,"Wilmington, MA",Warehouse AMRs that guide pickers through orders; one of the largest deployed fleets in logistics.,obvious,,locus-robotics.png,ok,component,Boston
+FAULHABER,Hardware,Actuators & Drives,faulhaber.com,"Schonaich, DE",German precision micro drive systems used where size and accuracy matter more than cost.,obvious,,faulhaber.png,ok,component,
+maxon,Hardware,Actuators & Drives,maxongroup.com,"Sachseln, CH","Swiss precision motors and gearheads, including the drives on NASA's Mars rovers.",obvious,,maxon.png,fallback,component,
+ROBOTIS,Hardware,Actuators & Drives,robotis.com,"Seoul, KR","Dynamixel smart actuators, the default building block for research and hobbyist robots.",obvious,,robotis.ico,ok,component,
+DAMIAO,Hardware,Actuators & Drives,dmbot.cn,"Suzhou, CN",Low-cost Chinese quasi-direct-drive actuators that undercut Western suppliers on price.,obvious,verify-domain,damiao.png,fallback,component,
+LeaderDrive,Hardware,Actuators & Drives,leaderdrive.cn,"Suzhou, CN",Chinese harmonic drive reducers competing with Harmonic Drive and Nabtesco on cost.,obvious,,leaderdrive.png,fallback,component,
+Westmag,Hardware,Actuators & Drives,westmag.com,"South San Francisco, CA","US-made BLDC motors and actuators for drones and robots, built to cut dependence on Chinese supply.",obvious,,,no-domain,component,
+Shadow Robot,Hardware,End Effectors & Grippers,shadowrobot.com,"London, UK",Long-running maker of research-grade dexterous hands with near-human degrees of freedom.,obvious,,shadow-robot.png,ok,component,
+PSYONIC,Hardware,End Effectors & Grippers,psyonic.io,"Champaign, IL","The Ability Hand, a touch-sensing bionic hand sold both as a prosthesis and a robot end effector.",obvious,,psyonic.webp,ok,component,
+Sharpa,Hardware,End Effectors & Grippers,sharpa.com,"Shenzhen, CN","Dexterous humanoid robots with 22-DoF tactile hands, plus foundation models for contact-rich manipulation.",obvious,verify-domain,sharpa.svg,ok,component,
+Wuji Technology,Hardware,End Effectors & Grippers,wuji-tech.com,"Shenzhen, CN","Direct-drive 20-DoF dexterous hands and teleoperation gloves, built on its parent's motor business.",obvious,,,no-domain,component,
+Built Robotics,Vertical Robotics Companies,Construction,builtrobotics.com,"San Francisco, CA",Retrofit autonomy for excavators and pile drivers on solar and civil construction sites.,baymap+userlist,,built-robotics.png,ok,neo-integrator,Bay Area
+Bedrock Robotics,Vertical Robotics Companies,Construction,bedrockrobotics.com,"San Francisco, CA",Autonomy kits that convert existing excavators and dozers into self-driving machines.,baymap,,bedrock-robotics.svg,ok,neo-integrator,Bay Area
+Dusty Robotics,Vertical Robotics Companies,Construction,dustyrobotics.com,"Mountain View, CA",FieldPrinter robots that print building layout directly onto the floor from BIM models.,baymap,,dusty-robotics.png,ok,neo-integrator,Bay Area
+Civ Robotics,Vertical Robotics Companies,Energy & Solar,civrobotics.com,"San Francisco, CA",Autonomous surveying rovers that stake out coordinates on utility-scale solar sites.,baymap,,civ-robotics.svg,ok,neo-integrator,Bay Area
+Monumental,Vertical Robotics Companies,Construction,monumental.co,"Amsterdam, NL",Amsterdam-based bricklaying robots that build real walls on live construction sites.,userlist,,monumental.png,ok,neo-integrator,
+Sitegeist Robotics,Vertical Robotics Companies,Construction,sitegeist-robotics.com,"Munich, DE","Modular robots that strip deteriorated concrete from bridges, tunnels and parking structures.",userlist,,sitegeist-robotics.png,ok,neo-integrator,
+TempoWorks,Vertical Robotics Companies,Construction,,"Arvada, CO",Autonomous concrete grinding and polishing for commercial construction floors.,userlist,UNVERIFIED - autonomous concrete grinding (Arvada CO) but no live site found,,no-domain,component,
+Renovate Robotics,Vertical Robotics Companies,Construction,renovaterobotics.com,"San Francisco, CA","Rufus, a robot that installs roof shingles by crawling the roof plane.",userlist,,renovate-robotics.png,ok,neo-integrator,
+Skyline Robotics,Vertical Robotics Companies,"Facilities, Retail & Security",skylinerobotics.com,"New York, NY","Ozmo, a robotic arm that cleans high-rise windows from a standard building maintenance unit.",userlist,,skyline-robotics.png,ok,neo-integrator,
+Watney Robotics,Vertical Robotics Companies,Data Centers,watney.com,"San Francisco, CA","Autonomous data center maintenance: cable swaps, drive reseats and server restarts at hyperscale.",userlist,,watney-robotics.png,ok,neo-integrator,
+Exclaim Robotics,Vertical Robotics Companies,Data Centers,exclaimrobotics.com,"Zurich, CH",Autonomous mobile robots for rack maintenance in AI data centers.,userlist,verify-domain,exclaim-robotics.png,ok,neo-integrator,
+Cosmic Robotics,Vertical Robotics Companies,Energy & Solar,cosmicrobotics.com,"San Francisco, CA",Cosmic-1 lifts and places 90lb solar modules onto racking at utility-scale sites.,userlist,,cosmic-robotics.png,ok,neo-integrator,
+Gritt,Vertical Robotics Companies,Energy & Solar,gritt.ai,"San Francisco, CA",Physical AI that bolts onto rented construction equipment to build solar farms faster.,userlist,,gritt.png,ok,neo-integrator,
+Luminous Robotics,Vertical Robotics Companies,Energy & Solar,luminousrobotics.com,"Boston, MA","LUMI, a solar module installation robot scaling through Australian government-backed manufacturing.",userlist,,luminous-robotics.webp,ok,neo-integrator,Boston
+BotCrew,Vertical Robotics Companies,Energy & Solar,botcrew.com,"Duluth, MN","Gravion, a rugged multi-purpose outdoor utility robot for solar construction, rented monthly.",userlist,,botcrew.ico,ok,neo-integrator,
+RoboForce,Vertical Robotics Companies,Energy & Solar,roboforce.ai,"Milpitas, CA","Titan, a mobile manipulator for utility-scale solar, mining and other harsh outdoor work.",userlist,,roboforce.png,ok,neo-integrator,
+Aerones,Vertical Robotics Companies,Inspection & Infrastructure,aerones.com,"Riga, LV",Rope-free robotic systems that inspect and maintain wind turbine blades at height.,userlist,,aerones.png,ok,neo-integrator,
+Gecko Robotics,Vertical Robotics Companies,Inspection & Infrastructure,geckorobotics.com,"Pittsburgh, PA","Wall-climbing inspection robots plus Cantilever, the software layer that turns the data into asset decisions.",obvious+userlist,,gecko-robotics.png,ok,neo-integrator,
+RedZone Robotics,Vertical Robotics Companies,Inspection & Infrastructure,redzone.com,"Pittsburgh, PA","Sewer and wastewater inspection robots, sold alongside the assessment services utilities actually buy.",userlist,,redzone-robotics.png,ok,neo-integrator,
+Corvus Robotics,Vertical Robotics Companies,Warehouse & Logistics,corvus-robotics.com,"Hayward, CA",Autonomous drones that fly warehouse aisles at night to count inventory.,baymap,,corvus-robotics.ico,ok,neo-integrator,Bay Area
+Skydio,Vertical Robotics Companies,Inspection & Infrastructure,skydio.com,"San Mateo, CA","Autonomous inspection drones used by utilities, public safety and defense.",baymap,,skydio.png,ok,component,Bay Area
+Lucid Bots,Vertical Robotics Companies,"Facilities, Retail & Security",lucidbots.com,"Charlotte, NC",Sherpa cleaning drones that wash building facades and roofs without scaffolding.,userlist,,lucid-bots.png,ok,neo-integrator,
+Burro,Vertical Robotics Companies,Agriculture & Landscaping,burro.ai,"Philadelphia, PA",Autonomous carrying and towing platforms that follow crews through orchards and nurseries.,userlist,,burro.png,ok,component,
+Agtonomy,Vertical Robotics Companies,Agriculture & Landscaping,agtonomy.com,"South San Francisco, CA",Autonomy software that turns existing orchard and vineyard tractors into driverless machines.,baymap,,agtonomy.svg,ok,component,Bay Area
+Bonsai Robotics,Vertical Robotics Companies,Agriculture & Landscaping,bonsairobotics.ai,"Fremont, CA","Vision-based autonomy for orchard equipment, operating in dust where GPS fails.",baymap,,bonsai-robotics.png,ok,component,Bay Area
+Electric Sheep,Vertical Robotics Companies,Agriculture & Landscaping,sheeprobotics.ai,"San Francisco, CA","Bought landscaping companies outright, then automated them with its own mowers.",userlist,acquired by Oso Electric Equipment 2025,electric-sheep.png,ok,neo-integrator,
+Oso Robotics,Vertical Robotics Companies,Agriculture & Landscaping,osorobotics.com,"Irving, TX",Commercial electric and autonomous mowers for professional landscapers; acquired Electric Sheep.,userlist,verify-domain,oso-robotics.png,ok,neo-integrator,
+Scythe Robotics,Vertical Robotics Companies,Agriculture & Landscaping,scytherobotics.com,"Longmont, CO","M.52 autonomous electric commercial mower, now an equipment brand inside ASI.",userlist,acquired by ASI 2026,scythe-robotics.png,ok,component,
+ASI (Autonomous Solutions),Vertical Robotics Companies,Agriculture & Landscaping,asirobots.com,"Petersboro, UT","Off-road vehicle autonomy across mining, agriculture and construction; acquired Scythe.",userlist,,asi-autonomous-solutions.png,fallback,component,
+Nimble Robotics,Vertical Robotics Companies,Warehouse & Logistics,nimblerobotics.com,"San Francisco, CA",Operates its own AI-run fulfillment centers rather than selling robots to warehouse owners.,baymap,,nimble-robotics.png,ok,neo-integrator,Bay Area
+Dexterity,Vertical Robotics Companies,Warehouse & Logistics,dexterity.ai,"Redwood City, CA","Truck loading, palletizing and parcel handling robots with force-aware manipulation.",obvious+baymap,,dexterity.png,ok,component,Bay Area
+Ambi Robotics,Vertical Robotics Companies,Warehouse & Logistics,ambirobotics.com,"Berkeley, CA",AI-driven parcel sortation systems deployed across major US logistics networks.,obvious+baymap,,ambi-robotics.png,ok,component,Bay Area
+Robust AI,Vertical Robotics Companies,Warehouse & Logistics,robust.ai,"San Carlos, CA","Carter, a collaborative warehouse cart designed to work with pickers rather than replace them.",obvious+baymap,,robust-ai.webp,ok,component,Bay Area
+Azalea Robotics,Vertical Robotics Companies,Warehouse & Logistics,azalearobotics.com,"Berkeley, CA",ARC 1 autonomously loads baggage and ULD containers in airport bagrooms.,userlist,,azalea-robotics.jpg,ok,component,
+Gatik,Vertical Robotics Companies,Last-Mile & Delivery,gatik.ai,"Mountain View, CA",Autonomous box trucks running fixed middle-mile routes for retailers and grocers.,baymap+userlist,,gatik.png,ok,neo-integrator,Bay Area
+Waymo,Vertical Robotics Companies,Last-Mile & Delivery,waymo.com,"Mountain View, CA","The most mature autonomous ride-hailing operation, running driverless fleets in several US cities.",baymap,,waymo.png,ok,neo-integrator,Bay Area
+Zoox,Vertical Robotics Companies,Last-Mile & Delivery,zoox.com,"Foster City, CA","Amazon-owned robotaxi built from scratch with no steering wheel, now carrying passengers.",baymap,,zoox.png,ok,neo-integrator,Bay Area
+Plus AI,Vertical Robotics Companies,Last-Mile & Delivery,plus.ai,"Santa Clara, CA","Autonomous driving software for long-haul trucking, sold to OEMs rather than operated as a fleet.",baymap,,plus-ai.svg,ok,component,Bay Area
+Serve Robotics,Vertical Robotics Companies,Last-Mile & Delivery,serverobotics.com,"Redwood City, CA",Sidewalk delivery robots operating with Uber Eats in Los Angeles and other US cities.,baymap,,serve-robotics.png,ok,neo-integrator,Bay Area
+Starship Technologies,Vertical Robotics Companies,Last-Mile & Delivery,starship.xyz,"San Francisco, CA","Sidewalk delivery robots with the largest deployed fleet, concentrated on university campuses.",baymap,,starship-technologies.png,ok,neo-integrator,Bay Area
+Cartken,Vertical Robotics Companies,Last-Mile & Delivery,cartken.com,"Oakland, CA","Sidewalk and indoor delivery robots, also licensed as a mobile base for other applications.",baymap,,cartken.png,ok,neo-integrator,Bay Area
+Zipline,Vertical Robotics Companies,Last-Mile & Delivery,flyzipline.com,"South San Francisco, CA",Autonomous delivery drones flying medical supplies and retail orders at national scale.,baymap,,zipline.png,ok,neo-integrator,Bay Area
+Reliable Robotics,Vertical Robotics Companies,Last-Mile & Delivery,reliable.co,"Mountain View, CA","Retrofits existing cargo aircraft for fully autonomous flight, working toward FAA certification.",baymap,,reliable-robotics.png,ok,component,Bay Area
+Path Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,path-robotics.com,"Columbus, OH","AI welding robots that see and adapt to each part, removing the need for fixturing and programming.",userlist,,path-robotics.svg,ok,neo-integrator,
+GrayMatter Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,graymatter-robotics.com,"Gardena, CA","Robotic sanding, polishing and finishing sold as a service to contract manufacturers.",userlist,,graymatter-robotics.png,ok,neo-integrator,
+Hadrian,Vertical Robotics Companies,Manufacturing & Fabrication,hadrian.co,"Torrance, CA",Builds and operates its own automated factories for precision aerospace and defense parts.,userlist,,hadrian.webp,ok,neo-integrator,
+Re:Build Manufacturing,Vertical Robotics Companies,Manufacturing & Fabrication,rebuildmanufacturing.com,"Framingham, MA","Roll-up of US advanced manufacturing businesses, applying automation across the acquired base.",userlist,,re-build-manufacturing.png,ok,neo-integrator,
+1872,Vertical Robotics Companies,Manufacturing & Fabrication,1872.com,"Cincinnati, OH","Autonomous steel fabrication factories in Cincinnati, coordinated by its own Factory OS.",userlist,verify-domain,,failed,neo-integrator,
+Tutor Intelligence,Vertical Robotics Companies,Manufacturing & Fabrication,tutorintelligence.com,"Boston, MA",Industrial manipulation where remote humans handle the edge cases the model cannot.,obvious,,tutor-intelligence.png,ok,neo-integrator,Boston
+Atoms,Hardware,Mobile Bases & AMRs,atoms.com,"Los Angeles, CA","Travis Kalanick's industrial robot OEM, building a common 'wheelbase' across food service, mining and transport.",obvious,,,no-domain,neo-integrator,
+Mind Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,mindrobotics.com,"Palo Alto, CA","Rivian spin-out building broadly capable robots for industrial deployment, proven in Rivian's own plants.",obvious,,,no-domain,neo-integrator,
+Foundry Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,foundryrobotics.ai,,"AI-first, assembly-focused robotics aimed at rebuilding American manufacturing capacity.",obvious,,foundry-robotics.svg,ok,neo-integrator,
+Arda Industries,Vertical Robotics Companies,Manufacturing & Fabrication,arda.ai,,Turns product designs into factory-ready manufacturing plans and adaptive production processes.,obvious,,arda.png,ok,neo-integrator,
+Maven Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,mavenrobotics.com,"Santa Clara, CA","General-purpose industrial robots for palletizing and tote handling, deployed as multi-shift fleets.",obvious,,maven.png,ok,neo-integrator,
+Rhoda,Vertical Robotics Companies,Manufacturing & Fabrication,rhoda.ai,,"Robot intelligence for industrial work, built to adapt rather than follow fixed programs.",obvious,,rhoda.svg,ok,neo-integrator,
+Walden Robotics,Hardware,Humanoids & Quadrupeds,waldenrobotics.com,"Cambridge, MA",Toyota Research spin-out building wheeled humanoids that learn factory tasks from demonstration.,obvious,,,no-domain,neo-integrator,Boston
+MWbotics,Vertical Robotics Companies,Manufacturing & Fabrication,,,Industrial robotics,obvious,UNVERIFIED - could not resolve; likely misread from the Obvious landscape,,no-domain,component,
+Dyna Robotics,Intelligence,Foundation Models,dyna.co,"San Mateo, CA",DYNA-1 dexterous manipulation foundation model,obvious+baymap,,dyna-robotics.png,ok,lab,Bay Area
+Chef Robotics,Vertical Robotics Companies,Food & Hospitality,chefrobotics.ai,"San Francisco, CA","Robotic food assembly deployed in high-mix prepared-meal kitchens, sold as a service.",baymap+userlist,,chef-robotics.png,ok,neo-integrator,Bay Area
+Bear Robotics,Vertical Robotics Companies,Food & Hospitality,bearrobotics.ai,"Redwood City, CA","Servi, the restaurant running robot that became the category standard for front-of-house service.",baymap,,bear-robotics.webp,ok,component,Bay Area
+Matic Robots,Vertical Robotics Companies,Consumer & Home,maticrobots.com,"Mountain View, CA",Home vacuum and mop that navigates with cameras alone and keeps all processing on-device.,baymap,,matic-robots.png,ok,component,Bay Area
+Knightscope,Vertical Robotics Companies,"Facilities, Retail & Security",knightscope.com,"Mountain View, CA","Autonomous security robots patrolling parking structures, campuses and retail sites.",baymap,,knightscope.png,ok,neo-integrator,Bay Area
+Simbe Robotics,Vertical Robotics Companies,"Facilities, Retail & Security",simberobotics.com,"South San Francisco, CA","Tally, a shelf-scanning robot that audits inventory and pricing across grocery chains.",baymap,,simbe-robotics.svg,ok,neo-integrator,Bay Area
+Scout AI,Vertical Robotics Companies,Defense & Aerospace,scoutai.com,"Sunnyvale, CA","Fury, a vision-language-action model for uncrewed ground vehicles in defense applications.",baymap,verify-domain,scout-ai.png,fallback,lab,Bay Area
+Trener Robotics,Platform,Dev Tools & Middleware,trener.ai,"Bay Area, CA",AI software that lets existing industrial robots adapt to variability and deploy faster.,baymap,,trener-robotics.png,ok,platform,Bay Area
+HowToRobot,Market Infrastructure,Marketplaces & Sourcing,howtorobot.com,"Odense, DK",Global marketplace where buyers scope automation projects and collect bids from vetted suppliers.,userlist,,howtorobot.png,ok,service,
+Vention,Market Infrastructure,Deployment & Field Service,vention.io,"Montreal, CA","Cloud platform to design, simulate, order and deploy an automation cell without an integrator.",userlist,,vention.png,ok,service,
+RoboStore,Market Infrastructure,Marketplaces & Sourcing,robostore.com,"New York, NY",Official US distributor of Unitree humanoids and quadrupeds for research and industry.,userlist,verify-domain,robostore.svg,ok,service,
+Roboworx,Market Infrastructure,Deployment & Field Service,roboworx.io,"Chicago, IL","Nationwide field service, maintenance and support for deployed robot fleets.",userlist,verify-domain,roboworx.svg,ok,service,
+Mantle,Market Infrastructure,Deployment & Field Service,,"San Francisco, CA","Full-stack field service: deploys, repairs and maintains machines on behalf of the companies that build them.",userlist,,,no-domain,service,
+Workwise Robotics,Market Infrastructure,Marketplaces & Sourcing,,,Unconfirmed,userlist,UNVERIFIED - could not confirm this company exists,,no-domain,service,
+Formic,Market Infrastructure,Finance & Insurance,formic.co,"Chicago, IL","Robots-as-a-service for manufacturers: no capex, billed hourly, uptime guaranteed.",research,,,,neo-integrator,
+Ultra,Vertical Robotics Companies,Warehouse & Logistics,ultra.tech,"Brooklyn, NY","Builds and rents the OP1 dual-arm packing robot by the month, running Physical Intelligence models.",research,,,,neo-integrator,
+RobCo,Hardware,Arms & Cobots,robco.de,"Munich, DE","Modular robot arms for mid-market manufacturers, configured per task and sold on subscription.",research,,,,component,
+Koop Insurance,Market Infrastructure,Finance & Insurance,koop.ai,"Columbus, OH","Insurance and compliance readiness for autonomous systems, underwritten on its own risk platform.",research,,,,service,
+Risklytics,Market Infrastructure,Finance & Insurance,risklytics.ai,"San Francisco, CA","Commercial insurance brokerage built specifically for robotics, autonomous vehicles and field hardware.",research,,,,service,
+Autonomy Insurance,Market Infrastructure,Finance & Insurance,autonomy.insurance,,"Liability cover for autonomous vehicle and robot fleets, with limits from $1M to $25M.",research,,,,service,
+Y-Risk,Market Infrastructure,Finance & Insurance,y-risk.com,"New York, NY","The Hartford unit underwriting autonomous vehicle, robotics and AI risk for commercial operators.",research,,,,service,
+Qviro,Market Infrastructure,Marketplaces & Sourcing,qviro.com,"Genk, BE",Industrial automation marketplace with buyer reviews across 23 robotics categories; now part of GlobalSpec.,research,,,,service,
+Extend Robotics,Market Infrastructure,Deployment & Field Service,extendrobotics.com,"London, UK","Sells completed physical work rather than robots, combining teleoperation with growing automation.",research,,,,neo-integrator,
+Logibot,Market Infrastructure,Deployment & Field Service,logibot.eu,EU,"Chooses, trains and deploys warehouse robots across vendors without rebuilding the operation.",research,,,,service,
+FORT Robotics,Market Infrastructure,Safety & Compliance,fortrobotics.com,"Philadelphia, PA",Wireless e-stop and safety control that lets autonomous machines operate near people legally.,research,,,,service,
+Pilz,Market Infrastructure,Safety & Compliance,pilz.com,"Ostfildern, DE","Functional safety hardware, controllers and certification services for automated machinery.",research,,,,service,
+UL Solutions,Market Infrastructure,Safety & Compliance,ul.com,"Northbrook, IL","Writes and certifies against UL 3300, the safety standard for service and mobile robots.",research,,,,service,
+Pivot Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,pivotrobotics.com,"San Francisco, CA",Vision-driven robot arms for metal grinding and finishing in foundries.,research,,,,neo-integrator,
+Origin,Vertical Robotics Companies,Construction,origin.build,,"Robots that automate interior construction work, backed by Accel and Zacua.",research,,,,neo-integrator,
+Actor,Vertical Robotics Companies,Construction,labs.actor,"San Francisco, CA","Trains one model on human operator data and deploys it across heavy machinery, starting with excavators.",pi-api-beta,,,,neo-integrator,
+Almond Robotics,Hardware,Arms & Cobots,almond.bot,"San Francisco, CA","Axol, a dual-arm 7-DOF research robot with an open Python SDK and LeRobot bindings.",pi-api-beta,,,,component,
+CloudChef,Vertical Robotics Companies,Food & Hospitality,cloudchef.co,"San Francisco, CA",Commercial kitchen robots rented by the hour; its Zippy platform learns a recipe from one demonstration.,pi-api-beta,,,,neo-integrator,
+robot.com,Vertical Robotics Companies,Last-Mile & Delivery,robot.com,"Santa Monica, CA","Formerly Kiwibot; delivery fleets plus the R-noid humanoid sold as a service, autonomy from Field AI.",pi-api-beta,,,,neo-integrator,
+General Instinct,Platform,Dev Tools & Middleware,generalinstinct.com,"San Francisco, CA",Distills and quantizes frontier robotics models so they run on edge hardware and old GPUs.,pi-api-beta,,,,platform,
+Deft Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,deftai.co,"San Francisco, CA","Drop-in wheeled humanoid workcells for Tier 1 automotive, teleoperated first and autonomous later.",pi-api-beta,,,,neo-integrator,
+Frontier Machines,Vertical Robotics Companies,Manufacturing & Fabrication,frontiermachines.ai,"Mountain View, CA","FR-1, an industrial robot sold on subscription with roughly four-week installation.",pi-api-beta,,,,neo-integrator,
+Argon Robotics,Intelligence,Foundation Models,argonrobotics.ai,"San Francisco, CA",Control models that run robots at superhuman speeds,pi-api-beta,,,,lab,
+Yondu,Intelligence,Foundation Models,yondu.ai,"Los Angeles, CA",Robot intelligence for fulfillment: humanoid picking to stationary arm packing (YC W24),pi-api-beta,,,,lab,
+Omakase Robotics,Platform,Dev Tools & Middleware,omakase.ai,"Tokyo, JP","Omakase OS, a robot-agnostic stack for service robots in hospitals, hospitality and retail.",pi-api-beta,,,,platform,
+Dream Machines,Vertical Robotics Companies,Manufacturing & Fabrication,dream-machines.eu,"Zurich, CH","AI robot arms for European SMEs, taught by demonstration, with open-sourced hardware.",pi-api-beta,,,,neo-integrator,
+AgRobotics,Vertical Robotics Companies,Agriculture & Landscaping,agrobotics.com,,Agriculture robotics company named in Physical Intelligence's API partner grid.,pi-api-beta,AMBIGUOUS - several companies use this name; confirm which one pi means,,,neo-integrator,
+Intuition.dev,Platform,Dev Tools & Middleware,intuition.dev,,Named in Physical Intelligence's API partner grid; details unconfirmed.,pi-api-beta,AMBIGUOUS - could not confirm; distinct from General Intuition and Intuition Robotics,,,platform,
+Verity,Vertical Robotics Companies,Warehouse & Logistics,verity.net,"Zurich, CH",Autonomous indoor drones that fly warehouse aisles at night to count inventory.,ziegler-map,,,,neo-integrator,Zurich
+Gravis Robotics,Vertical Robotics Companies,Construction,gravisrobotics.com,"Zurich, CH",Autonomous earthmoving from the ETH team behind ANYmal; $200M led by SoftBank.,ziegler-map,,,,neo-integrator,Zurich
+RAI Institute,Intelligence,Research Labs,rai-inst.com,"Cambridge, MA","Marc Raibert's Robotics and AI Institute, funded by Toyota to push athletic intelligence.",ziegler-map,,,,lab,Zurich; Boston
+mimic,Intelligence,Foundation Models,mimicrobotics.com,"Zurich, CH",Dexterous manipulation models trained from human hand demonstrations.,ziegler-map,,,,lab,Zurich
+BOTA Systems,Platform,Perception & Sensing,botasys.com,"Zurich, CH",Compact six-axis force-torque sensors that give arms a sense of touch.,ziegler-map,,,,component,Zurich
+Forgis,Vertical Robotics Companies,Manufacturing & Fabrication,forgis.ai,"Zurich, CH",Industrial intelligence for manufacturing operations.,ziegler-map,,,,neo-integrator,Zurich
+Duatic,Hardware,Mobile Bases & AMRs,duatic.com,"Zurich, CH",Dynamic mobile manipulator combining a legged base with a working arm.,ziegler-map,,,,component,Zurich
+RIVR,Vertical Robotics Companies,Last-Mile & Delivery,rivr.ai,"Zurich, CH",Wheeled-legged delivery robots that climb steps to the door; ex-Swiss-Mile.,ziegler-map,,,,neo-integrator,Zurich
+Bubble Robotics,Vertical Robotics Companies,Marine & Subsea,bubble-robotics.com,"Zurich, CH",BubbleDock stations and BubbleBots that stay at sea six months doing offshore inspection.,ziegler-map,,,,neo-integrator,Zurich
+Sevensense Robotics,Platform,Perception & Sensing,sevensense.ai,"Zurich, CH",Visual SLAM that lets AMRs navigate without infrastructure; acquired by ABB.,ziegler-map,,,,platform,Zurich
+Voliro,Vertical Robotics Companies,Inspection & Infrastructure,voliro.com,"Zurich, CH",Thrust-vectoring drones that touch structures to perform non-destructive testing.,ziegler-map,,,,neo-integrator,Zurich
+Embotech,Platform,Dev Tools & Middleware,embotech.com,"Zurich, CH","Optimisation-based motion planning, now applied to driverless yard and port logistics.",ziegler-map,,,,platform,Zurich
+Nautica Technologies,Vertical Robotics Companies,Marine & Subsea,nauticatech.com,"Zurich, CH",Swarms of underwater robots that clean and inspect ship hulls to stop biofouling.,ziegler-map,,,,neo-integrator,Zurich
+Flink Robotics,Platform,Dev Tools & Middleware,flinkrobotics.com,"Zurich, CH",ETH spin-off making robots plug-and-play for material handling work.,ziegler-map,,,,platform,Zurich
+Disney Research,Intelligence,Research Labs,disneyresearch.com,"Zurich, CH","Disney's research lab, behind expressive character robots and simulation work.",ziegler-map,,,,lab,Zurich
+Tethys Robotics,Vertical Robotics Companies,Marine & Subsea,tethys-robotics.com,"Zurich, CH","Underwater robots for inspection and search in fast-flowing, zero-visibility water.",ziegler-map,,,,neo-integrator,Zurich
+Auterion,Platform,Dev Tools & Middleware,auterion.com,"Zurich, CH","Open operating system for drones and autonomous systems, widely used in defense.",ziegler-map,,,,platform,Zurich
+April Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,aprilrobotics.ai,"Zurich, CH","Automating the finest, highest-precision work in manufacturing.",ziegler-map,,,,neo-integrator,Zurich
+microagi,Intelligence,Foundation Models,microagi.ai,"Zurich, CH",Embodied AI research and models.,ziegler-map,,,,lab,Zurich
+Loki Robotics,Vertical Robotics Companies,"Facilities, Retail & Security",lokirobotics.com,"Zurich, CH",Cleaning robots for commercial restrooms and kitchens; $1.6M pre-seed.,ziegler-map,,,,neo-integrator,Zurich
+Hexagon Robotics,Vertical Robotics Companies,Inspection & Infrastructure,,"Zurich, CH",Zurich robotics company from the Lukas Ziegler map.,ziegler-map,,,,neo-integrator,Zurich
+Wingtra,Vertical Robotics Companies,Inspection & Infrastructure,wingtra.com,"Zurich, CH",VTOL fixed-wing survey drones that map large sites in a single flight.,ziegler-map,,,,component,Zurich
+Ascento,Vertical Robotics Companies,"Facilities, Retail & Security",ascento.ai,"Zurich, CH",Wheeled-legged outdoor security robots patrolling industrial sites.,ziegler-map,,,,neo-integrator,Zurich
+Amazon Robotics,Vertical Robotics Companies,Warehouse & Logistics,amazon.com,"North Reading, MA","The largest deployed robot fleet on earth, inside Amazon's own fulfillment network.",ziegler-map,,,,neo-integrator,Boston
+Teradyne Robotics,Hardware,Arms & Cobots,teradyne.com,"North Reading, MA",Parent of Universal Robots and MiR; the biggest cobot group by installed base.,ziegler-map,,,,component,Boston
+Symbotic,Vertical Robotics Companies,Warehouse & Logistics,symbotic.com,"Wilmington, MA","High-density automated case handling, built out across Walmart's distribution centers.",ziegler-map,,,,neo-integrator,Boston
+Oxipital AI,Platform,Perception & Sensing,oxipital.ai,"Bedford, MA",Machine vision for food and consumer goods handling; formerly Soft Robotics.,ziegler-map,,,,platform,Boston
+iRobot,Vertical Robotics Companies,Consumer & Home,irobot.com,"Bedford, MA",Roomba; the company that proved consumers would buy a robot at all.,ziegler-map,,,,component,Boston
+Berkshire Grey,Vertical Robotics Companies,Warehouse & Logistics,berkshiregrey.com,"Bedford, MA","Robotic picking and sortation for retail and parcel, taken private in 2023.",ziegler-map,,,,neo-integrator,Boston
+Vecna Robotics,Vertical Robotics Companies,Warehouse & Logistics,vecnarobotics.com,"Waltham, MA",Autonomous forklifts and tuggers with human-in-the-loop remote support.,ziegler-map,,,,neo-integrator,Boston
+6 River Systems,Vertical Robotics Companies,Warehouse & Logistics,6river.com,"Waltham, MA","Chuck, the collaborative picking cart; sold by Shopify to Ocado.",ziegler-map,,,,component,Boston
+Vicarious Surgical,Vertical Robotics Companies,Healthcare & Life Sciences,vicarioussurgical.com,"Waltham, MA",Miniature surgical robot with a camera and arms inserted through one incision.,ziegler-map,,,,neo-integrator,Boston
+Boost Robotics,Vertical Robotics Companies,Data Centers,boostrobotics.ai,"Cambridge, MA",Mobile manipulators as remote hands for data center inspection and maintenance (YC).,ziegler-map,,,,neo-integrator,Boston
+RightHand Robotics,Vertical Robotics Companies,Warehouse & Logistics,righthandrobotics.com,"Somerville, MA","AI piece-picking for each-order fulfillment, deployed across European and US retail.",ziegler-map,,,,neo-integrator,Boston
+RISE Robotics,Hardware,Actuators & Drives,riserobotics.com,"Somerville, MA",Belt-driven electric actuator built to replace hydraulic cylinders on heavy equipment.,ziegler-map,,,,component,Boston
+Toyota Research Institute,Intelligence,Research Labs,tri.global,"Cambridge, MA",Large behavior models for robots; the lab Walden Robotics spun out of.,ziegler-map,,,,lab,Boston
+Piaggio Fast Forward,Vertical Robotics Companies,Last-Mile & Delivery,piaggiofastforward.com,"Boston, MA","gita, a following cargo robot that carries loads at walking pace.",ziegler-map,,,,component,Boston
+GreenSight,Vertical Robotics Companies,Agriculture & Landscaping,greensightag.com,"Boston, MA","Autonomous drones and analytics for turf, golf courses and agriculture.",ziegler-map,,,,neo-integrator,Boston
+Sereact,Intelligence,Foundation Models,sereact.ai,"Stuttgart, DE",One brain for any robot: perception and control models for pick-and-place at scale.,ziegler-map,,,,lab,Boston
+Pickle Robot,Vertical Robotics Companies,Warehouse & Logistics,picklerobot.com,"Cambridge, MA","Robots that unload floor-loaded trucks and containers, the worst job in the warehouse.",ziegler-map,,,,neo-integrator,Boston
+Acumino,Intelligence,Training Data & Demonstration,acumino.ai,"Boston, MA","Wearable device that teaches robots tasks in one shot, without a data-collection program.",ziegler-map,,,,platform,Boston
+Analog Devices,Platform,Perception & Sensing,analog.com,"Wilmington, MA","Precision sensing, motion control and interface silicon underneath industrial robots.",ziegler-map,,,,component,Boston
+Urbx,Vertical Robotics Companies,Warehouse & Logistics,urbx.com,"Boston, MA",TowerBots that climb 125ft storage grids for dense urban grocery fulfillment.,ziegler-map,,,,neo-integrator,Boston
+Realtime Robotics,Platform,Dev Tools & Middleware,rtr.ai,"Boston, MA","Motion planning in microseconds, letting multiple arms share a workcell without collisions.",ziegler-map,,,,platform,Boston
+Code Metal,Platform,Dev Tools & Middleware,codemetal.ai,"Boston, MA",Verifiable code translation and compilation for edge and embedded robotics targets.,ziegler-map,,,,platform,Boston
+Sea Machines Robotics,Vertical Robotics Companies,Marine & Subsea,sea-machines.com,"Boston, MA",Autonomous control and remote command for commercial workboats and vessels.,ziegler-map,,,,neo-integrator,Boston
+Humanoid,Hardware,Humanoids & Quadrupeds,thehumanoid.ai,"London, UK",UK humanoid developer scaling production with Bosch.,ziegler-map,,,,component,Boston
+Tennibot,Vertical Robotics Companies,Consumer & Home,tennibot.com,"Boston, MA","Autonomous ball collection and AI ball machines for tennis, pickleball and padel.",ziegler-map,,,,component,Boston
+MathWorks,Platform,Dev Tools & Middleware,mathworks.com,"Natick, MA","MATLAB and Simulink, the modelling and control toolchain much of robotics is designed in.",ziegler-map,,,,platform,Boston
+General Robotics,Intelligence,Foundation Models,generalrobotics.ai,"Kirkland, WA","GRID platform of modular AI skills for perception, reasoning and control; ex-Scaled Foundations.",ziegler-map,,,,lab,Boston
+Isaac Sim,Intelligence,Simulation,developer.nvidia.com/isaac/sim,"Santa Clara, CA",NVIDIA's Omniverse-based robot simulator; the default for synthetic data and large-scale RL training.,research,,,,platform,Bay Area
+Gazebo,Intelligence,Simulation,gazebosim.org,"Mountain View, CA",The long-running open-source simulator maintained alongside ROS; the default in academic robotics.,research,,,,platform,
+Drake,Intelligence,Simulation,drake.mit.edu,"Cambridge, MA","Toyota Research's physics and planning toolbox, built for contact-rich manipulation and control.",research,,,,platform,Boston
+Freedom Robotics,Platform,Fleet Ops & Remote Operations,freedomrobotics.com,"San Francisco, CA","Hardware-agnostic fleet monitoring, remote access and diagnostics, priced per robot per month.",research,,,,platform,Bay Area
+Transitive Robotics,Platform,Fleet Ops & Remote Operations,transitiverobotics.com,"San Diego, CA","Open-source framework for building your own web fleet tools; transAct ships teleop, config and health.",research,,,,platform,
+SVT Robotics,Platform,Fleet Ops & Remote Operations,svtrobotics.com,"Norfolk, VA","SOFTBOT Platform connects robots to WMS and ERP as microservices, cutting integration to weeks.",research,,,,platform,
+SYNAOS,Platform,Fleet Ops & Remote Operations,synaos.com,"Hannover, DE",Intralogistics platform running mixed AGV and AMR fleets from 50+ makers over VDA 5050.,research,,,,platform,
+NAiSE,Platform,Fleet Ops & Remote Operations,naise.eu,"Stuttgart, DE",Vendor-neutral AGV and AMR fleet orchestration with indoor tracking across mixed brands.,research,,,,platform,
+BlueBotics,Platform,Fleet Ops & Remote Operations,bluebotics.com,"Lausanne, CH","ANT navigation and fleet server, licensed to vehicle makers rather than sold to end users.",research,,,,platform,
+Meili Robots,Platform,Fleet Ops & Remote Operations,meilirobots.com,"Copenhagen, DK",Brand-agnostic fleet management so AMRs from different vendors share one traffic controller.,research,,,,platform,
+KINEXON,Platform,Fleet Ops & Remote Operations,kinexon.com,"Munich, DE",Industrial operating system with centralised AMR and AGV orchestration and VDA 5050 support.,research,,,,platform,
+MOV.AI,Platform,Fleet Ops & Remote Operations,mov.ai,"Tel Aviv, IL","ROS-based robotics engine for building, deploying and operating autonomous mobile robots.",research,,,,platform,
+Open-RMF,Platform,Fleet Ops & Remote Operations,open-rmf.org,"Singapore, SG",Open-source layer that coordinates several robot fleets and the lifts and doors around them.,research,,,,platform,
+Ottopia,Platform,Fleet Ops & Remote Operations,ottopia.tech,"Tel Aviv, IL",Teleoperation software where a remote human and the vehicle's AI share control; used by BMW and Motional.,research,,,,platform,
+DriveU.auto,Vertical Robotics Companies,Warehouse & Logistics,driveu.auto,"Tel Aviv, IL","Autonomous retrofit kits for container-port terminal tractors, built on its teleop connectivity stack.",research,,,,neo-integrator,
+Kineo Finance,Market Infrastructure,Finance & Insurance,kineofinance.com,"Basel, CH",Venture leasing and working capital for as-a-service hardware; did the Kiwibot sale-leaseback.,userlist,,,,service,
+Cenotian,Market Infrastructure,Finance & Insurance,cenotian.com,,"Capital plus engineering for robotics deployments: funds design through commissioning, billed monthly or per use.",userlist,,,,service,
+Miso Robotics,Vertical Robotics Companies,Food & Hospitality,misorobotics.com,"Pasadena, CA","Flippy, the autonomous fry station, sold as a service into quick-service kitchens.",userlist,,,,neo-integrator,
+Anduril,Vertical Robotics Companies,Defense & Aerospace,anduril.com,"Costa Mesa, CA","Lattice autonomy across drones, counter-UAS, maritime craft and munitions.",research,,,,neo-integrator,
+Shield AI,Vertical Robotics Companies,Defense & Aerospace,shield.ai,"San Diego, CA",Hivemind autonomy stack flying V-BAT and the X-BAT AI-piloted fighter.,research,,,,neo-integrator,
+Saronic,Vertical Robotics Companies,Defense & Aerospace,saronic.com,"Austin, TX",Autonomous surface vessels built at shipyard scale for the US Navy.,research,,,,neo-integrator,
+Forterra,Vertical Robotics Companies,Defense & Aerospace,forterra.ai,"Fairfax, VA",AutoDrive ground autonomy; delivered 105 Lancer vehicles in under six months.,research,,,,neo-integrator,
+Overland AI,Vertical Robotics Companies,Defense & Aerospace,overland.ai,"Seattle, WA",OverDrive off-road ground autonomy for uncrewed military vehicles.,research,,,,neo-integrator,
+Neros Technologies,Vertical Robotics Companies,Defense & Aerospace,neros.com,"El Segundo, CA",US-made FPV attack drones at volume; $250M Series C.,research,,,,component,
+HavocAI,Vertical Robotics Companies,Defense & Aerospace,havocai.com,"Chesapeake, VA",Low-cost autonomous surface vessels for maritime swarming.,research,,,,neo-integrator,
+Vatn Systems,Vertical Robotics Companies,Defense & Aerospace,vatnsystems.com,"Bristol, RI",Mass-manufacturable autonomous underwater vehicles.,research,,,,component,
+Blue Water Autonomy,Vertical Robotics Companies,Defense & Aerospace,bluewaterautonomy.com,"Boston, MA",Full-size unmanned ships designed without crew from the keel up.,research,,,,neo-integrator,Boston
+ARX Robotics,Vertical Robotics Companies,Defense & Aerospace,arxrobotics.com,"Munich, DE",European unmanned ground vehicles and a retrofit autonomy kit for legacy fleets.,research,,,,neo-integrator,
+Allen Control Systems,Vertical Robotics Companies,Defense & Aerospace,allencontrolsystems.com,"Lorton, VA","Bullfrog, a robotic gun turret that shoots down drones.",research,,,,component,
+True Anomaly,Vertical Robotics Companies,Defense & Aerospace,trueanomaly.space,"Denver, CO",Autonomous spacecraft for orbital security and space domain awareness.,research,,,,neo-integrator,
+Varda,Vertical Robotics Companies,Defense & Aerospace,varda.com,"El Segundo, CA",Autonomous orbital capsules manufacturing pharmaceuticals in microgravity.,research,,,,neo-integrator,
+Greypoint Industries,Vertical Robotics Companies,Defense & Aerospace,,,"LEGION, a drone swarm that locates battlefield emitters by their radio signals (YC).",research,,,,component,
+Ornadyne,Vertical Robotics Companies,Defense & Aerospace,,,Bird-like flapping-wing reconnaissance drones (YC).,research,,,,component,
+Edgerun,Vertical Robotics Companies,Defense & Aerospace,,,"Military exoskeletons, starting with a hip system worn over existing gear (YC).",research,,,,component,
+Applied Intuition,Platform,Dev Tools & Middleware,applied.co,"Mountain View, CA","Autonomy and simulation stack for automotive, defense, trucking, construction and mining.",research,,,,platform,Bay Area
+Wayve,Vertical Robotics Companies,Last-Mile & Delivery,wayve.ai,"London, UK",End-to-end learned driving that adapts to any vehicle without HD maps.,research,,,,lab,
+VulcanForms,Vertical Robotics Companies,Manufacturing & Fabrication,vulcanforms.com,"Burlington, MA",Digital metal additive manufacturing run as its own production infrastructure.,research,,,,neo-integrator,Boston
+Bright Machines,Vertical Robotics Companies,Manufacturing & Fabrication,brightmachines.com,"San Francisco, CA",Software-defined assembly cells for electronics and data center hardware.,research,,,,neo-integrator,Bay Area
+Auris Health,Vertical Robotics Companies,Healthcare & Life Sciences,aurishealth.com,"Redwood City, CA",Monarch robotic endoscopy platform; acquired by Johnson & Johnson.,research,,,,neo-integrator,Bay Area
+Capstan Medical,Vertical Robotics Companies,Healthcare & Life Sciences,capstanmedical.com,"Santa Cruz, CA",Robotic catheter delivery of replacement heart valves.,research,,,,neo-integrator,
+Build AI,Intelligence,Training Data & Demonstration,build.ai,,"Data hyperscaler for physical AI, scaling core research bets by orders of magnitude.",research,,,,platform,
+Cortex AI,Intelligence,Training Data & Demonstration,,,Large-scale real-world robot and human data for embodied AI (YC F25).,research,,,,platform,
+DeepReach,Intelligence,Training Data & Demonstration,,,Wearable stereo capture devices and a distributed network collecting human work data (YC).,research,,,,platform,
+Preload,Intelligence,Training Data & Demonstration,,,"Multimodal hardware stack for collecting physical AI datasets, aimed at surgical work (YC).",research,,,,platform,
+Robocurve,Intelligence,Evaluation & Benchmarks,,,"Open-source, independent benchmarks for real-world robot performance (YC).",research,,,,platform,
+Runtime,Intelligence,Evaluation & Benchmarks,runtime.si,,Evaluation layer that tests robot policies across thousands of simulated environments (YC).,research,,,,platform,
+Enact,Intelligence,Evaluation & Benchmarks,,,Builds physical environments for benchmarking and improving robotics models (YC).,research,,,,platform,
+Moving Atoms,Intelligence,Simulation,,,Video-pretrained physics model that simulates robot actions for training (YC).,research,,,,lab,
+Aktoria Robotics,Platform,Fleet Ops & Remote Operations,,"San Francisco, CA","Low-latency teleop plus a 24/7 operator network across the US, Mexico and India (YC).",research,,,,service,
+Ember Robotics,Platform,Fleet Ops & Remote Operations,,,Monitoring and observability tooling for deployed robots (YC S24).,research,,,,platform,
+Autumn Labs,Platform,Fleet Ops & Remote Operations,,,Monitoring and diagnostics for industrial robots (YC S24).,research,,,,platform,
+Polymath Robotics,Platform,Dev Tools & Middleware,polymathrobotics.com,"San Francisco, CA","Drop-in autonomy for industrial vehicles, sold as an API (YC S22).",research,,,,platform,Bay Area
+Agency Tool Company,Platform,Dev Tools & Middleware,,,Software deployment and embedded CI tooling for robots in the field (YC).,research,,,,platform,
+Dreamscale Labs,Platform,Dev Tools & Middleware,,,"Cloud inference for robotics, offloading heavy models off the robot (YC).",research,,,,platform,
+Hebbian Robotics,Platform,Dev Tools & Middleware,,,Open-source foundational infrastructure for physical AI (YC).,research,,,,platform,
+Synapse Semiconductor,Platform,Perception & Sensing,,,Vision sensor that runs neural network filters on the pixels themselves (YC).,research,,,,component,
+Proception,Hardware,End Effectors & Grippers,proception.ai,,Dexterous humanoid hands (YC W25).,research,,,,component,
+Silica,Hardware,Actuators & Drives,,,Affordable actuators that sense force directly (YC).,research,,,,component,
+Open Actuation,Hardware,Actuators & Drives,,"Los Angeles, CA",Drone motors and robotic actuators designed and made in LA (YC).,research,,,,component,
+Mass Magnetics,Hardware,Actuators & Drives,,,Turns recycled rare-earth scrap into permanent magnets made in the US (YC).,research,,,,component,
+Piggy Robotics,Hardware,Humanoids & Quadrupeds,,,Affordable humanoid robots for household chores (YC F25).,research,,,,component,
+Nori,Hardware,Humanoids & Quadrupeds,,,"Sub-$2,000 bimanual mobile robot for homes and businesses (YC).",research,,,,component,
+Charge Robotics,Vertical Robotics Companies,Energy & Solar,chargerobotics.com,"San Leandro, CA","Field factory that assembles and places solar rows automatically; MIT founders, YC S21.",research,,,,neo-integrator,Bay Area
+Libra Robotics,Vertical Robotics Companies,Energy & Solar,,,AI that adapts robots quickly to infrastructure work like solar farm construction (YC).,research,,,,neo-integrator,
+BotBuilt,Vertical Robotics Companies,Construction,botbuilt.com,"Durham, NC",Robotic house framing in existing lumber yards (YC W21).,research,,,,neo-integrator,
+Pave Robotics,Vertical Robotics Companies,Construction,,,Road-repair robots (YC W25).,research,,,,neo-integrator,
+Flywheel AI,Vertical Robotics Companies,Construction,,,Autonomy for excavators (YC S25).,research,,,,neo-integrator,
+Teleo,Vertical Robotics Companies,Construction,teleo.com,"Mountain View, CA",Retrofit kits that make existing heavy construction equipment supervised-autonomous.,research,,,,neo-integrator,Bay Area
+Shepherd Robotics,Vertical Robotics Companies,Data Centers,,,General-purpose robots for skilled physical work in AI infrastructure (YC).,research,,,,neo-integrator,
+Proprio Robotics,Vertical Robotics Companies,Data Centers,,,"Robots for data center buildout, maintenance and decommissioning (YC).",research,,,,neo-integrator,
+Manifold,Vertical Robotics Companies,Warehouse & Logistics,,,"Autonomous picking, loading and palletizing in warehouses, priced per pick (YC).",research,,,,neo-integrator,
+AutoPallet Robotics,Vertical Robotics Companies,Warehouse & Logistics,,,Robots that move boxes and pallets in warehouses (YC S24).,research,,,,neo-integrator,
+Theseus Robotics,Vertical Robotics Companies,Warehouse & Logistics,,,Humanoids that pick grocery orders by day and restock shelves overnight (YC).,research,,,,neo-integrator,
+Odin Robotics,Vertical Robotics Companies,Manufacturing & Fabrication,,"Zurich, CH",Robot arms deployed into small and mid-sized factories for machine tending and packing (YC).,research,,,,neo-integrator,
+Shiraz AI,Vertical Robotics Companies,Manufacturing & Fabrication,,,Factory robots that learn a new task from a single human demonstration (YC).,research,,,,neo-integrator,
+Mbodi AI,Vertical Robotics Companies,Manufacturing & Fabrication,,,Industrial robots that learn and operate more like people (YC S25).,research,,,,neo-integrator,
+Advanced Metal Research,Vertical Robotics Companies,Manufacturing & Fabrication,,,Robotic welding cells with computer vision for seam tracking and inspection (YC).,research,,,,neo-integrator,
+Industrial Next,Vertical Robotics Companies,Manufacturing & Fabrication,industrialnext.com,"San Francisco, CA","Vision-driven autonomous manufacturing cells, out of Tesla's manufacturing team.",research,,,,neo-integrator,Bay Area
+Atomic Industries,Vertical Robotics Companies,Manufacturing & Fabrication,atomic.industries,"Detroit, MI",AI tool-and-die maker automating the most skilled trade in manufacturing (YC W21).,research,,,,neo-integrator,
+Salem Robotics,Vertical Robotics Companies,Inspection & Infrastructure,,,"Turns robots into autonomous inspection and compliance workers, starting in nuclear plants (YC).",research,,,,neo-integrator,
+Rodeo Robotics,Vertical Robotics Companies,"Facilities, Retail & Security",,,"Robotic technician doing routine vehicle maintenance, starting with oil changes at fleet depots (YC).",research,,,,neo-integrator,
+Neuromorphic,Vertical Robotics Companies,Healthcare & Life Sciences,,,Robots that work autonomously in existing wet labs (YC).,research,,,,neo-integrator,
+Primordiant,Vertical Robotics Companies,Healthcare & Life Sciences,,,Robotic experimentalists pairing scientific reasoning with physical experiments (YC).,research,,,,neo-integrator,
+Rhem Labs,Vertical Robotics Companies,Healthcare & Life Sciences,,,Smart home-care devices helping older adults with complex needs live independently (YC).,research,,,,neo-integrator,
+Deploy,Market Infrastructure,Deployment & Field Service,,,Software and infrastructure that bring generalist robots into businesses (YC).,research,,,,service,
+RoboShare,Market Infrastructure,Marketplaces & Sourcing,roboshare.com,"Los Angeles, CA","Rental marketplace matching robot owners with customers; handles booking, pricing and service delivery.",userlist,,,,service,
