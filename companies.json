@@ -11,7 +11,8 @@
     "logo_file": "physical-intelligence.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Skild AI",
@@ -25,7 +26,8 @@
     "logo_file": "skild-ai.svg",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Generalist",
@@ -39,7 +41,8 @@
     "logo_file": "generalist.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": "Bay Area; Boston"
+    "cluster": "Bay Area; Boston",
+    "status": "active"
   },
   {
     "name": "Field AI",
@@ -53,7 +56,8 @@
     "logo_file": "field-ai.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Flexion Robotics",
@@ -67,7 +71,8 @@
     "logo_file": "flexion-robotics.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Gemini Robotics",
@@ -81,7 +86,8 @@
     "logo_file": "gemini-robotics.png",
     "logo_status": "fallback",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of Google DeepMind"
   },
   {
     "name": "Qwen",
@@ -95,7 +101,8 @@
     "logo_file": "qwen.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of Alibaba"
   },
   {
     "name": "Eka Robotics",
@@ -109,7 +116,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "lab",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "RLWRLD",
@@ -123,7 +131,8 @@
     "logo_file": "rlwrld.svg",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "World Labs",
@@ -137,7 +146,8 @@
     "logo_file": "world-labs.svg",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Odyssey",
@@ -151,7 +161,8 @@
     "logo_file": "odyssey.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "General Intuition",
@@ -165,7 +176,8 @@
     "logo_file": "general-intuition.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "AMI",
@@ -179,7 +191,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Dream Labs",
@@ -193,7 +206,8 @@
     "logo_file": "dream-labs.svg",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Embo",
@@ -207,7 +221,8 @@
     "logo_file": "embo.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Veeda AI",
@@ -221,7 +236,8 @@
     "logo_file": "veeda-ai.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "NVIDIA",
@@ -235,7 +251,8 @@
     "logo_file": "nvidia.jpg",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "MuJoCo",
@@ -249,7 +266,8 @@
     "logo_file": "mujoco.jpg",
     "logo_status": "fallback",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of Google DeepMind"
   },
   {
     "name": "Vsim",
@@ -263,7 +281,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Genesis AI",
@@ -277,7 +296,8 @@
     "logo_file": "genesis-ai.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Mecka",
@@ -291,7 +311,8 @@
     "logo_file": "mecka.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "micro1",
@@ -305,7 +326,8 @@
     "logo_file": "micro1.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Scale AI",
@@ -319,7 +341,8 @@
     "logo_file": "scale-ai.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "XDOF",
@@ -333,7 +356,8 @@
     "logo_file": "xdof.svg",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "MolmoSpaces",
@@ -347,7 +371,8 @@
     "logo_file": "molmospaces.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "RoboArena",
@@ -361,7 +386,8 @@
     "logo_file": "roboarena.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "RoboLab",
@@ -375,7 +401,8 @@
     "logo_file": "robolab.png",
     "logo_status": "fallback",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "ROS / Open Robotics",
@@ -389,7 +416,8 @@
     "logo_file": "ros-open-robotics.png",
     "logo_status": "fallback",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Foxglove",
@@ -403,7 +431,8 @@
     "logo_file": "foxglove.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Rerun",
@@ -417,7 +446,8 @@
     "logo_file": "rerun.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Roboto",
@@ -431,7 +461,8 @@
     "logo_file": "roboto.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "ReSim",
@@ -445,7 +476,8 @@
     "logo_file": "resim.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Labelbox",
@@ -459,7 +491,8 @@
     "logo_file": "labelbox.svg",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Voxel51",
@@ -473,7 +506,8 @@
     "logo_file": "voxel51.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Reactor",
@@ -487,7 +521,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Antioch",
@@ -501,7 +536,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Cardinal Robotics",
@@ -515,7 +551,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "OpenMind",
@@ -529,7 +566,8 @@
     "logo_file": "openmind.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Bucket Robotics",
@@ -543,7 +581,8 @@
     "logo_file": "bucket-robotics.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Intrinsic",
@@ -557,7 +596,8 @@
     "logo_file": "intrinsic.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "part of Alphabet"
   },
   {
     "name": "Formant",
@@ -571,7 +611,8 @@
     "logo_file": "formant.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "InOrbit",
@@ -585,7 +626,8 @@
     "logo_file": "inorbit.svg",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "dConstruct",
@@ -599,7 +641,8 @@
     "logo_file": "dconstruct.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Ouster",
@@ -613,7 +656,8 @@
     "logo_file": "ouster.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "RealSense",
@@ -627,7 +671,8 @@
     "logo_file": "realsense.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "part of Intel (spun out)"
   },
   {
     "name": "1X",
@@ -641,7 +686,8 @@
     "logo_file": "1x.svg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Figure",
@@ -655,7 +701,8 @@
     "logo_file": "figure.svg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Apptronik",
@@ -669,7 +716,8 @@
     "logo_file": "apptronik.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Agility Robotics",
@@ -683,7 +731,8 @@
     "logo_file": "agility-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Tesla",
@@ -697,7 +746,8 @@
     "logo_file": "tesla.png",
     "logo_status": "fallback",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Boston Dynamics",
@@ -711,7 +761,8 @@
     "logo_file": "boston-dynamics.jpg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "part of Hyundai"
   },
   {
     "name": "Unitree",
@@ -725,7 +776,8 @@
     "logo_file": "unitree.svg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "AgiBot",
@@ -739,7 +791,8 @@
     "logo_file": "agibot.ico",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Galbot",
@@ -753,7 +806,8 @@
     "logo_file": "galbot.ico",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Sunday Robotics",
@@ -767,7 +821,8 @@
     "logo_file": "sunday-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Neura Robotics",
@@ -781,7 +836,8 @@
     "logo_file": "neura-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "ANYbotics",
@@ -795,7 +851,8 @@
     "logo_file": "anybotics.png",
     "logo_status": "fallback",
     "model": "component",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "The Bot Company",
@@ -809,7 +866,8 @@
     "logo_file": "the-bot-company.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Weave Robotics",
@@ -823,7 +881,8 @@
     "logo_file": "weave-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "ABB",
@@ -837,7 +896,8 @@
     "logo_file": "abb.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "FANUC",
@@ -851,7 +911,8 @@
     "logo_file": "fanuc.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "KUKA",
@@ -865,7 +926,8 @@
     "logo_file": "kuka.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Yaskawa",
@@ -879,7 +941,8 @@
     "logo_file": "yaskawa.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Universal Robots",
@@ -893,7 +956,8 @@
     "logo_file": "universal-robots.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of Teradyne"
   },
   {
     "name": "Standard Bots",
@@ -907,7 +971,8 @@
     "logo_file": "standard-bots.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Flexiv",
@@ -921,7 +986,8 @@
     "logo_file": "flexiv.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "LeRobot",
@@ -935,7 +1001,8 @@
     "logo_file": "lerobot.svg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of Hugging Face"
   },
   {
     "name": "Cobot",
@@ -949,7 +1016,8 @@
     "logo_file": "cobot.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Mytra",
@@ -963,7 +1031,8 @@
     "logo_file": "mytra.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Locus Robotics",
@@ -977,7 +1046,8 @@
     "logo_file": "locus-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "FAULHABER",
@@ -991,7 +1061,8 @@
     "logo_file": "faulhaber.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "maxon",
@@ -1005,7 +1076,8 @@
     "logo_file": "maxon.png",
     "logo_status": "fallback",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "ROBOTIS",
@@ -1019,7 +1091,8 @@
     "logo_file": "robotis.ico",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "DAMIAO",
@@ -1033,7 +1106,8 @@
     "logo_file": "damiao.png",
     "logo_status": "fallback",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "LeaderDrive",
@@ -1047,7 +1121,8 @@
     "logo_file": "leaderdrive.png",
     "logo_status": "fallback",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Westmag",
@@ -1061,7 +1136,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Shadow Robot",
@@ -1075,7 +1151,8 @@
     "logo_file": "shadow-robot.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "PSYONIC",
@@ -1089,7 +1166,8 @@
     "logo_file": "psyonic.webp",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Sharpa",
@@ -1103,7 +1181,8 @@
     "logo_file": "sharpa.svg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Wuji Technology",
@@ -1117,7 +1196,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Built Robotics",
@@ -1131,7 +1211,8 @@
     "logo_file": "built-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Bedrock Robotics",
@@ -1145,7 +1226,8 @@
     "logo_file": "bedrock-robotics.svg",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Dusty Robotics",
@@ -1159,7 +1241,8 @@
     "logo_file": "dusty-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Civ Robotics",
@@ -1173,7 +1256,8 @@
     "logo_file": "civ-robotics.svg",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Monumental",
@@ -1187,7 +1271,8 @@
     "logo_file": "monumental.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Sitegeist Robotics",
@@ -1201,7 +1286,8 @@
     "logo_file": "sitegeist-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "TempoWorks",
@@ -1215,7 +1301,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Renovate Robotics",
@@ -1229,7 +1316,8 @@
     "logo_file": "renovate-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Skyline Robotics",
@@ -1243,7 +1331,8 @@
     "logo_file": "skyline-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Watney Robotics",
@@ -1257,7 +1346,8 @@
     "logo_file": "watney-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Exclaim Robotics",
@@ -1271,7 +1361,8 @@
     "logo_file": "exclaim-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Cosmic Robotics",
@@ -1285,7 +1376,8 @@
     "logo_file": "cosmic-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Gritt",
@@ -1299,7 +1391,8 @@
     "logo_file": "gritt.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Luminous Robotics",
@@ -1313,7 +1406,8 @@
     "logo_file": "luminous-robotics.webp",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "BotCrew",
@@ -1327,7 +1421,8 @@
     "logo_file": "botcrew.ico",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "RoboForce",
@@ -1341,7 +1436,8 @@
     "logo_file": "roboforce.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Aerones",
@@ -1355,7 +1451,8 @@
     "logo_file": "aerones.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Gecko Robotics",
@@ -1369,7 +1466,8 @@
     "logo_file": "gecko-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "RedZone Robotics",
@@ -1383,7 +1481,8 @@
     "logo_file": "redzone-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Corvus Robotics",
@@ -1397,7 +1496,8 @@
     "logo_file": "corvus-robotics.ico",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Skydio",
@@ -1411,7 +1511,8 @@
     "logo_file": "skydio.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Lucid Bots",
@@ -1425,7 +1526,8 @@
     "logo_file": "lucid-bots.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Burro",
@@ -1439,7 +1541,8 @@
     "logo_file": "burro.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Agtonomy",
@@ -1453,7 +1556,8 @@
     "logo_file": "agtonomy.svg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Bonsai Robotics",
@@ -1467,7 +1571,8 @@
     "logo_file": "bonsai-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Electric Sheep",
@@ -1481,7 +1586,8 @@
     "logo_file": "electric-sheep.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of Oso Electric Equipment"
   },
   {
     "name": "Oso Robotics",
@@ -1495,7 +1601,8 @@
     "logo_file": "oso-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Scythe Robotics",
@@ -1509,7 +1616,8 @@
     "logo_file": "scythe-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of ASI"
   },
   {
     "name": "ASI (Autonomous Solutions)",
@@ -1523,7 +1631,8 @@
     "logo_file": "asi-autonomous-solutions.png",
     "logo_status": "fallback",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Nimble Robotics",
@@ -1537,7 +1646,8 @@
     "logo_file": "nimble-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Dexterity",
@@ -1551,7 +1661,8 @@
     "logo_file": "dexterity.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Ambi Robotics",
@@ -1565,7 +1676,8 @@
     "logo_file": "ambi-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Robust AI",
@@ -1579,7 +1691,8 @@
     "logo_file": "robust-ai.webp",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Azalea Robotics",
@@ -1593,7 +1706,8 @@
     "logo_file": "azalea-robotics.jpg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Gatik",
@@ -1607,7 +1721,8 @@
     "logo_file": "gatik.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Waymo",
@@ -1621,7 +1736,8 @@
     "logo_file": "waymo.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Zoox",
@@ -1635,7 +1751,8 @@
     "logo_file": "zoox.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "part of Amazon"
   },
   {
     "name": "Plus AI",
@@ -1649,7 +1766,8 @@
     "logo_file": "plus-ai.svg",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Serve Robotics",
@@ -1663,7 +1781,8 @@
     "logo_file": "serve-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Starship Technologies",
@@ -1677,7 +1796,8 @@
     "logo_file": "starship-technologies.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Cartken",
@@ -1691,7 +1811,8 @@
     "logo_file": "cartken.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Zipline",
@@ -1705,7 +1826,8 @@
     "logo_file": "zipline.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Reliable Robotics",
@@ -1719,12 +1841,13 @@
     "logo_file": "reliable-robotics.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Path Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "path-robotics.com",
     "hq": "Columbus, OH",
     "description": "AI welding robots that see and adapt to each part, removing the need for fixturing and programming.",
@@ -1733,12 +1856,13 @@
     "logo_file": "path-robotics.svg",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "GrayMatter Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "graymatter-robotics.com",
     "hq": "Gardena, CA",
     "description": "Robotic sanding, polishing and finishing sold as a service to contract manufacturers.",
@@ -1747,12 +1871,13 @@
     "logo_file": "graymatter-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Hadrian",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "hadrian.co",
     "hq": "Torrance, CA",
     "description": "Builds and operates its own automated factories for precision aerospace and defense parts.",
@@ -1761,12 +1886,13 @@
     "logo_file": "hadrian.webp",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Re:Build Manufacturing",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "rebuildmanufacturing.com",
     "hq": "Framingham, MA",
     "description": "Roll-up of US advanced manufacturing businesses, applying automation across the acquired base.",
@@ -1775,12 +1901,13 @@
     "logo_file": "re-build-manufacturing.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "1872",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "1872.com",
     "hq": "Cincinnati, OH",
     "description": "Autonomous steel fabrication factories in Cincinnati, coordinated by its own Factory OS.",
@@ -1789,12 +1916,13 @@
     "logo_file": "",
     "logo_status": "failed",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Tutor Intelligence",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "tutorintelligence.com",
     "hq": "Boston, MA",
     "description": "Industrial manipulation where remote humans handle the edge cases the model cannot.",
@@ -1803,7 +1931,8 @@
     "logo_file": "tutor-intelligence.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Atoms",
@@ -1817,12 +1946,13 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Mind Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "mindrobotics.com",
     "hq": "Palo Alto, CA",
     "description": "Rivian spin-out building broadly capable robots for industrial deployment, proven in Rivian's own plants.",
@@ -1831,12 +1961,13 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Foundry Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "foundryrobotics.ai",
     "hq": "",
     "description": "AI-first, assembly-focused robotics aimed at rebuilding American manufacturing capacity.",
@@ -1845,12 +1976,13 @@
     "logo_file": "foundry-robotics.svg",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Arda Industries",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "arda.ai",
     "hq": "",
     "description": "Turns product designs into factory-ready manufacturing plans and adaptive production processes.",
@@ -1859,12 +1991,13 @@
     "logo_file": "arda.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Maven Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "mavenrobotics.com",
     "hq": "Santa Clara, CA",
     "description": "General-purpose industrial robots for palletizing and tote handling, deployed as multi-shift fleets.",
@@ -1873,12 +2006,13 @@
     "logo_file": "maven.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Rhoda",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "rhoda.ai",
     "hq": "",
     "description": "Robot intelligence for industrial work, built to adapt rather than follow fixed programs.",
@@ -1887,7 +2021,8 @@
     "logo_file": "rhoda.svg",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Walden Robotics",
@@ -1901,12 +2036,13 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "MWbotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "",
     "hq": "",
     "description": "Industrial robotics",
@@ -1915,7 +2051,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Dyna Robotics",
@@ -1929,7 +2066,8 @@
     "logo_file": "dyna-robotics.png",
     "logo_status": "ok",
     "model": "lab",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Chef Robotics",
@@ -1943,7 +2081,8 @@
     "logo_file": "chef-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Bear Robotics",
@@ -1957,7 +2096,8 @@
     "logo_file": "bear-robotics.webp",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "part of LG Electronics"
   },
   {
     "name": "Matic Robots",
@@ -1971,7 +2111,8 @@
     "logo_file": "matic-robots.png",
     "logo_status": "ok",
     "model": "component",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Knightscope",
@@ -1985,7 +2126,8 @@
     "logo_file": "knightscope.png",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Simbe Robotics",
@@ -1999,7 +2141,8 @@
     "logo_file": "simbe-robotics.svg",
     "logo_status": "ok",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Scout AI",
@@ -2013,7 +2156,8 @@
     "logo_file": "scout-ai.png",
     "logo_status": "fallback",
     "model": "lab",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Trener Robotics",
@@ -2027,7 +2171,8 @@
     "logo_file": "trener-robotics.png",
     "logo_status": "ok",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "HowToRobot",
@@ -2041,7 +2186,8 @@
     "logo_file": "howtorobot.png",
     "logo_status": "ok",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Vention",
@@ -2055,7 +2201,8 @@
     "logo_file": "vention.png",
     "logo_status": "ok",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "RoboStore",
@@ -2069,7 +2216,8 @@
     "logo_file": "robostore.svg",
     "logo_status": "ok",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Roboworx",
@@ -2083,7 +2231,8 @@
     "logo_file": "roboworx.svg",
     "logo_status": "ok",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Mantle",
@@ -2097,7 +2246,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Workwise Robotics",
@@ -2111,7 +2261,8 @@
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Formic",
@@ -2125,7 +2276,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Ultra",
@@ -2139,7 +2291,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "RobCo",
@@ -2153,7 +2306,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Koop Insurance",
@@ -2167,7 +2321,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Risklytics",
@@ -2181,7 +2336,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Autonomy Insurance",
@@ -2195,7 +2351,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Y-Risk",
@@ -2209,7 +2366,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Qviro",
@@ -2223,7 +2381,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of GlobalSpec"
   },
   {
     "name": "Extend Robotics",
@@ -2237,7 +2396,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Logibot",
@@ -2251,7 +2411,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "FORT Robotics",
@@ -2265,7 +2426,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Pilz",
@@ -2279,7 +2441,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "UL Solutions",
@@ -2293,12 +2456,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Pivot Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "pivotrobotics.com",
     "hq": "San Francisco, CA",
     "description": "Vision-driven robot arms for metal grinding and finishing in foundries.",
@@ -2307,7 +2471,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Origin",
@@ -2321,7 +2486,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Actor",
@@ -2335,7 +2501,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Almond Robotics",
@@ -2349,7 +2516,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "CloudChef",
@@ -2363,7 +2531,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "robot.com",
@@ -2377,7 +2546,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "General Instinct",
@@ -2391,12 +2561,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Deft Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "deftai.co",
     "hq": "San Francisco, CA",
     "description": "Drop-in wheeled humanoid workcells for Tier 1 automotive, teleoperated first and autonomous later.",
@@ -2405,12 +2576,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Frontier Machines",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "frontiermachines.ai",
     "hq": "Mountain View, CA",
     "description": "FR-1, an industrial robot sold on subscription with roughly four-week installation.",
@@ -2419,7 +2591,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Argon Robotics",
@@ -2433,7 +2606,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Yondu",
@@ -2447,7 +2621,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Omakase Robotics",
@@ -2461,12 +2636,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Dream Machines",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "dream-machines.eu",
     "hq": "Zurich, CH",
     "description": "AI robot arms for European SMEs, taught by demonstration, with open-sourced hardware.",
@@ -2475,7 +2651,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "AgRobotics",
@@ -2489,7 +2666,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Intuition.dev",
@@ -2503,7 +2681,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Verity",
@@ -2517,7 +2696,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Gravis Robotics",
@@ -2531,7 +2711,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "RAI Institute",
@@ -2545,7 +2726,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": "Zurich; Boston"
+    "cluster": "Zurich; Boston",
+    "status": "active"
   },
   {
     "name": "mimic",
@@ -2559,7 +2741,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "BOTA Systems",
@@ -2573,12 +2756,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Forgis",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "forgis.ai",
     "hq": "Zurich, CH",
     "description": "Industrial intelligence for manufacturing operations.",
@@ -2587,7 +2771,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Duatic",
@@ -2601,7 +2786,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "RIVR",
@@ -2615,7 +2801,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Bubble Robotics",
@@ -2629,7 +2816,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Sevensense Robotics",
@@ -2643,7 +2831,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "part of ABB"
   },
   {
     "name": "Voliro",
@@ -2657,7 +2846,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Embotech",
@@ -2671,7 +2861,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Nautica Technologies",
@@ -2685,7 +2876,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Flink Robotics",
@@ -2699,7 +2891,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Disney Research",
@@ -2713,7 +2906,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "part of Disney"
   },
   {
     "name": "Tethys Robotics",
@@ -2727,7 +2921,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Auterion",
@@ -2741,12 +2936,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "April Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "aprilrobotics.ai",
     "hq": "Zurich, CH",
     "description": "Automating the finest, highest-precision work in manufacturing.",
@@ -2755,7 +2951,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "microagi",
@@ -2769,7 +2966,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Loki Robotics",
@@ -2783,7 +2981,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Hexagon Robotics",
@@ -2797,7 +2996,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Wingtra",
@@ -2811,7 +3011,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Ascento",
@@ -2825,7 +3026,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Zurich"
+    "cluster": "Zurich",
+    "status": "active"
   },
   {
     "name": "Amazon Robotics",
@@ -2839,7 +3041,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "part of Amazon"
   },
   {
     "name": "Teradyne Robotics",
@@ -2853,7 +3056,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Symbotic",
@@ -2867,7 +3071,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Oxipital AI",
@@ -2881,7 +3086,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "iRobot",
@@ -2895,7 +3101,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Berkshire Grey",
@@ -2909,7 +3116,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "part of private equity"
   },
   {
     "name": "Vecna Robotics",
@@ -2923,7 +3131,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "6 River Systems",
@@ -2937,7 +3146,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "part of Ocado"
   },
   {
     "name": "Vicarious Surgical",
@@ -2951,7 +3161,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Boost Robotics",
@@ -2965,7 +3176,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "RightHand Robotics",
@@ -2979,7 +3191,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "RISE Robotics",
@@ -2993,7 +3206,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Toyota Research Institute",
@@ -3007,7 +3221,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "part of Toyota"
   },
   {
     "name": "Piaggio Fast Forward",
@@ -3021,7 +3236,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "GreenSight",
@@ -3035,7 +3251,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Sereact",
@@ -3049,7 +3266,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Pickle Robot",
@@ -3063,7 +3281,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Acumino",
@@ -3077,7 +3296,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Analog Devices",
@@ -3091,7 +3311,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Urbx",
@@ -3105,7 +3326,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Realtime Robotics",
@@ -3119,7 +3341,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Code Metal",
@@ -3133,7 +3356,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Sea Machines Robotics",
@@ -3147,7 +3371,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Humanoid",
@@ -3161,7 +3386,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Tennibot",
@@ -3175,7 +3401,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "MathWorks",
@@ -3189,7 +3416,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "General Robotics",
@@ -3203,7 +3431,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Isaac Sim",
@@ -3217,7 +3446,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "part of NVIDIA"
   },
   {
     "name": "Gazebo",
@@ -3231,7 +3461,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "part of Open Robotics"
   },
   {
     "name": "Drake",
@@ -3245,7 +3476,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "part of Toyota Research Institute"
   },
   {
     "name": "Freedom Robotics",
@@ -3259,7 +3491,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Transitive Robotics",
@@ -3273,7 +3506,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "SVT Robotics",
@@ -3287,7 +3521,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "SYNAOS",
@@ -3301,7 +3536,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "NAiSE",
@@ -3315,7 +3551,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "BlueBotics",
@@ -3329,7 +3566,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Meili Robots",
@@ -3343,7 +3581,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "KINEXON",
@@ -3357,7 +3596,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "MOV.AI",
@@ -3371,7 +3611,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Open-RMF",
@@ -3385,7 +3626,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Ottopia",
@@ -3399,7 +3641,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "DriveU.auto",
@@ -3413,7 +3656,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Kineo Finance",
@@ -3427,7 +3671,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Cenotian",
@@ -3441,7 +3686,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Miso Robotics",
@@ -3455,7 +3701,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Anduril",
@@ -3469,7 +3716,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Shield AI",
@@ -3483,7 +3731,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Saronic",
@@ -3497,7 +3746,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Forterra",
@@ -3511,7 +3761,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Overland AI",
@@ -3525,7 +3776,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Neros Technologies",
@@ -3539,7 +3791,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "HavocAI",
@@ -3553,7 +3806,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Vatn Systems",
@@ -3567,7 +3821,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Blue Water Autonomy",
@@ -3581,7 +3836,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "ARX Robotics",
@@ -3595,7 +3851,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Allen Control Systems",
@@ -3609,7 +3866,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "True Anomaly",
@@ -3623,7 +3881,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Varda",
@@ -3637,7 +3896,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Greypoint Industries",
@@ -3651,7 +3911,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Ornadyne",
@@ -3665,7 +3926,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Edgerun",
@@ -3679,7 +3941,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Applied Intuition",
@@ -3693,7 +3956,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Wayve",
@@ -3707,12 +3971,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "VulcanForms",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "vulcanforms.com",
     "hq": "Burlington, MA",
     "description": "Digital metal additive manufacturing run as its own production infrastructure.",
@@ -3721,12 +3986,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Boston"
+    "cluster": "Boston",
+    "status": "active"
   },
   {
     "name": "Bright Machines",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "brightmachines.com",
     "hq": "San Francisco, CA",
     "description": "Software-defined assembly cells for electronics and data center hardware.",
@@ -3735,7 +4001,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Auris Health",
@@ -3749,7 +4016,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "part of Johnson & Johnson"
   },
   {
     "name": "Capstan Medical",
@@ -3763,7 +4031,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Build AI",
@@ -3777,7 +4046,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Cortex AI",
@@ -3791,7 +4061,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "DeepReach",
@@ -3805,7 +4076,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Preload",
@@ -3819,7 +4091,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Robocurve",
@@ -3833,7 +4106,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Runtime",
@@ -3847,7 +4121,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Enact",
@@ -3861,7 +4136,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Moving Atoms",
@@ -3875,7 +4151,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Aktoria Robotics",
@@ -3889,7 +4166,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Ember Robotics",
@@ -3903,7 +4181,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Autumn Labs",
@@ -3917,7 +4196,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Polymath Robotics",
@@ -3931,7 +4211,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Agency Tool Company",
@@ -3945,7 +4226,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Dreamscale Labs",
@@ -3959,7 +4241,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Hebbian Robotics",
@@ -3973,7 +4256,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Synapse Semiconductor",
@@ -3987,7 +4271,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Proception",
@@ -4001,7 +4286,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Silica",
@@ -4015,7 +4301,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Open Actuation",
@@ -4029,7 +4316,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Mass Magnetics",
@@ -4043,7 +4331,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Piggy Robotics",
@@ -4057,7 +4346,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Nori",
@@ -4071,7 +4361,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "component",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Charge Robotics",
@@ -4085,7 +4376,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Libra Robotics",
@@ -4099,7 +4391,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "BotBuilt",
@@ -4113,7 +4406,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Pave Robotics",
@@ -4127,7 +4421,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Flywheel AI",
@@ -4141,7 +4436,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Teleo",
@@ -4155,7 +4451,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Shepherd Robotics",
@@ -4169,7 +4466,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Proprio Robotics",
@@ -4183,7 +4481,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Manifold",
@@ -4197,7 +4496,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "AutoPallet Robotics",
@@ -4211,7 +4511,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Theseus Robotics",
@@ -4225,12 +4526,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Odin Robotics",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "",
     "hq": "Zurich, CH",
     "description": "Robot arms deployed into small and mid-sized factories for machine tending and packing (YC).",
@@ -4239,12 +4541,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Shiraz AI",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "",
     "hq": "",
     "description": "Factory robots that learn a new task from a single human demonstration (YC).",
@@ -4253,12 +4556,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Mbodi AI",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "",
     "hq": "",
     "description": "Industrial robots that learn and operate more like people (YC S25).",
@@ -4267,12 +4571,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Advanced Metal Research",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "",
     "hq": "",
     "description": "Robotic welding cells with computer vision for seam tracking and inspection (YC).",
@@ -4281,12 +4586,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Industrial Next",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Assembly & Machine Tending",
     "domain": "industrialnext.com",
     "hq": "San Francisco, CA",
     "description": "Vision-driven autonomous manufacturing cells, out of Tesla's manufacturing team.",
@@ -4295,12 +4601,13 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": "Bay Area"
+    "cluster": "Bay Area",
+    "status": "active"
   },
   {
     "name": "Atomic Industries",
     "tier": "Vertical Robotics Companies",
-    "bucket": "Manufacturing & Fabrication",
+    "bucket": "Metal & Fabrication",
     "domain": "atomic.industries",
     "hq": "Detroit, MI",
     "description": "AI tool-and-die maker automating the most skilled trade in manufacturing (YC W21).",
@@ -4309,7 +4616,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Salem Robotics",
@@ -4323,7 +4631,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Rodeo Robotics",
@@ -4337,7 +4646,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Neuromorphic",
@@ -4351,7 +4661,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Primordiant",
@@ -4365,7 +4676,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Rhem Labs",
@@ -4379,7 +4691,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "Deploy",
@@ -4393,7 +4706,8 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
   },
   {
     "name": "RoboShare",
@@ -4407,6 +4721,472 @@
     "logo_file": "",
     "logo_status": "",
     "model": "service",
-    "cluster": ""
+    "cluster": "",
+    "status": "active"
+  },
+  {
+    "name": "UBTech",
+    "tier": "Hardware",
+    "bucket": "Humanoids & Quadrupeds",
+    "domain": "ubtrobot.com",
+    "hq": "Shenzhen, CN",
+    "description": "Walker S industrial humanoid, shipping into Chinese auto plants; HK-listed.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Fourier Intelligence",
+    "tier": "Hardware",
+    "bucket": "Humanoids & Quadrupeds",
+    "domain": "fourierintelligence.com",
+    "hq": "Shanghai, CN",
+    "description": "GR-series humanoids, grown out of a rehabilitation robotics business.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Robot Era",
+    "tier": "Hardware",
+    "bucket": "Humanoids & Quadrupeds",
+    "domain": "robotera.ai",
+    "hq": "Beijing, CN",
+    "description": "Tsinghua spin-out building humanoids and dexterous hands.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "XPeng Robotics",
+    "tier": "Hardware",
+    "bucket": "Humanoids & Quadrupeds",
+    "domain": "xpeng.com",
+    "hq": "Guangzhou, CN",
+    "description": "IRON humanoid, funded off XPeng's EV manufacturing base.",
+    "model": "component",
+    "cluster": "",
+    "status": "part of XPeng",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Rainbow Robotics",
+    "tier": "Hardware",
+    "bucket": "Humanoids & Quadrupeds",
+    "domain": "rainbow-robotics.com",
+    "hq": "Daejeon, KR",
+    "description": "Cobots and bipeds; Korea's largest listed robot company.",
+    "model": "component",
+    "cluster": "",
+    "status": "part of Samsung",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Kawasaki Robotics",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "kawasakirobotics.com",
+    "hq": "Akashi, JP",
+    "description": "One of the big five industrial arm makers; duAro dual-arm cobot.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "DENSO Robotics",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "densorobotics.com",
+    "hq": "Kariya, JP",
+    "description": "Compact SCARA and 6-axis arms for electronics and medical assembly.",
+    "model": "component",
+    "cluster": "",
+    "status": "part of DENSO",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Mitsubishi Electric",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "mitsubishielectric.com",
+    "hq": "Tokyo, JP",
+    "description": "MELFA industrial arms alongside the PLCs and drives around them.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Omron",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "omron.com",
+    "hq": "Kyoto, JP",
+    "description": "Sensing, control, cobots and the AMR line acquired from Adept.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Doosan Robotics",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "doosanrobotics.com",
+    "hq": "Suwon, KR",
+    "description": "Collaborative arms with joint torque sensing as standard; KOSPI-listed.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Estun",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "estun.com",
+    "hq": "Nanjing, CN",
+    "description": "China's largest domestic industrial robot maker, vertically integrated to the servo.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Siasun",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "siasun.com",
+    "hq": "Shenyang, CN",
+    "description": "State-backed Chinese robot maker spun out of the Chinese Academy of Sciences.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "JAKA",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "jaka.com",
+    "hq": "Shanghai, CN",
+    "description": "Collaborative arms sold on price into Asian and European mid-market.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "MiR",
+    "tier": "Hardware",
+    "bucket": "Mobile Bases & AMRs",
+    "domain": "mobile-industrial-robots.com",
+    "hq": "Odense, DK",
+    "description": "The default autonomous mobile robot for factory material transport.",
+    "model": "component",
+    "cluster": "",
+    "status": "part of Teradyne",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Harmonic Drive Systems",
+    "tier": "Hardware",
+    "bucket": "Actuators & Drives",
+    "domain": "harmonicdrive.net",
+    "hq": "Tokyo, JP",
+    "description": "Invented the strain wave gear; still the precision benchmark every rival is priced against.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Nabtesco",
+    "tier": "Hardware",
+    "bucket": "Actuators & Drives",
+    "domain": "nabtesco.com",
+    "hq": "Tokyo, JP",
+    "description": "Cycloidal reducers carrying most of the world's industrial robot joints.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Laifual",
+    "tier": "Hardware",
+    "bucket": "Actuators & Drives",
+    "domain": "laifualdrive.com",
+    "hq": "Zhejiang, CN",
+    "description": "Harmonic reducers and integrated actuator modules at 40-60% of Japanese pricing.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Tuopu Group",
+    "tier": "Hardware",
+    "bucket": "Actuators & Drives",
+    "domain": "tuopu-group.com",
+    "hq": "Ningbo, CN",
+    "description": "Auto supplier turned robot actuator maker; named in Tesla Optimus supply chain.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "ZHAOWEI",
+    "tier": "Hardware",
+    "bucket": "Actuators & Drives",
+    "domain": "zhaowei.net",
+    "hq": "Shenzhen, CN",
+    "description": "Micro drive systems, and China's first high-DOF dexterous hand.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Robotiq",
+    "tier": "Hardware",
+    "bucket": "End Effectors & Grippers",
+    "domain": "robotiq.com",
+    "hq": "Quebec, CA",
+    "description": "The default gripper and force sensor for collaborative arms.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "SCHUNK",
+    "tier": "Hardware",
+    "bucket": "End Effectors & Grippers",
+    "domain": "schunk.com",
+    "hq": "Lauffen, DE",
+    "description": "The broadest industrial gripper and clamping catalogue in the market.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "OnRobot",
+    "tier": "Hardware",
+    "bucket": "End Effectors & Grippers",
+    "domain": "onrobot.com",
+    "hq": "Odense, DK",
+    "description": "One-stop end-of-arm tooling built for fast cobot changeover.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Hesai",
+    "tier": "Platform",
+    "bucket": "Perception & Sensing",
+    "domain": "hesaitech.com",
+    "hq": "Shanghai, CN",
+    "description": "Lidar at automotive volume, now pushing into robotics; Nasdaq-listed.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "RoboSense",
+    "tier": "Platform",
+    "bucket": "Perception & Sensing",
+    "domain": "robosense.ai",
+    "hq": "Shenzhen, CN",
+    "description": "Lidar and perception for vehicles and robots; HK-listed.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Keyence",
+    "tier": "Platform",
+    "bucket": "Perception & Sensing",
+    "domain": "keyence.com",
+    "hq": "Osaka, JP",
+    "description": "Machine vision and sensors, sold direct at famously high margin.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Cognex",
+    "tier": "Platform",
+    "bucket": "Perception & Sensing",
+    "domain": "cognex.com",
+    "hq": "Natick, MA",
+    "description": "The machine vision incumbent; In-Sight and barcode reading at scale.",
+    "model": "component",
+    "cluster": "Boston",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "SICK AG",
+    "tier": "Platform",
+    "bucket": "Perception & Sensing",
+    "domain": "sick.com",
+    "hq": "Waldkirch, DE",
+    "description": "Safety scanners and industrial sensing that most guarded cells depend on.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Keli Sensing",
+    "tier": "Platform",
+    "bucket": "Perception & Sensing",
+    "domain": "kelichina.com",
+    "hq": "Ningbo, CN",
+    "description": "Six-axis force/torque sensors at volume, rare outside Japan and Germany.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Paxini",
+    "tier": "Platform",
+    "bucket": "Perception & Sensing",
+    "domain": "paxini.com",
+    "hq": "Shenzhen, CN",
+    "description": "Multimodal tactile skin and fingertips for dexterous hands.",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Geek+",
+    "tier": "Vertical Robotics Companies",
+    "bucket": "Warehouse & Logistics",
+    "domain": "geekplus.com",
+    "hq": "Beijing, CN",
+    "description": "The largest AMR fleet operator by units shipped, deployed across global 3PLs.",
+    "model": "neo-integrator",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
+  },
+  {
+    "name": "Hai Robotics",
+    "tier": "Vertical Robotics Companies",
+    "bucket": "Warehouse & Logistics",
+    "domain": "hairobotics.com",
+    "hq": "Shenzhen, CN",
+    "description": "Case-handling robots that climb racking to pick totes at height.",
+    "model": "neo-integrator",
+    "cluster": "",
+    "status": "active",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": ""
   }
 ]
