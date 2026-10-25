@@ -5,14 +5,16 @@
     "bucket": "Foundation Models",
     "domain": "physicalintelligence.company",
     "hq": "San Francisco, CA",
-    "description": "General-purpose robot foundation models (pi-0)",
+    "description": "Builds general-purpose robot foundation models (pi-0, pi-0.5) and now sells them through an API that lets other companies fine-tune and run inference on their own hardware. Its customers are robot builders rather than end users, which is why it sits in Foundation Models and not in a vertical.",
     "source": "obvious+baymap",
     "notes": "",
     "logo_file": "physical-intelligence.png",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "$600M at $5.6B",
+    "lead_investor": ""
   },
   {
     "name": "Skild AI",
@@ -20,14 +22,16 @@
     "bucket": "Foundation Models",
     "domain": "skild.ai",
     "hq": "Pittsburgh, PA",
-    "description": "Omni-bodied robot brain foundation model",
+    "description": "Trains an 'omni-bodied' brain intended to transfer across many robot bodies rather than one platform. Sells the model to robot makers and integrators instead of shipping hardware.",
     "source": "obvious+baymap",
     "notes": "",
     "logo_file": "skild-ai.svg",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "~$1.4B at >$14B",
+    "lead_investor": "SoftBank led the earlier round"
   },
   {
     "name": "Generalist",
@@ -35,14 +39,16 @@
     "bucket": "Foundation Models",
     "domain": "generalistai.com",
     "hq": "Palo Alto, CA",
-    "description": "General-purpose manipulation models aimed at dexterity across many robot bodies.",
+    "description": "General-purpose manipulation models aimed at dexterity across many robot bodies, led by Pete Florence out of Google DeepMind. Its GEN-1 results are among the ones cited when people argue robot learning is close to production.",
     "source": "obvious+baymap",
     "notes": "",
     "logo_file": "generalist.png",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "Bay Area; Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "~$200M at ~$3B",
+    "lead_investor": "8VC"
   },
   {
     "name": "Field AI",
@@ -50,14 +56,16 @@
     "bucket": "Foundation Models",
     "domain": "fieldai.com",
     "hq": "Mission Viejo, CA",
-    "description": "Field foundation models for unstructured outdoor autonomy",
+    "description": "Field foundation models for robots that operate outdoors without maps or GPS, in mines, construction sites and industrial plants. Its software is licensed to robot makers - robot.com uses it for autonomy - which is why it sits with the model companies rather than in a vertical.",
     "source": "obvious",
     "notes": "",
     "logo_file": "field-ai.png",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Flexion Robotics",
@@ -72,7 +80,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Gemini Robotics",
@@ -80,14 +90,16 @@
     "bucket": "Foundation Models",
     "domain": "deepmind.google",
     "hq": "London, UK",
-    "description": "Google DeepMind's vision-language-action models, bringing Gemini's reasoning onto robot hardware.",
+    "description": "Google DeepMind's vision-language-action models, which bring Gemini's reasoning onto robot hardware. An on-device variant runs locally with no network, which matters for anyone deploying where connectivity is unreliable.",
     "source": "obvious",
     "notes": "",
     "logo_file": "gemini-robotics.png",
     "logo_status": "fallback",
     "model": "lab",
     "cluster": "",
-    "status": "part of Google DeepMind"
+    "status": "part of Google DeepMind",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Qwen",
@@ -95,14 +107,16 @@
     "bucket": "Foundation Models",
     "domain": "qwen.ai",
     "hq": "Hangzhou, CN",
-    "description": "Alibaba open model family used for embodied AI",
+    "description": "Alibaba's open model family, included because it is the language backbone a large share of Chinese embodied-AI stacks are built on rather than because it is a robotics product in itself.",
     "source": "obvious",
     "notes": "",
     "logo_file": "qwen.png",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "part of Alibaba"
+    "status": "part of Alibaba",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Eka Robotics",
@@ -110,14 +124,16 @@
     "bucket": "Foundation Models",
     "domain": "ekarobotics.com",
     "hq": "Cambridge, MA",
-    "description": "Vision-force-action model; tactile dexterity. $150M Series A at $1.45B (a16z, F-Prime), Oct 2026",
+    "description": "Builds a vision-force-action model where contact force, not vision, is the primary signal, aimed at tasks where a robot has to feel what it is doing. Claims up to 1,500 picks per hour against a human baseline near 600, though sustained production results are not yet independent.",
     "source": "obvious",
     "notes": "",
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "lab",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "$150M Series A at $1.45B",
+    "lead_investor": "a16z and F-Prime"
   },
   {
     "name": "RLWRLD",
@@ -132,7 +148,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "World Labs",
@@ -147,7 +165,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Odyssey",
@@ -162,7 +182,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "General Intuition",
@@ -170,14 +192,16 @@
     "bucket": "World Models",
     "domain": "generalintuition.com",
     "hq": "New York, NY",
-    "description": "Spatial-reasoning world models trained on gameplay video; $320M at $2.3B, reportedly raising at $6B",
+    "description": "Trains spatial-reasoning world models on gameplay video, then transfers them to robots - it has controlled a quadruped after roughly eight minutes of real-world data. Positioning has shifted toward being a base model other robotics companies build on.",
     "source": "obvious",
     "notes": "",
     "logo_file": "general-intuition.png",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$320M at $2.3B, reportedly raising at $6B",
+    "lead_investor": ""
   },
   {
     "name": "AMI",
@@ -185,14 +209,16 @@
     "bucket": "World Models",
     "domain": "",
     "hq": "Paris, FR",
-    "description": "Yann LeCun's world-model lab. $1.03B seed at ~$3.5B",
+    "description": "Yann LeCun's Paris lab, pursuing world models that learn abstract representations from sensor data as an alternative to the LLM-centric path. No product yet; it is a research bet at unusual scale.",
     "source": "obvious",
     "notes": "Domain unconfirmed - ami.inc is an unrelated Japanese medtech company",
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$1.03B seed at ~$3.5B",
+    "lead_investor": "Cathay Innovation, Greycroft, Bezos Expeditions"
   },
   {
     "name": "Dream Labs",
@@ -207,7 +233,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$90M seed",
+    "lead_investor": "B Capital and Kindred"
   },
   {
     "name": "Embo",
@@ -222,7 +250,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Veeda AI",
@@ -237,7 +267,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "NVIDIA",
@@ -245,14 +277,16 @@
     "bucket": "World Models",
     "domain": "nvidia.com",
     "hq": "Santa Clara, CA",
-    "description": "Cosmos world models, the Isaac robotics stack and the Jetson compute nearly every robot runs on.",
+    "description": "Appears here for Cosmos, its world foundation models for physical AI. Its other two robotics businesses are listed separately - Isaac Sim under Simulation and Jetson under Robot Compute - because buyers treat them as different products.",
     "source": "obvious+baymap",
     "notes": "",
     "logo_file": "nvidia.jpg",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "MuJoCo",
@@ -267,7 +301,9 @@
     "logo_status": "fallback",
     "model": "platform",
     "cluster": "",
-    "status": "part of Google DeepMind"
+    "status": "part of Google DeepMind",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Vsim",
@@ -282,7 +318,9 @@
     "logo_status": "no-domain",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$21.5M seed",
+    "lead_investor": "EQT Ventures"
   },
   {
     "name": "Genesis AI",
@@ -297,7 +335,9 @@
     "logo_status": "ok",
     "model": "lab",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Mecka",
@@ -312,7 +352,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "micro1",
@@ -327,7 +369,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Scale AI",
@@ -342,7 +386,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "XDOF",
@@ -357,7 +403,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "MolmoSpaces",
@@ -372,7 +420,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RoboArena",
@@ -387,7 +437,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RoboLab",
@@ -402,7 +454,9 @@
     "logo_status": "fallback",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ROS / Open Robotics",
@@ -417,7 +471,9 @@
     "logo_status": "fallback",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Foxglove",
@@ -432,7 +488,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Rerun",
@@ -447,7 +505,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Roboto",
@@ -462,7 +522,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ReSim",
@@ -477,12 +539,14 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Labelbox",
     "tier": "Platform",
-    "bucket": "Dev Tools & Middleware",
+    "bucket": "Training Data & Demonstration",
     "domain": "labelbox.com",
     "hq": "San Francisco, CA",
     "description": "Data labeling and annotation platform used to build training sets for perception models.",
@@ -492,12 +556,14 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Voxel51",
     "tier": "Platform",
-    "bucket": "Dev Tools & Middleware",
+    "bucket": "Training Data & Demonstration",
     "domain": "voxel51.com",
     "hq": "Ann Arbor, MI",
     "description": "FiftyOne, the open-source tool for curating and debugging visual datasets.",
@@ -507,7 +573,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Reactor",
@@ -515,14 +583,16 @@
     "bucket": "Dev Tools & Middleware",
     "domain": "reactor.inc",
     "hq": "San Francisco, CA",
-    "description": "Developer infrastructure for real-time generative media and world models, with sub-50ms streaming.",
+    "description": "Developer infrastructure for running world models in real time, with sub-50ms streaming, sold to both media and robotics customers. It is in this box because the product is the runtime, not the model.",
     "source": "obvious",
     "notes": "",
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$74M total",
+    "lead_investor": "Lightspeed, with NVIDIA and Sapphire"
   },
   {
     "name": "Antioch",
@@ -537,7 +607,9 @@
     "logo_status": "no-domain",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$32M Series A",
+    "lead_investor": "Greylock"
   },
   {
     "name": "Cardinal Robotics",
@@ -545,14 +617,16 @@
     "bucket": "Deployment & Field Service",
     "domain": "cardinalrobot.com",
     "hq": "Palo Alto, CA",
-    "description": "Robots as a service with its own financing arm: 35,000+ deployed and 3,000+ technicians.",
+    "description": "Deploys, finances and maintains robot fleets for cleaning, delivery and hospitality customers, with its own capital facility behind it. Claims 35,000+ robots deployed and 3,000+ technicians.",
     "source": "obvious",
     "notes": "",
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$800M debt facility",
+    "lead_investor": ""
   },
   {
     "name": "OpenMind",
@@ -567,12 +641,14 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bucket Robotics",
     "tier": "Platform",
-    "bucket": "Dev Tools & Middleware",
+    "bucket": "Training Data & Demonstration",
     "domain": "bucket.bot",
     "hq": "Pittsburgh, PA",
     "description": "Synthetic data for manufacturing defect detection",
@@ -582,7 +658,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Intrinsic",
@@ -597,7 +675,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "part of Alphabet"
+    "status": "part of Alphabet",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Formant",
@@ -605,14 +685,16 @@
     "bucket": "Fleet Ops & Remote Operations",
     "domain": "formant.io",
     "hq": "San Francisco, CA",
-    "description": "Robot fleet operations and observability",
+    "description": "Observability and remote operations for robot fleets: live telemetry, video, teleoperation and the analytics around them. Sold to robot makers who need to run what they shipped.",
     "source": "baymap",
     "notes": "",
     "logo_file": "formant.png",
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "InOrbit",
@@ -627,7 +709,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "dConstruct",
@@ -635,14 +719,16 @@
     "bucket": "Perception & Sensing",
     "domain": "dconstruct.ai",
     "hq": "Singapore, SG",
-    "description": "3D perception stack for GPS-denied robots",
+    "description": "Its d.ASH stack gives robots 3D perception and navigation in GPS-denied spaces - inside buildings, tunnels and industrial sites. Sells the perception layer to other robot makers and operators.",
     "source": "userlist",
     "notes": "",
     "logo_file": "dconstruct.png",
     "logo_status": "ok",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$125M Series A",
+    "lead_investor": ""
   },
   {
     "name": "Ouster",
@@ -657,7 +743,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RealSense",
@@ -672,7 +760,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "part of Intel (spun out)"
+    "status": "part of Intel (spun out)",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "1X",
@@ -680,14 +770,16 @@
     "bucket": "Humanoids & Quadrupeds",
     "domain": "1x.tech",
     "hq": "Moss, NO",
-    "description": "Builds NEO, a tendon-driven humanoid designed to work safely alongside people in the home.",
+    "description": "Builds NEO, a tendon-driven humanoid designed to be safe around people in the home, priced near $20,000 with pre-orders taken. Opened a vertically integrated factory in Hayward to make them.",
     "source": "obvious+baymap",
     "notes": "",
     "logo_file": "1x.svg",
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "reportedly valued near $10B",
+    "lead_investor": ""
   },
   {
     "name": "Figure",
@@ -695,14 +787,16 @@
     "bucket": "Humanoids & Quadrupeds",
     "domain": "figure.ai",
     "hq": "San Jose, CA",
-    "description": "Figure 03 humanoid, with commercial pilots in logistics and a push toward the home.",
+    "description": "Builds the Figure 03 humanoid and its Helix control stack, with commercial pilots in logistics and a stated push toward the home. Valuation has run well ahead of fielded fleet size, with shipments still in the hundreds.",
     "source": "baymap",
     "notes": "",
     "logo_file": "figure.svg",
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": ">$1B Series C at $39B",
+    "lead_investor": ""
   },
   {
     "name": "Apptronik",
@@ -710,14 +804,16 @@
     "bucket": "Humanoids & Quadrupeds",
     "domain": "apptronik.com",
     "hq": "Austin, TX",
-    "description": "Builds Apollo, a general-purpose humanoid for logistics and manufacturing work.",
+    "description": "Builds Apollo, a general-purpose humanoid, with pilots at Mercedes-Benz and GXO and a partnership putting Google DeepMind's models on the robot. Among the better-evidenced humanoid deployment programmes.",
     "source": "obvious",
     "notes": "",
     "logo_file": "apptronik.png",
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$935M+ Series A at ~$5B",
+    "lead_investor": ""
   },
   {
     "name": "Agility Robotics",
@@ -725,14 +821,16 @@
     "bucket": "Humanoids & Quadrupeds",
     "domain": "agilityrobotics.com",
     "hq": "Corvallis, OR",
-    "description": "Builds Digit, a bipedal humanoid already moving totes in commercial warehouses.",
+    "description": "Builds Digit, a bipedal humanoid already moving totes for commercial customers, with more than 65,000 operating hours reported. Has a pending SPAC that would make it the first listed humanoid pure-play.",
     "source": "obvious",
     "notes": "",
     "logo_file": "agility-robotics.png",
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "SPAC targeting ~$2.5B",
+    "lead_investor": ""
   },
   {
     "name": "Tesla",
@@ -747,7 +845,9 @@
     "logo_status": "fallback",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Boston Dynamics",
@@ -755,14 +855,16 @@
     "bucket": "Humanoids & Quadrupeds",
     "domain": "bostondynamics.com",
     "hq": "Waltham, MA",
-    "description": "The field's benchmark for dynamic locomotion: Atlas, the Spot quadruped and Stretch.",
+    "description": "The field's benchmark for dynamic locomotion - Atlas, the Spot quadruped and Stretch for truck unloading. Now a Hyundai subsidiary, and its newer Atlas is pitched at commercial manufacturing work rather than demos.",
     "source": "obvious",
     "notes": "",
     "logo_file": "boston-dynamics.jpg",
     "logo_status": "ok",
     "model": "component",
     "cluster": "Boston",
-    "status": "part of Hyundai"
+    "status": "part of Hyundai",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Unitree",
@@ -770,14 +872,16 @@
     "bucket": "Humanoids & Quadrupeds",
     "domain": "unitree.com",
     "hq": "Hangzhou, CN",
-    "description": "Chinese maker of humanoids and quadrupeds at a fraction of Western price points.",
+    "description": "Sells humanoids and quadrupeds at a fraction of Western prices, which made it the default research platform worldwide. Filed for a STAR Market IPO on 2025 revenue of about RMB 1.7bn.",
     "source": "obvious",
     "notes": "",
     "logo_file": "unitree.svg",
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "STAR Market IPO at ~$6.2B",
+    "lead_investor": ""
   },
   {
     "name": "AgiBot",
@@ -792,7 +896,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Galbot",
@@ -807,7 +913,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Sunday Robotics",
@@ -822,7 +930,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Neura Robotics",
@@ -837,7 +947,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ANYbotics",
@@ -852,7 +964,9 @@
     "logo_status": "fallback",
     "model": "component",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "The Bot Company",
@@ -867,7 +981,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Weave Robotics",
@@ -882,7 +998,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ABB",
@@ -897,7 +1015,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "FANUC",
@@ -912,7 +1032,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "KUKA",
@@ -927,7 +1049,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Yaskawa",
@@ -942,7 +1066,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Universal Robots",
@@ -957,7 +1083,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "part of Teradyne"
+    "status": "part of Teradyne",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Standard Bots",
@@ -972,7 +1100,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Flexiv",
@@ -987,7 +1117,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "LeRobot",
@@ -995,14 +1127,16 @@
     "bucket": "Dev Tools & Middleware",
     "domain": "huggingface.co",
     "hq": "New York, NY",
-    "description": "Hugging Face's open-source robot learning library, datasets and low-cost reference arms.",
+    "description": "Hugging Face's open robot-learning library, datasets and model hub, plus low-cost reference arms like the SO-100. Listed under Dev Tools rather than Arms because the library, not the hardware, is what the field actually adopted.",
     "source": "obvious",
     "notes": "",
     "logo_file": "lerobot.svg",
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "part of Hugging Face"
+    "status": "part of Hugging Face",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Cobot",
@@ -1017,7 +1151,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Mytra",
@@ -1032,7 +1168,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Locus Robotics",
@@ -1047,7 +1185,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "FAULHABER",
@@ -1062,7 +1202,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "maxon",
@@ -1077,7 +1219,9 @@
     "logo_status": "fallback",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ROBOTIS",
@@ -1092,7 +1236,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "DAMIAO",
@@ -1107,7 +1253,9 @@
     "logo_status": "fallback",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "LeaderDrive",
@@ -1122,7 +1270,9 @@
     "logo_status": "fallback",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Westmag",
@@ -1137,7 +1287,9 @@
     "logo_status": "no-domain",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$11M seed",
+    "lead_investor": "a16z"
   },
   {
     "name": "Shadow Robot",
@@ -1152,7 +1304,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "PSYONIC",
@@ -1167,7 +1321,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Sharpa",
@@ -1175,14 +1331,16 @@
     "bucket": "End Effectors & Grippers",
     "domain": "sharpa.com",
     "hq": "Shenzhen, CN",
-    "description": "Dexterous humanoid robots with 22-DoF tactile hands, plus foundation models for contact-rich manipulation.",
+    "description": "Builds 22-DoF tactile hands and the contact-rich manipulation models that drive them, and increasingly whole humanoids. Listed under grippers because the hand is what it sells to other robot makers.",
     "source": "obvious",
     "notes": "verify-domain",
     "logo_file": "sharpa.svg",
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Wuji Technology",
@@ -1197,7 +1355,9 @@
     "logo_status": "no-domain",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Built Robotics",
@@ -1212,7 +1372,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bedrock Robotics",
@@ -1227,7 +1389,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Dusty Robotics",
@@ -1242,7 +1406,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Civ Robotics",
@@ -1257,7 +1423,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Monumental",
@@ -1272,7 +1440,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Sitegeist Robotics",
@@ -1287,7 +1457,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "EUR4M pre-seed",
+    "lead_investor": "b2venture and OpenOcean"
   },
   {
     "name": "TempoWorks",
@@ -1302,7 +1474,9 @@
     "logo_status": "no-domain",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Renovate Robotics",
@@ -1317,7 +1491,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Skyline Robotics",
@@ -1332,7 +1508,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Watney Robotics",
@@ -1340,14 +1518,16 @@
     "bucket": "Data Centers",
     "domain": "watney.com",
     "hq": "San Francisco, CA",
-    "description": "Autonomous data center maintenance: cable swaps, drive reseats and server restarts at hyperscale.",
+    "description": "Dual-arm robots doing physical maintenance in hyperscale data centres - cable swaps, drive reseats, server restarts - teleoperated where autonomy falls short. Meta has been testing them at its Altoona facility.",
     "source": "userlist",
     "notes": "",
     "logo_file": "watney-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$80M Series A",
+    "lead_investor": "earlier seed from Conviction, Abstract and A*"
   },
   {
     "name": "Exclaim Robotics",
@@ -1362,7 +1542,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$4.95M pre-seed",
+    "lead_investor": "Founderful and Playfair"
   },
   {
     "name": "Cosmic Robotics",
@@ -1377,7 +1559,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$4M pre-seed",
+    "lead_investor": "Giant Ventures"
   },
   {
     "name": "Gritt",
@@ -1392,7 +1576,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$26M Series A, ~$32M total",
+    "lead_investor": "Obvious Ventures"
   },
   {
     "name": "Luminous Robotics",
@@ -1407,7 +1593,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "AU$32.3M ARENA award",
+    "lead_investor": ""
   },
   {
     "name": "BotCrew",
@@ -1422,7 +1610,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$16M Series A",
+    "lead_investor": "BlackRock and Fin Capital"
   },
   {
     "name": "RoboForce",
@@ -1437,7 +1627,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$15M total",
+    "lead_investor": ""
   },
   {
     "name": "Aerones",
@@ -1452,7 +1644,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Gecko Robotics",
@@ -1460,14 +1654,16 @@
     "bucket": "Inspection & Infrastructure",
     "domain": "geckorobotics.com",
     "hq": "Pittsburgh, PA",
-    "description": "Wall-climbing inspection robots plus Cantilever, the software layer that turns the data into asset decisions.",
+    "description": "Wall-climbing robots that collect ultrasonic thickness data from boilers, tanks and hulls, sold alongside Cantilever, the software layer that turns the readings into maintenance and capital decisions. Customers are utilities, refiners and the US Navy, and the data platform is increasingly the business.",
     "source": "obvious+userlist",
     "notes": "",
     "logo_file": "gecko-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RedZone Robotics",
@@ -1482,7 +1678,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Corvus Robotics",
@@ -1497,7 +1695,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Skydio",
@@ -1512,7 +1712,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Lucid Bots",
@@ -1527,7 +1729,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Burro",
@@ -1542,7 +1746,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Agtonomy",
@@ -1557,7 +1763,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bonsai Robotics",
@@ -1572,7 +1780,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Electric Sheep",
@@ -1587,7 +1797,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "part of Oso Electric Equipment"
+    "status": "part of Oso Electric Equipment",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Oso Robotics",
@@ -1602,7 +1814,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Scythe Robotics",
@@ -1617,7 +1831,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "part of ASI"
+    "status": "part of ASI",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ASI (Autonomous Solutions)",
@@ -1632,7 +1848,9 @@
     "logo_status": "fallback",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Nimble Robotics",
@@ -1640,14 +1858,16 @@
     "bucket": "Warehouse & Logistics",
     "domain": "nimblerobotics.com",
     "hq": "San Francisco, CA",
-    "description": "Operates its own AI-run fulfillment centers rather than selling robots to warehouse owners.",
+    "description": "Operates its own AI-run fulfillment centres rather than selling robots, so customers buy fulfilment as a service. FedEx led its Series C and uses the technology.",
     "source": "baymap",
     "notes": "",
     "logo_file": "nimble-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "~$221M total, $106M Series C at $1B",
+    "lead_investor": "FedEx"
   },
   {
     "name": "Dexterity",
@@ -1655,14 +1875,16 @@
     "bucket": "Warehouse & Logistics",
     "domain": "dexterity.ai",
     "hq": "Redwood City, CA",
-    "description": "Truck loading, palletizing and parcel handling robots with force-aware manipulation.",
+    "description": "Truck loading, palletizing and parcel handling robots with force-aware manipulation, deployed with FedEx and Sumitomo among others.",
     "source": "obvious+baymap",
     "notes": "",
     "logo_file": "dexterity.png",
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "$95M at $1.65B",
+    "lead_investor": "Lightspeed and Sumitomo"
   },
   {
     "name": "Ambi Robotics",
@@ -1677,7 +1899,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Robust AI",
@@ -1692,7 +1916,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Azalea Robotics",
@@ -1707,7 +1933,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Gatik",
@@ -1722,7 +1950,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Waymo",
@@ -1730,14 +1960,16 @@
     "bucket": "Last-Mile & Delivery",
     "domain": "waymo.com",
     "hq": "Mountain View, CA",
-    "description": "The most mature autonomous ride-hailing operation, running driverless fleets in several US cities.",
+    "description": "The most mature driverless operation in the world, running public ride-hailing without safety drivers across several US cities. Included because its perception, planning and remote-assistance stack set the benchmark the rest of the field is measured against.",
     "source": "baymap",
     "notes": "",
     "logo_file": "waymo.png",
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Zoox",
@@ -1752,7 +1984,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "part of Amazon"
+    "status": "part of Amazon",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Plus AI",
@@ -1767,7 +2001,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Serve Robotics",
@@ -1782,7 +2018,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Starship Technologies",
@@ -1797,7 +2035,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Cartken",
@@ -1812,7 +2052,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Zipline",
@@ -1827,7 +2069,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Reliable Robotics",
@@ -1842,7 +2086,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Path Robotics",
@@ -1850,14 +2096,16 @@
     "bucket": "Metal & Fabrication",
     "domain": "path-robotics.com",
     "hq": "Columbus, OH",
-    "description": "AI welding robots that see and adapt to each part, removing the need for fixturing and programming.",
+    "description": "AI welding robots that scan each part and adapt in real time, removing the fixturing and programming that make robotic welding uneconomic at low volume. Its Obsidian model also runs inside 1872's autonomous steel factory.",
     "source": "userlist",
     "notes": "",
     "logo_file": "path-robotics.svg",
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "GrayMatter Robotics",
@@ -1872,7 +2120,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Hadrian",
@@ -1880,14 +2130,16 @@
     "bucket": "Metal & Fabrication",
     "domain": "hadrian.co",
     "hq": "Torrance, CA",
-    "description": "Builds and operates its own automated factories for precision aerospace and defense parts.",
+    "description": "Builds and operates its own automated factories for precision aerospace and defence parts, selling parts rather than robots. A vertically integrated manufacturer, which is why it is here and not in Market Infrastructure.",
     "source": "userlist",
     "notes": "",
     "logo_file": "hadrian.webp",
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Re:Build Manufacturing",
@@ -1902,7 +2154,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "1872",
@@ -1917,7 +2171,9 @@
     "logo_status": "failed",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Tutor Intelligence",
@@ -1932,7 +2188,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Atoms",
@@ -1940,14 +2198,16 @@
     "bucket": "Mobile Bases & AMRs",
     "domain": "atoms.com",
     "hq": "Los Angeles, CA",
-    "description": "Travis Kalanick's industrial robot OEM, building a common 'wheelbase' across food service, mining and transport.",
+    "description": "Travis Kalanick's industrial robot OEM, built on City Storage Systems and absorbing CloudKitchens and Levandowski's Pronto. The stated strategy is a common 'wheelbase' underneath specialised robots for food service, mining and transport, which is why it sits in Mobile Bases rather than a single vertical.",
     "source": "obvious",
     "notes": "",
     "logo_file": "",
     "logo_status": "no-domain",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$1.7B",
+    "lead_investor": "a16z"
   },
   {
     "name": "Mind Robotics",
@@ -1962,7 +2222,9 @@
     "logo_status": "no-domain",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$400M, >$1B total at ~$3.4B",
+    "lead_investor": "Kleiner Perkins"
   },
   {
     "name": "Foundry Robotics",
@@ -1977,7 +2239,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Arda Industries",
@@ -1992,7 +2256,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Maven Robotics",
@@ -2007,7 +2273,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$100M Series A",
+    "lead_investor": "RoboStrategy and LocalGlobe"
   },
   {
     "name": "Rhoda",
@@ -2022,7 +2290,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Walden Robotics",
@@ -2037,7 +2307,9 @@
     "logo_status": "no-domain",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "$300M seed at $1.1B",
+    "lead_investor": "Toyota and Deviation Capital"
   },
   {
     "name": "MWbotics",
@@ -2052,7 +2324,9 @@
     "logo_status": "no-domain",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Dyna Robotics",
@@ -2060,14 +2334,16 @@
     "bucket": "Foundation Models",
     "domain": "dyna.co",
     "hq": "San Mateo, CA",
-    "description": "DYNA-1 dexterous manipulation foundation model",
+    "description": "Builds dual-arm work cells driven by its own DYNA-1 and DYNA-2 models, which it sells as finished stations rather than as software. Deployments are stationary repetitive tasks across restaurants, hotels, laundries, logistics and factories - the napkin-folding demo was one task, not the business. It sits in Foundation Models because the model is the product and the cell is the delivery mechanism.",
     "source": "obvious+baymap",
     "notes": "",
     "logo_file": "dyna-robotics.png",
     "logo_status": "ok",
     "model": "lab",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "$120M Series A at >$600M, ~$144M total",
+    "lead_investor": "CRV, First Round and RoboStrategy"
   },
   {
     "name": "Chef Robotics",
@@ -2075,14 +2351,16 @@
     "bucket": "Food & Hospitality",
     "domain": "chefrobotics.ai",
     "hq": "San Francisco, CA",
-    "description": "Robotic food assembly deployed in high-mix prepared-meal kitchens, sold as a service.",
+    "description": "Robotic food assembly for high-mix prepared meals, sold as a service so kitchens pay per meal rather than buying a cell. One of the clearest working examples of the robots-as-a-service model in food.",
     "source": "baymap+userlist",
     "notes": "",
     "logo_file": "chef-robotics.png",
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bear Robotics",
@@ -2097,7 +2375,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "part of LG Electronics"
+    "status": "part of LG Electronics",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Matic Robots",
@@ -2112,7 +2392,9 @@
     "logo_status": "ok",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Knightscope",
@@ -2127,7 +2409,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Simbe Robotics",
@@ -2142,7 +2426,9 @@
     "logo_status": "ok",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Scout AI",
@@ -2157,7 +2443,9 @@
     "logo_status": "fallback",
     "model": "lab",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Trener Robotics",
@@ -2172,7 +2460,9 @@
     "logo_status": "ok",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "HowToRobot",
@@ -2187,7 +2477,9 @@
     "logo_status": "ok",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Vention",
@@ -2202,7 +2494,9 @@
     "logo_status": "ok",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RoboStore",
@@ -2217,7 +2511,9 @@
     "logo_status": "ok",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Roboworx",
@@ -2232,7 +2528,9 @@
     "logo_status": "ok",
     "model": "service",
     "cluster": "",
-    "status": "part of ARO"
+    "status": "part of ARO",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Mantle",
@@ -2247,7 +2545,9 @@
     "logo_status": "no-domain",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Workwise Robotics",
@@ -2262,7 +2562,9 @@
     "logo_status": "no-domain",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Formic",
@@ -2270,14 +2572,16 @@
     "bucket": "Finance & Insurance",
     "domain": "formic.co",
     "hq": "Chicago, IL",
-    "description": "Robots-as-a-service for manufacturers: no capex, billed hourly, uptime guaranteed.",
+    "description": "Robots as a service for manufacturers: Formic buys and owns the equipment, deploys it, maintains it and bills by the hour with an uptime guarantee. The product is the financing and operating structure, not the robot.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$52M+ Series A",
+    "lead_investor": "Lux Capital, then Blackhorn"
   },
   {
     "name": "Ultra",
@@ -2292,7 +2596,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$62M total, $50M Series A",
+    "lead_investor": "Framework Ventures"
   },
   {
     "name": "RobCo",
@@ -2307,7 +2613,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "EUR85M Series C at >$1B",
+    "lead_investor": "Lightspeed and Lingotto"
   },
   {
     "name": "Koop Insurance",
@@ -2322,7 +2630,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Risklytics",
@@ -2337,7 +2647,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Autonomy Insurance",
@@ -2352,7 +2664,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Y-Risk",
@@ -2367,7 +2681,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Qviro",
@@ -2382,7 +2698,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "part of GlobalSpec"
+    "status": "part of GlobalSpec",
+    "funding": "EUR1M seed",
+    "lead_investor": ""
   },
   {
     "name": "Extend Robotics",
@@ -2397,7 +2715,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Logibot",
@@ -2412,7 +2732,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "FORT Robotics",
@@ -2420,14 +2742,16 @@
     "bucket": "Safety & Compliance",
     "domain": "fortrobotics.com",
     "hq": "Philadelphia, PA",
-    "description": "Wireless e-stop and safety control that lets autonomous machines operate near people legally.",
+    "description": "Wireless e-stop and safety control that lets autonomous machines operate near people within existing safety regulations. Sold to machine builders rather than end users.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$60.5M total",
+    "lead_investor": "Tiger Global"
   },
   {
     "name": "Pilz",
@@ -2442,7 +2766,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "UL Solutions",
@@ -2457,7 +2783,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Pivot Robotics",
@@ -2472,7 +2800,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Origin",
@@ -2487,7 +2817,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Actor",
@@ -2502,7 +2834,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Almond Robotics",
@@ -2517,7 +2851,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "CloudChef",
@@ -2532,7 +2868,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "robot.com",
@@ -2547,7 +2885,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "General Instinct",
@@ -2562,7 +2902,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Deft Robotics",
@@ -2577,7 +2919,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "seed, undisclosed",
+    "lead_investor": "Rainfall Ventures and SpringCamp"
   },
   {
     "name": "Frontier Machines",
@@ -2592,7 +2936,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Argon Robotics",
@@ -2607,7 +2953,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Yondu",
@@ -2622,7 +2970,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Omakase Robotics",
@@ -2637,7 +2987,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Dream Machines",
@@ -2652,7 +3004,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "AgRobotics",
@@ -2667,7 +3021,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Intuition.dev",
@@ -2682,7 +3038,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Verity",
@@ -2697,7 +3055,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Gravis Robotics",
@@ -2705,14 +3065,16 @@
     "bucket": "Construction",
     "domain": "gravisrobotics.com",
     "hq": "Zurich, CH",
-    "description": "Autonomous earthmoving from the ETH team behind ANYmal; $200M led by SoftBank.",
+    "description": "Autonomous earthmoving from the ETH team behind ANYmal, retrofitting excavators to work unsupervised on live sites.",
     "source": "ziegler-map",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "$200M",
+    "lead_investor": "SoftBank"
   },
   {
     "name": "RAI Institute",
@@ -2720,14 +3082,16 @@
     "bucket": "Research Labs",
     "domain": "rai-inst.com",
     "hq": "Cambridge, MA",
-    "description": "Marc Raibert's Robotics and AI Institute, funded by Toyota to push athletic intelligence.",
+    "description": "Marc Raibert's institute, funded by Toyota, working on athletic intelligence and dexterity. A research organisation rather than a vendor, which is why it sits in Research Labs rather than with the model companies.",
     "source": "ziegler-map",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
     "cluster": "Zurich; Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "mimic",
@@ -2742,7 +3106,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "BOTA Systems",
@@ -2757,7 +3123,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Forgis",
@@ -2772,7 +3140,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Duatic",
@@ -2787,7 +3157,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RIVR",
@@ -2802,7 +3174,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bubble Robotics",
@@ -2817,7 +3191,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "$5M pre-seed",
+    "lead_investor": "Episode 1, Asterion, Norrsken Evolve"
   },
   {
     "name": "Sevensense Robotics",
@@ -2832,7 +3208,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Zurich",
-    "status": "part of ABB"
+    "status": "part of ABB",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Voliro",
@@ -2847,7 +3225,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Embotech",
@@ -2855,14 +3235,16 @@
     "bucket": "Dev Tools & Middleware",
     "domain": "embotech.com",
     "hq": "Zurich, CH",
-    "description": "Optimisation-based motion planning, now applied to driverless yard and port logistics.",
+    "description": "Optimisation-based motion planning, now applied commercially to driverless vehicle movement in ports, yards and finished-vehicle logistics. The planning software is the product, which is why it is here rather than in a vertical.",
     "source": "ziegler-map",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Nautica Technologies",
@@ -2877,7 +3259,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "$4M seed",
+    "lead_investor": "b2venture"
   },
   {
     "name": "Flink Robotics",
@@ -2892,7 +3276,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Disney Research",
@@ -2907,7 +3293,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "Zurich",
-    "status": "part of Disney"
+    "status": "part of Disney",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Tethys Robotics",
@@ -2922,7 +3310,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Auterion",
@@ -2937,7 +3327,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "April Robotics",
@@ -2952,7 +3344,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "microagi",
@@ -2967,7 +3361,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Loki Robotics",
@@ -2982,7 +3378,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "$1.6M pre-seed",
+    "lead_investor": "byFounders"
   },
   {
     "name": "Hexagon Robotics",
@@ -2992,12 +3390,14 @@
     "hq": "Zurich, CH",
     "description": "Zurich robotics company from the Lukas Ziegler map.",
     "source": "ziegler-map",
-    "notes": "",
+    "notes": "UNVERIFIED - on the Ziegler Zurich map but no company found",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Wingtra",
@@ -3012,7 +3412,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Ascento",
@@ -3027,7 +3429,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Zurich",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Amazon Robotics",
@@ -3042,7 +3446,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "part of Amazon"
+    "status": "part of Amazon",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Teradyne Robotics",
@@ -3057,7 +3463,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Symbotic",
@@ -3065,14 +3473,16 @@
     "bucket": "Warehouse & Logistics",
     "domain": "symbotic.com",
     "hq": "Wilmington, MA",
-    "description": "High-density automated case handling, built out across Walmart's distribution centers.",
+    "description": "High-density automated case handling built out across Walmart's distribution network, which has committed to running a large share of its volume through automated facilities. The largest listed pure-play in warehouse robotics.",
     "source": "ziegler-map",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "public, ~$25B",
+    "lead_investor": ""
   },
   {
     "name": "Oxipital AI",
@@ -3087,7 +3497,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "iRobot",
@@ -3102,7 +3514,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Berkshire Grey",
@@ -3117,7 +3531,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "part of private equity"
+    "status": "part of private equity",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Vecna Robotics",
@@ -3132,7 +3548,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "6 River Systems",
@@ -3147,7 +3565,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "part of Ocado"
+    "status": "part of Ocado",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Vicarious Surgical",
@@ -3155,14 +3575,16 @@
     "bucket": "Healthcare & Life Sciences",
     "domain": "vicarioussurgical.com",
     "hq": "Waltham, MA",
-    "description": "Miniature surgical robot with a camera and arms inserted through one incision.",
+    "description": "A surgical robot with camera and arms inserted through a single incision, aimed at ventral hernia repair. Publicly listed, and the main reason this map has a surgical category at all.",
     "source": "ziegler-map",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Boost Robotics",
@@ -3177,7 +3599,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "~$500K pre-seed",
+    "lead_investor": "Y Combinator"
   },
   {
     "name": "RightHand Robotics",
@@ -3192,7 +3616,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RISE Robotics",
@@ -3207,7 +3633,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Toyota Research Institute",
@@ -3222,7 +3650,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "Boston",
-    "status": "part of Toyota"
+    "status": "part of Toyota",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Piaggio Fast Forward",
@@ -3237,7 +3667,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "GreenSight",
@@ -3252,7 +3684,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Sereact",
@@ -3267,7 +3701,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Pickle Robot",
@@ -3275,14 +3711,16 @@
     "bucket": "Warehouse & Logistics",
     "domain": "picklerobot.com",
     "hq": "Cambridge, MA",
-    "description": "Robots that unload floor-loaded trucks and containers, the worst job in the warehouse.",
+    "description": "Robots that unload floor-loaded trucks and shipping containers, the job warehouses struggle hardest to staff. Deployed across major US distribution centre operators.",
     "source": "ziegler-map",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Acumino",
@@ -3297,7 +3735,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "$11.7M seed",
+    "lead_investor": "Radar Ventures"
   },
   {
     "name": "Analog Devices",
@@ -3312,7 +3752,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Urbx",
@@ -3327,7 +3769,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Realtime Robotics",
@@ -3342,7 +3786,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Code Metal",
@@ -3357,7 +3803,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Sea Machines Robotics",
@@ -3372,7 +3820,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Humanoid",
@@ -3387,7 +3837,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Tennibot",
@@ -3402,7 +3854,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "MathWorks",
@@ -3417,7 +3871,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "General Robotics",
@@ -3432,7 +3888,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Isaac Sim",
@@ -3440,14 +3898,16 @@
     "bucket": "Simulation",
     "domain": "developer.nvidia.com/isaac/sim",
     "hq": "Santa Clara, CA",
-    "description": "NVIDIA's Omniverse-based robot simulator; the default for synthetic data and large-scale RL training.",
+    "description": "NVIDIA's Omniverse-based simulator, and the default target for generating synthetic data and running reinforcement learning at scale. Listed separately from NVIDIA because robotics teams adopt it as its own tool.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "part of NVIDIA"
+    "status": "part of NVIDIA",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Gazebo",
@@ -3462,7 +3922,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "part of Open Robotics"
+    "status": "part of Open Robotics",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Drake",
@@ -3477,7 +3939,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Boston",
-    "status": "part of Toyota Research Institute"
+    "status": "part of Toyota Research Institute",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Freedom Robotics",
@@ -3492,7 +3956,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "$6.6M",
+    "lead_investor": ""
   },
   {
     "name": "Transitive Robotics",
@@ -3507,7 +3973,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "SVT Robotics",
@@ -3522,7 +3990,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$25M Series A",
+    "lead_investor": "Tiger Global"
   },
   {
     "name": "SYNAOS",
@@ -3537,7 +4007,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "NAiSE",
@@ -3552,7 +4024,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "BlueBotics",
@@ -3567,7 +4041,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Meili Robots",
@@ -3582,7 +4058,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "KINEXON",
@@ -3597,7 +4075,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "MOV.AI",
@@ -3612,7 +4092,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Open-RMF",
@@ -3627,7 +4109,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Ottopia",
@@ -3635,14 +4119,16 @@
     "bucket": "Fleet Ops & Remote Operations",
     "domain": "ottopia.tech",
     "hq": "Tel Aviv, IL",
-    "description": "Teleoperation software where a remote human and the vehicle's AI share control; used by BMW and Motional.",
+    "description": "Teleoperation software where a remote human and the vehicle's own AI share control during an intervention. BMW selected it as a preferred teleoperation technology and Motional uses it for robotaxi support.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "DriveU.auto",
@@ -3657,7 +4143,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Kineo Finance",
@@ -3672,7 +4160,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Cenotian",
@@ -3687,7 +4177,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Miso Robotics",
@@ -3702,7 +4194,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Anduril",
@@ -3710,14 +4204,16 @@
     "bucket": "Defense & Aerospace",
     "domain": "anduril.com",
     "hq": "Costa Mesa, CA",
-    "description": "Lattice autonomy across drones, counter-UAS, maritime craft and munitions.",
+    "description": "Builds autonomous aircraft, maritime craft, counter-UAS and munitions, tied together by Lattice, its command software. The defining company of the defence-tech wave and the one most others are measured against.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "~$61B valuation",
+    "lead_investor": ""
   },
   {
     "name": "Shield AI",
@@ -3725,14 +4221,16 @@
     "bucket": "Defense & Aerospace",
     "domain": "shield.ai",
     "hq": "San Diego, CA",
-    "description": "Hivemind autonomy stack flying V-BAT and the X-BAT AI-piloted fighter.",
+    "description": "Hivemind is autonomy software that flies aircraft without GPS or a pilot, shipped on its own V-BAT and now the X-BAT fighter. Sells both the aircraft and the autonomy stack to other platforms.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "valued ~$12.7B",
+    "lead_investor": ""
   },
   {
     "name": "Saronic",
@@ -3740,14 +4238,16 @@
     "bucket": "Defense & Aerospace",
     "domain": "saronic.com",
     "hq": "Austin, TX",
-    "description": "Autonomous surface vessels built at shipyard scale for the US Navy.",
+    "description": "Builds autonomous surface vessels at shipyard scale for the US Navy, having bought its own yard to do it.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "Series D at ~$9.25B",
+    "lead_investor": ""
   },
   {
     "name": "Forterra",
@@ -3762,7 +4262,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$238M Series C",
+    "lead_investor": ""
   },
   {
     "name": "Overland AI",
@@ -3777,7 +4279,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Neros Technologies",
@@ -3792,7 +4296,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$250M Series C at ~$2.5B",
+    "lead_investor": "Sequoia and ASTF"
   },
   {
     "name": "HavocAI",
@@ -3807,7 +4313,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$100M, ~$200M total",
+    "lead_investor": ""
   },
   {
     "name": "Vatn Systems",
@@ -3822,7 +4330,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Blue Water Autonomy",
@@ -3837,7 +4347,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ARX Robotics",
@@ -3852,7 +4364,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Allen Control Systems",
@@ -3867,7 +4381,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "True Anomaly",
@@ -3882,7 +4398,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Varda",
@@ -3897,7 +4415,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Greypoint Industries",
@@ -3912,7 +4432,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Ornadyne",
@@ -3927,7 +4449,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Edgerun",
@@ -3942,7 +4466,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Applied Intuition",
@@ -3957,7 +4483,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Wayve",
@@ -3972,7 +4500,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "VulcanForms",
@@ -3987,7 +4517,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bright Machines",
@@ -4002,7 +4534,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Auris Health",
@@ -4017,7 +4551,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "part of Johnson & Johnson"
+    "status": "part of Johnson & Johnson",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Capstan Medical",
@@ -4032,7 +4568,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Build AI",
@@ -4047,7 +4585,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Cortex AI",
@@ -4062,7 +4602,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "DeepReach",
@@ -4077,7 +4619,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Preload",
@@ -4092,7 +4636,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Robocurve",
@@ -4107,7 +4653,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Runtime",
@@ -4122,7 +4670,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Enact",
@@ -4137,7 +4687,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Moving Atoms",
@@ -4152,7 +4704,9 @@
     "logo_status": "",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Aktoria Robotics",
@@ -4167,7 +4721,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Ember Robotics",
@@ -4182,7 +4738,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Autumn Labs",
@@ -4197,7 +4755,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Polymath Robotics",
@@ -4212,7 +4772,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Agency Tool Company",
@@ -4227,7 +4789,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Dreamscale Labs",
@@ -4242,7 +4806,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Hebbian Robotics",
@@ -4257,7 +4823,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Synapse Semiconductor",
@@ -4272,7 +4840,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Proception",
@@ -4287,7 +4857,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Silica",
@@ -4302,7 +4874,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Open Actuation",
@@ -4317,7 +4891,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Mass Magnetics",
@@ -4332,7 +4908,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Piggy Robotics",
@@ -4347,7 +4925,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Nori",
@@ -4362,7 +4942,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Charge Robotics",
@@ -4370,14 +4952,16 @@
     "bucket": "Energy & Solar",
     "domain": "chargerobotics.com",
     "hq": "San Leandro, CA",
-    "description": "Field factory that assembles and places solar rows automatically; MIT founders, YC S21.",
+    "description": "A field factory that assembles solar rows automatically and places them, aimed at the labour shortage limiting utility-scale solar build rates. MIT founders, YC S21, with its first commercial system shipped.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "Series A",
+    "lead_investor": "Founders Fund, Energy Impact Partners and Lux"
   },
   {
     "name": "Libra Robotics",
@@ -4392,7 +4976,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "BotBuilt",
@@ -4407,7 +4993,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Pave Robotics",
@@ -4422,7 +5010,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Flywheel AI",
@@ -4437,7 +5027,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Teleo",
@@ -4452,7 +5044,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Shepherd Robotics",
@@ -4467,7 +5061,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Proprio Robotics",
@@ -4482,7 +5078,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Manifold",
@@ -4497,7 +5095,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "AutoPallet Robotics",
@@ -4512,7 +5112,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Theseus Robotics",
@@ -4527,7 +5129,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Odin Robotics",
@@ -4542,7 +5146,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Shiraz AI",
@@ -4557,7 +5163,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Mbodi AI",
@@ -4572,7 +5180,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Advanced Metal Research",
@@ -4587,7 +5197,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Industrial Next",
@@ -4602,7 +5214,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Atomic Industries",
@@ -4617,7 +5231,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Salem Robotics",
@@ -4632,7 +5248,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Rodeo Robotics",
@@ -4647,7 +5265,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Neuromorphic",
@@ -4662,7 +5282,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Primordiant",
@@ -4677,7 +5299,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Rhem Labs",
@@ -4692,7 +5316,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Deploy",
@@ -4707,7 +5333,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RoboShare",
@@ -4722,7 +5350,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "UBTech",
@@ -4737,7 +5367,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Fourier Intelligence",
@@ -4752,7 +5384,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Robot Era",
@@ -4767,7 +5401,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "XPeng Robotics",
@@ -4782,7 +5418,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "part of XPeng"
+    "status": "part of XPeng",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Rainbow Robotics",
@@ -4797,7 +5435,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "part of Samsung"
+    "status": "part of Samsung",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Kawasaki Robotics",
@@ -4812,7 +5452,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "DENSO Robotics",
@@ -4827,7 +5469,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "part of DENSO"
+    "status": "part of DENSO",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Mitsubishi Electric",
@@ -4842,7 +5486,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Omron",
@@ -4857,7 +5503,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Doosan Robotics",
@@ -4872,7 +5520,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "KOSPI IPO, ~$318M at >$2B",
+    "lead_investor": ""
   },
   {
     "name": "Estun",
@@ -4887,7 +5537,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Siasun",
@@ -4902,7 +5554,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "JAKA",
@@ -4917,7 +5571,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "MiR",
@@ -4925,14 +5581,16 @@
     "bucket": "Mobile Bases & AMRs",
     "domain": "mobile-industrial-robots.com",
     "hq": "Odense, DK",
-    "description": "The default autonomous mobile robot for factory material transport.",
+    "description": "The default autonomous mobile robot for moving material around a factory floor, sold through a large integrator network. Part of Teradyne alongside Universal Robots.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "part of Teradyne"
+    "status": "part of Teradyne",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Harmonic Drive Systems",
@@ -4940,14 +5598,16 @@
     "bucket": "Actuators & Motion",
     "domain": "harmonicdrive.net",
     "hq": "Tokyo, JP",
-    "description": "Invented the strain wave gear; still the precision benchmark every rival is priced against.",
+    "description": "Invented the strain wave gear, which is still the reducer most precision robot joints use. Every Chinese harmonic competitor is priced relative to it, so it sets the floor for the whole joint supply chain.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Nabtesco",
@@ -4962,7 +5622,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Laifual",
@@ -4977,7 +5639,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Tuopu Group",
@@ -4992,7 +5656,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ZHAOWEI",
@@ -5007,7 +5673,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Robotiq",
@@ -5022,7 +5690,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "SCHUNK",
@@ -5037,7 +5707,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "OnRobot",
@@ -5052,7 +5724,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Hesai",
@@ -5067,7 +5741,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RoboSense",
@@ -5082,7 +5758,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Keyence",
@@ -5097,7 +5775,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Cognex",
@@ -5112,7 +5792,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "SICK AG",
@@ -5127,7 +5809,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Keli Sensing",
@@ -5142,7 +5826,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Paxini",
@@ -5157,7 +5843,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Geek+",
@@ -5172,7 +5860,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Hai Robotics",
@@ -5187,7 +5877,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Acieta",
@@ -5195,14 +5887,16 @@
     "bucket": "Classic Automation Integrators",
     "domain": "acieta.com",
     "hq": "Council Bluffs, IA",
-    "description": "North American robot integrator; 10,000+ systems and $1B of installed automation.",
+    "description": "North American robot integrator with more than 10,000 systems deployed and over $1B of installed automation. The kind of firm that performs most industrial robot deployments, and the layer the neo-integrator thesis argues is ripe for disruption.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "JR Automation",
@@ -5217,7 +5911,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "part of Hitachi"
+    "status": "part of Hitachi",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bastian Solutions",
@@ -5232,7 +5928,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "part of Toyota"
+    "status": "part of Toyota",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Dematic",
@@ -5247,7 +5945,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "part of KION"
+    "status": "part of KION",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Vanderlande",
@@ -5262,7 +5962,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "part of Toyota"
+    "status": "part of Toyota",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Swisslog",
@@ -5277,7 +5979,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "part of KUKA"
+    "status": "part of KUKA",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Honeywell Intelligrated",
@@ -5292,7 +5996,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "part of Honeywell"
+    "status": "part of Honeywell",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Applied Manufacturing Technologies",
@@ -5307,7 +6013,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ATS Corporation",
@@ -5322,7 +6030,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Robo Reliance",
@@ -5330,14 +6040,16 @@
     "bucket": "Deployment & Field Service",
     "domain": "roboreliance.com",
     "hq": "Colorado, US",
-    "description": "OEM-agnostic nationwide field service: installs, maintains and repairs mixed robot fleets.",
+    "description": "Third-party field service for commercial robots, OEM-agnostic, with independent technicians recruited and trained market by market. Lets a robot maker offer nationwide support without building the organisation.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "BOW Robotics",
@@ -5352,7 +6064,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "SafeWorld",
@@ -5360,14 +6074,16 @@
     "bucket": "Safety & Compliance",
     "domain": "safeworld.ai",
     "hq": "San Francisco, CA",
-    "description": "Simulation that tests robot safety before deployment; $12.2M seed co-led by a16z Speedrun.",
+    "description": "Simulation that tests robot safety before deployment, aimed at the certification gap between a working policy and a system that can legally operate near people.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$12.2M seed",
+    "lead_investor": "Shine Capital and a16z Speedrun"
   },
   {
     "name": "TUV Rheinland",
@@ -5382,7 +6098,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "TUV SUD",
@@ -5397,7 +6115,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "SGS",
@@ -5412,7 +6132,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Automation Rangers",
@@ -5427,7 +6149,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Pacific Blue Engineering",
@@ -5442,7 +6166,9 @@
     "logo_status": "",
     "model": "service",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Inxpect",
@@ -5457,7 +6183,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Rockwell Automation",
@@ -5472,7 +6200,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Dexmate",
@@ -5487,7 +6217,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Coco Robotics",
@@ -5495,14 +6227,16 @@
     "bucket": "Last-Mile & Delivery",
     "domain": "cocorobotics.com",
     "hq": "Los Angeles, CA",
-    "description": "~1,300 electric sidewalk robots across four cities; trades its road data to OpenAI for model access.",
+    "description": "Runs about 1,300 electric sidewalk robots across Los Angeles, Miami, Chicago and Helsinki for Subway, Wingstop and Jack in the Box. Its OpenAI deal runs both ways: Coco gets model access, OpenAI gets real-world road data.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$80M",
+    "lead_investor": "SNR, with Sam Altman as an angel"
   },
   {
     "name": "Project Prometheus",
@@ -5510,14 +6244,16 @@
     "bucket": "Foundation Models",
     "domain": "",
     "hq": "Seattle, WA",
-    "description": "Bezos and Vik Bajaj's stealth lab building an 'artificial general engineer' to design and manufacture physical systems; ~$12B raised.",
+    "description": "Bezos and Vik Bajaj's stealth lab building what it calls an 'artificial general engineer': AI that designs and manufactures complex physical systems, from jet engines to drug compounds. Closer to AI-native CAD than to robot control, but it is the largest-funded physical-world AI effort in existence.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "~$12B at $41B",
+    "lead_investor": ""
   },
   {
     "name": "Eccentric Machines",
@@ -5532,7 +6268,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Modal Motors",
@@ -5547,7 +6285,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Endiatx",
@@ -5562,7 +6302,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Purple Rhombus",
@@ -5577,7 +6319,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Alloy Robotics",
@@ -5585,14 +6329,16 @@
     "bucket": "Fleet Ops & Remote Operations",
     "domain": "alloyrobotics.com",
     "hq": "Sydney, AU",
-    "description": "AI agents that diagnose why a robot fleet failed; $8M seed at $80M led by Square Peg.",
+    "description": "AI agents that read a robot fleet's logs and diagnose why something failed, aimed at the engineering time lost to debugging deployed robots. Founded in Sydney in 2025 and expanding into the US.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "$8M seed at $80M",
+    "lead_investor": "Square Peg"
   },
   {
     "name": "Viam",
@@ -5600,14 +6346,16 @@
     "bucket": "Dev Tools & Middleware",
     "domain": "viam.com",
     "hq": "New York, NY",
-    "description": "Config, control, data and fleet management in one robot software platform; from MongoDB's Eliot Horowitz.",
+    "description": "A single platform covering robot configuration, control, data capture and fleet management, so a team does not assemble five tools to ship one robot. Founded by Eliot Horowitz after MongoDB, and aimed at companies that want to avoid building their own stack.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Nuro",
@@ -5615,14 +6363,16 @@
     "bucket": "Last-Mile & Delivery",
     "domain": "nuro.ai",
     "hq": "Mountain View, CA",
-    "description": "Pivoted from its own delivery pods to licensing the Nuro Driver to carmakers and fleets.",
+    "description": "Pivoted from building its own delivery pods to licensing the Nuro Driver to carmakers and fleet operators, so it now sells autonomy rather than vehicles.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "lab",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Kodiak AI",
@@ -5637,7 +6387,9 @@
     "logo_status": "",
     "model": "neo-integrator",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Numurus",
@@ -5645,14 +6397,16 @@
     "bucket": "Dev Tools & Middleware",
     "domain": "numurus.com",
     "hq": "Seattle, WA",
-    "description": "NEPI, an edge AI software platform that makes sensors and payloads interoperable.",
+    "description": "NEPI is an edge AI software platform that makes sensors and payloads interoperable, so integrators can swap hardware without rewriting the stack.",
     "source": "research",
     "notes": "",
     "logo_file": "",
     "logo_status": "",
     "model": "platform",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "THK",
@@ -5667,7 +6421,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "WITTENSTEIN",
@@ -5682,7 +6438,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Nidec Drive Technology",
@@ -5697,7 +6455,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "part of Nidec"
+    "status": "part of Nidec",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ADVANCED Motion Controls",
@@ -5712,7 +6472,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Cone Drive",
@@ -5727,7 +6489,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Performance Motion Devices",
@@ -5742,7 +6506,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ElectroCraft",
@@ -5757,7 +6523,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Motus Labs",
@@ -5772,7 +6540,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Bishop-Wisecarver",
@@ -5787,7 +6557,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "Bay Area",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Doodle Labs",
@@ -5802,7 +6574,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "WiBotic",
@@ -5817,7 +6591,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "VARTA",
@@ -5832,7 +6608,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RoboDock",
@@ -5847,7 +6625,9 @@
     "logo_status": "",
     "model": "component",
     "cluster": "",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "RGo Robotics",
@@ -5862,7 +6642,9 @@
     "logo_status": "",
     "model": "platform",
     "cluster": "Boston",
-    "status": "active"
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "NVIDIA Jetson",
@@ -5870,14 +6652,16 @@
     "bucket": "Robot Compute & Runtime",
     "domain": "developer.nvidia.com/embedded-computing",
     "hq": "Santa Clara, CA",
-    "description": "Thor and Orin modules: the default on-robot compute, and what GR00T is built to run on.",
-    "model": "component",
-    "cluster": "",
-    "status": "part of NVIDIA",
+    "description": "Thor and Orin modules are the default on-robot compute, and NVIDIA builds GR00T to run on them. This is where most companies' models physically execute once a robot is on a customer site.",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "component",
+    "cluster": "",
+    "status": "part of NVIDIA",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Hailo",
@@ -5886,13 +6670,15 @@
     "domain": "hailo.ai",
     "hq": "Tel Aviv, IL",
     "description": "Edge AI accelerators running transformer models at a few watts, for battery-powered robots.",
-    "model": "component",
-    "cluster": "",
-    "status": "active",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Qualcomm Robotics",
@@ -5901,13 +6687,15 @@
     "domain": "qualcomm.com",
     "hq": "San Diego, CA",
     "description": "Snapdragon-based robotics platforms (RB series) where low power and connectivity matter most.",
-    "model": "component",
-    "cluster": "",
-    "status": "part of Qualcomm",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "component",
+    "cluster": "",
+    "status": "part of Qualcomm",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Ambarella",
@@ -5916,13 +6704,15 @@
     "domain": "ambarella.com",
     "hq": "Santa Clara, CA",
     "description": "Low-power vision SoCs doing perception on-device in cameras, drones and robots.",
-    "model": "component",
-    "cluster": "Bay Area",
-    "status": "active",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "component",
+    "cluster": "Bay Area",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Axelera AI",
@@ -5931,13 +6721,15 @@
     "domain": "axelera.ai",
     "hq": "Eindhoven, NL",
     "description": "Edge inference silicon aimed at datacenter-class throughput inside an embedded power budget.",
-    "model": "component",
-    "cluster": "",
-    "status": "active",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "Apex.AI",
@@ -5945,14 +6737,16 @@
     "bucket": "Robot Compute & Runtime",
     "domain": "apex.ai",
     "hq": "Palo Alto, CA",
-    "description": "Apex.Grace, a ROS 2-compatible SDK certified to ISO 26262 ASIL D so autonomy can ship in production vehicles.",
-    "model": "platform",
-    "cluster": "Bay Area",
-    "status": "active",
+    "description": "Apex.Grace is a ROS 2-compatible SDK certified to ISO 26262 ASIL D, which is what lets autonomy software ship in a production vehicle rather than a pilot. Supplies middleware to tier-one suppliers including HL Klemove's ADAS controllers.",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "platform",
+    "cluster": "Bay Area",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "ZettaScale",
@@ -5961,13 +6755,15 @@
     "domain": "zettascale.tech",
     "hq": "Paris, FR",
     "description": "Zenoh, the pub/sub protocol replacing DDS where robots need to talk across the network edge.",
-    "model": "platform",
-    "cluster": "",
-    "status": "active",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "platform",
+    "cluster": "",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   },
   {
     "name": "eProsima",
@@ -5976,12 +6772,14 @@
     "domain": "eprosima.com",
     "hq": "Madrid, ES",
     "description": "Fast DDS, the default middleware underneath ROS 2 communication.",
-    "model": "platform",
-    "cluster": "",
-    "status": "active",
     "source": "research",
     "notes": "",
     "logo_file": "",
-    "logo_status": ""
+    "logo_status": "",
+    "model": "platform",
+    "cluster": "",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
   }
 ]

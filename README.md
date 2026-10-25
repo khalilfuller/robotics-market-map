@@ -54,7 +54,10 @@ Layout knobs worth knowing:
 
 ## Data model
 
-`name, tier, bucket, domain, hq, description, source, notes, logo_file, logo_status, model, cluster, status`
+`name, tier, bucket, domain, hq, description, source, notes, logo_file, logo_status, model, cluster, status, funding, lead_investor`
+
+- `funding` / `lead_investor` — **only filled where a public source was found.**
+  Blank means not researched or not public, never a guess. 60 of 399 are filled.
 
 - `status` — `active`, or `part of <parent>` for an acquired company or subsidiary.
   Those render in grey on the map, with the parent shown in the detail card.
@@ -79,7 +82,7 @@ Layout knobs worth knowing:
 
 ## Structure
 
-5 tiers, 37 buckets, 396 companies on the map (399 in the CSV; 3 held back as unverified).
+5 tiers, 37 buckets, 395 companies on the map (399 in the CSV; 4 held back as unverified).
 
 By cluster: 55 Bay Area, 37 Boston, 26 Zurich. 27 companies are owned by a larger company.
 

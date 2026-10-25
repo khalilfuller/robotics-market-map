@@ -87,7 +87,8 @@ for r in rows:
 
 data = {r["name"]: {"b": r["bucket"], "t": r["tier"], "m": r.get("model", ""),
                     "h": r["hq"], "d": r["description"], "u": r["domain"],
-                    "s": r.get("status", "active")}
+                    "s": r.get("status", "active"), "f": r.get("funding", ""),
+                    "i": r.get("lead_investor", "")}
         for r in rows}
 
 tok = "\n".join(f"  {k}: {v};" for k, v in TOKENS.items())
@@ -188,6 +189,11 @@ li.dim {{ opacity:.2; }}
   border:1px solid var(--accent); border-radius:var(--r-chip); padding:3px 7px;
   margin-bottom:14px; }}
 #panel p.blurb {{ font-size:14px; line-height:1.74; color:var(--ink); margin:0 0 22px; }}
+#panel .pfund {{ font-family:var(--mono); font-size:var(--meta-size); line-height:1.8;
+  color:var(--ink); padding-top:14px; border-top:1px solid var(--rule-paper);
+  margin-bottom:22px; }}
+#panel .pfund .k {{ display:block; font-size:9.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-2); margin-bottom:5px; }}
 #panel a {{ font-family:var(--mono); font-size:var(--meta-size); color:var(--accent);
   text-decoration:none; border-bottom:1px solid var(--accent); word-break:break-all; }}
 #closeBtn {{ position:absolute; top:22px; right:22px; background:none;
@@ -265,6 +271,7 @@ out.append(f"""
   <h2 id=pname></h2><div class=pmeta id=pmeta></div>
   <div class=pbadge id=pbadge></div>
   <p class=blurb id=pblurb></p>
+  <div class=pfund id=pfund hidden></div>
   <a id=plink target=_blank rel="noopener noreferrer"></a>
 </aside>
 <script>
@@ -272,7 +279,7 @@ const DATA = {json.dumps(data)};
 const SHOW_MODEL = {json.dumps(SHOW_MODEL)};
 const $ = id => document.getElementById(id);
 const panel=$('panel'), q=$('q'), countEl=$('count'), closeBtn=$('closeBtn'),
-      pname=$('pname'), pmeta=$('pmeta'), pbadge=$('pbadge'),
+      pname=$('pname'), pmeta=$('pmeta'), pbadge=$('pbadge'), pfund=$('pfund'),
       pblurb=$('pblurb'), plink=$('plink');
 let model='all';
 
@@ -284,6 +291,11 @@ function show(name){{
   pbadge.textContent=showModel?(d.m||''):'';
   pbadge.style.display=(showModel&&d.m)?'inline-block':'none';
   pblurb.textContent=d.d||'';
+  if(d.f||d.i){{
+    pfund.innerHTML='<span class=k>Funding</span>'+
+      [d.f,d.i?'Led by '+d.i:''].filter(Boolean).join('<br>');
+    pfund.hidden=false;
+  }} else {{ pfund.hidden=true; }}
   if(d.u){{ plink.href='https://'+d.u; plink.textContent=d.u; plink.style.display='inline'; }}
   else {{ plink.style.display='none'; }}
   panel.classList.add('open');
@@ -294,6 +306,8 @@ document.addEventListener('click',e=>{{
   if(f){{ model=f.dataset.m;
     document.querySelectorAll('.f').forEach(x=>x.setAttribute('aria-pressed',x===f));
     apply(); }}
+  // tap anywhere outside the card to dismiss it -- there is no Escape on a phone
+  if(!e.target.closest('#panel')) panel.classList.remove('open');
 }});
 closeBtn.addEventListener('click',()=>panel.classList.remove('open'));
 document.addEventListener('keydown',e=>{{ if(e.key==='Escape') panel.classList.remove('open'); }});

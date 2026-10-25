@@ -3,7 +3,7 @@
 **Live map:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS (v14)
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **private**
 
-396 companies on the map, 399 in `companies.csv`, 5 tiers, 37 categories.
+395 companies on the map, 399 in `companies.csv`, 5 tiers, 37 categories.
 
 ```
 python3 -I build_map.py              # map.html          — standalone
@@ -36,7 +36,7 @@ python3 -I build_map.py --artifact   # map.artifact.html — then publish this o
 - Should capital sources (funds) get a box after all? Currently no, by the rule above.
 
 **Data gaps**
-- 3 unverified, excluded from the map: TempoWorks, MWbotics, Workwise Robotics
+- 4 unverified, excluded from the map: TempoWorks, MWbotics, Workwise Robotics, Hexagon Robotics
 - 2 ambiguous, on the map but unconfirmed: AgRobotics, Intuition.dev
 - No domain: AMI (ami.inc is an unrelated Japanese medtech firm), Mantle, TempoWorks
 - Lux and Eclipse sites only exposed partial portfolios — more to pull
