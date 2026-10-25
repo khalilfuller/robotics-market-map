@@ -1,9 +1,9 @@
 # Where we left off — 24 Oct 2026
 
-**Live map:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS (v13)
+**Live map:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS (v14)
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **private**
 
-369 companies on the map, 372 in `companies.csv`, 5 tiers, 34 categories.
+396 companies on the map, 399 in `companies.csv`, 5 tiers, 37 categories.
 
 ```
 python3 -I build_map.py              # map.html          — standalone

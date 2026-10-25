@@ -64,9 +64,9 @@ TIER_ORDER = ["Intelligence", "Platform", "Hardware", "Vertical Robotics Compani
 BUCKET_ORDER = [
     "Foundation Models", "World Models", "Research Labs", "Simulation",
     "Training Data & Demonstration", "Evaluation & Benchmarks",
-    "Dev Tools & Middleware", "Fleet Ops & Remote Operations", "Perception & Sensing",
+    "Dev Tools & Middleware", "Robot Compute & Runtime", "Fleet Ops & Remote Operations", "Perception & Sensing",
     "Humanoids & Quadrupeds", "Arms & Cobots", "Mobile Bases & AMRs",
-    "Actuators & Drives", "End Effectors & Grippers",
+    "Actuators & Motion", "Power & Connectivity", "End Effectors & Grippers",
     "Construction", "Energy & Solar", "Agriculture & Landscaping",
     "Warehouse & Logistics", "Last-Mile & Delivery", "Manufacturing & Fabrication",
     "Data Centers", "Inspection & Infrastructure", "Marine & Subsea",

@@ -69,12 +69,12 @@ LeRobot,Platform,Dev Tools & Middleware,huggingface.co,"New York, NY","Hugging F
 Cobot,Hardware,Mobile Bases & AMRs,co.bot,"Boston, MA","Builds Proxie, a mobile collaborative robot for material movement in warehouses and hospitals.",obvious+baymap,,cobot.png,ok,component,Bay Area,active
 Mytra,Vertical Robotics Companies,Warehouse & Logistics,mytra.ai,"San Francisco, CA",Dense 3D storage and retrieval that replaces racking and forklifts in warehouses.,baymap,,mytra.png,ok,component,Bay Area,active
 Locus Robotics,Vertical Robotics Companies,Warehouse & Logistics,locusrobotics.com,"Wilmington, MA",Warehouse AMRs that guide pickers through orders; one of the largest deployed fleets in logistics.,obvious,,locus-robotics.png,ok,component,Boston,active
-FAULHABER,Hardware,Actuators & Drives,faulhaber.com,"Schonaich, DE",German precision micro drive systems used where size and accuracy matter more than cost.,obvious,,faulhaber.png,ok,component,,active
-maxon,Hardware,Actuators & Drives,maxongroup.com,"Sachseln, CH","Swiss precision motors and gearheads, including the drives on NASA's Mars rovers.",obvious,,maxon.png,fallback,component,,active
-ROBOTIS,Hardware,Actuators & Drives,robotis.com,"Seoul, KR","Dynamixel smart actuators, the default building block for research and hobbyist robots.",obvious,,robotis.ico,ok,component,,active
-DAMIAO,Hardware,Actuators & Drives,dmbot.cn,"Suzhou, CN",Low-cost Chinese quasi-direct-drive actuators that undercut Western suppliers on price.,obvious,verify-domain,damiao.png,fallback,component,,active
-LeaderDrive,Hardware,Actuators & Drives,leaderdrive.cn,"Suzhou, CN",Chinese harmonic drive reducers competing with Harmonic Drive and Nabtesco on cost.,obvious,,leaderdrive.png,fallback,component,,active
-Westmag,Hardware,Actuators & Drives,westmag.com,"South San Francisco, CA","US-made BLDC motors and actuators for drones and robots, built to cut dependence on Chinese supply.",obvious,,,no-domain,component,,active
+FAULHABER,Hardware,Actuators & Motion,faulhaber.com,"Schonaich, DE",German precision micro drive systems used where size and accuracy matter more than cost.,obvious,,faulhaber.png,ok,component,,active
+maxon,Hardware,Actuators & Motion,maxongroup.com,"Sachseln, CH","Swiss precision motors and gearheads, including the drives on NASA's Mars rovers.",obvious,,maxon.png,fallback,component,,active
+ROBOTIS,Hardware,Actuators & Motion,robotis.com,"Seoul, KR","Dynamixel smart actuators, the default building block for research and hobbyist robots.",obvious,,robotis.ico,ok,component,,active
+DAMIAO,Hardware,Actuators & Motion,dmbot.cn,"Suzhou, CN",Low-cost Chinese quasi-direct-drive actuators that undercut Western suppliers on price.,obvious,verify-domain,damiao.png,fallback,component,,active
+LeaderDrive,Hardware,Actuators & Motion,leaderdrive.cn,"Suzhou, CN",Chinese harmonic drive reducers competing with Harmonic Drive and Nabtesco on cost.,obvious,,leaderdrive.png,fallback,component,,active
+Westmag,Hardware,Actuators & Motion,westmag.com,"South San Francisco, CA","US-made BLDC motors and actuators for drones and robots, built to cut dependence on Chinese supply.",obvious,,,no-domain,component,,active
 Shadow Robot,Hardware,End Effectors & Grippers,shadowrobot.com,"London, UK",Long-running maker of research-grade dexterous hands with near-human degrees of freedom.,obvious,,shadow-robot.png,ok,component,,active
 PSYONIC,Hardware,End Effectors & Grippers,psyonic.io,"Champaign, IL","The Ability Hand, a touch-sensing bionic hand sold both as a prosthesis and a robot end effector.",obvious,,psyonic.webp,ok,component,,active
 Sharpa,Hardware,End Effectors & Grippers,sharpa.com,"Shenzhen, CN","Dexterous humanoid robots with 22-DoF tactile hands, plus foundation models for contact-rich manipulation.",obvious,verify-domain,sharpa.svg,ok,component,,active
@@ -169,7 +169,7 @@ Actor,Vertical Robotics Companies,Construction,labs.actor,"San Francisco, CA","T
 Almond Robotics,Hardware,Arms & Cobots,almond.bot,"San Francisco, CA","Axol, a dual-arm 7-DOF research robot with an open Python SDK and LeRobot bindings.",pi-api-beta,,,,component,,active
 CloudChef,Vertical Robotics Companies,Food & Hospitality,cloudchef.co,"San Francisco, CA",Commercial kitchen robots rented by the hour; its Zippy platform learns a recipe from one demonstration.,pi-api-beta,,,,neo-integrator,,active
 robot.com,Vertical Robotics Companies,Last-Mile & Delivery,robot.com,"Santa Monica, CA","Formerly Kiwibot; delivery fleets plus the R-noid humanoid sold as a service, autonomy from Field AI.",pi-api-beta,,,,neo-integrator,,active
-General Instinct,Platform,Dev Tools & Middleware,generalinstinct.com,"San Francisco, CA",Distills and quantizes frontier robotics models so they run on edge hardware and old GPUs.,pi-api-beta,,,,platform,,active
+General Instinct,Platform,Robot Compute & Runtime,generalinstinct.com,"San Francisco, CA",Distills and quantizes frontier robotics models so they run on edge hardware and old GPUs.,pi-api-beta,,,,platform,,active
 Deft Robotics,Vertical Robotics Companies,Assembly & Machine Tending,deftai.co,"San Francisco, CA","Drop-in wheeled humanoid workcells for Tier 1 automotive, teleoperated first and autonomous later.",pi-api-beta,,,,neo-integrator,,active
 Frontier Machines,Vertical Robotics Companies,Assembly & Machine Tending,frontiermachines.ai,"Mountain View, CA","FR-1, an industrial robot sold on subscription with roughly four-week installation.",pi-api-beta,,,,neo-integrator,,active
 Argon Robotics,Intelligence,Foundation Models,argonrobotics.ai,"San Francisco, CA",Control models that run robots at superhuman speeds,pi-api-beta,,,,lab,,active
@@ -212,7 +212,7 @@ Vecna Robotics,Vertical Robotics Companies,Warehouse & Logistics,vecnarobotics.c
 Vicarious Surgical,Vertical Robotics Companies,Healthcare & Life Sciences,vicarioussurgical.com,"Waltham, MA",Miniature surgical robot with a camera and arms inserted through one incision.,ziegler-map,,,,neo-integrator,Boston,active
 Boost Robotics,Vertical Robotics Companies,Data Centers,boostrobotics.ai,"Cambridge, MA",Mobile manipulators as remote hands for data center inspection and maintenance (YC).,ziegler-map,,,,neo-integrator,Boston,active
 RightHand Robotics,Vertical Robotics Companies,Warehouse & Logistics,righthandrobotics.com,"Somerville, MA","AI piece-picking for each-order fulfillment, deployed across European and US retail.",ziegler-map,,,,neo-integrator,Boston,active
-RISE Robotics,Hardware,Actuators & Drives,riserobotics.com,"Somerville, MA",Belt-driven electric actuator built to replace hydraulic cylinders on heavy equipment.,ziegler-map,,,,component,Boston,active
+RISE Robotics,Hardware,Actuators & Motion,riserobotics.com,"Somerville, MA",Belt-driven electric actuator built to replace hydraulic cylinders on heavy equipment.,ziegler-map,,,,component,Boston,active
 Toyota Research Institute,Intelligence,Research Labs,tri.global,"Cambridge, MA",Large behavior models for robots; the lab Walden Robotics spun out of.,ziegler-map,,,,lab,Boston,part of Toyota
 Piaggio Fast Forward,Vertical Robotics Companies,Last-Mile & Delivery,piaggiofastforward.com,"Boston, MA","gita, a following cargo robot that carries loads at walking pace.",ziegler-map,,,,component,Boston,active
 GreenSight,Vertical Robotics Companies,Agriculture & Landscaping,greensightag.com,"Boston, MA","Autonomous drones and analytics for turf, golf courses and agriculture.",ziegler-map,,,,neo-integrator,Boston,active
@@ -222,7 +222,7 @@ Acumino,Intelligence,Training Data & Demonstration,acumino.ai,"Boston, MA","Wear
 Analog Devices,Platform,Perception & Sensing,analog.com,"Wilmington, MA","Precision sensing, motion control and interface silicon underneath industrial robots.",ziegler-map,,,,component,Boston,active
 Urbx,Vertical Robotics Companies,Warehouse & Logistics,urbx.com,"Boston, MA",TowerBots that climb 125ft storage grids for dense urban grocery fulfillment.,ziegler-map,,,,neo-integrator,Boston,active
 Realtime Robotics,Platform,Dev Tools & Middleware,rtr.ai,"Boston, MA","Motion planning in microseconds, letting multiple arms share a workcell without collisions.",ziegler-map,,,,platform,Boston,active
-Code Metal,Platform,Dev Tools & Middleware,codemetal.ai,"Boston, MA",Verifiable code translation and compilation for edge and embedded robotics targets.,ziegler-map,,,,platform,Boston,active
+Code Metal,Platform,Robot Compute & Runtime,codemetal.ai,"Boston, MA",Verifiable code translation and compilation for edge and embedded robotics targets.,ziegler-map,,,,platform,Boston,active
 Sea Machines Robotics,Vertical Robotics Companies,Marine & Subsea,sea-machines.com,"Boston, MA",Autonomous control and remote command for commercial workboats and vessels.,ziegler-map,,,,neo-integrator,Boston,active
 Humanoid,Hardware,Humanoids & Quadrupeds,thehumanoid.ai,"London, UK",UK humanoid developer scaling production with Bosch.,ziegler-map,,,,component,Boston,active
 Tennibot,Vertical Robotics Companies,Consumer & Home,tennibot.com,"Boston, MA","Autonomous ball collection and AI ball machines for tennis, pickleball and padel.",ziegler-map,,,,component,Boston,active
@@ -281,13 +281,13 @@ Ember Robotics,Platform,Fleet Ops & Remote Operations,,,Monitoring and observabi
 Autumn Labs,Platform,Fleet Ops & Remote Operations,,,Monitoring and diagnostics for industrial robots (YC S24).,research,,,,platform,,active
 Polymath Robotics,Platform,Dev Tools & Middleware,polymathrobotics.com,"San Francisco, CA","Drop-in autonomy for industrial vehicles, sold as an API (YC S22).",research,,,,platform,Bay Area,active
 Agency Tool Company,Platform,Dev Tools & Middleware,,,Software deployment and embedded CI tooling for robots in the field (YC).,research,,,,platform,,active
-Dreamscale Labs,Platform,Dev Tools & Middleware,,,"Cloud inference for robotics, offloading heavy models off the robot (YC).",research,,,,platform,,active
+Dreamscale Labs,Platform,Robot Compute & Runtime,,,"Cloud inference for robotics, offloading heavy models off the robot (YC).",research,,,,platform,,active
 Hebbian Robotics,Platform,Dev Tools & Middleware,,,Open-source foundational infrastructure for physical AI (YC).,research,,,,platform,,active
 Synapse Semiconductor,Platform,Perception & Sensing,,,Vision sensor that runs neural network filters on the pixels themselves (YC).,research,,,,component,,active
 Proception,Hardware,End Effectors & Grippers,proception.ai,,Dexterous humanoid hands (YC W25).,research,,,,component,,active
-Silica,Hardware,Actuators & Drives,,,Affordable actuators that sense force directly (YC).,research,,,,component,,active
-Open Actuation,Hardware,Actuators & Drives,,"Los Angeles, CA",Drone motors and robotic actuators designed and made in LA (YC).,research,,,,component,,active
-Mass Magnetics,Hardware,Actuators & Drives,,,Turns recycled rare-earth scrap into permanent magnets made in the US (YC).,research,,,,component,,active
+Silica,Hardware,Actuators & Motion,,,Affordable actuators that sense force directly (YC).,research,,,,component,,active
+Open Actuation,Hardware,Actuators & Motion,,"Los Angeles, CA",Drone motors and robotic actuators designed and made in LA (YC).,research,,,,component,,active
+Mass Magnetics,Hardware,Actuators & Motion,,,Turns recycled rare-earth scrap into permanent magnets made in the US (YC).,research,,,,component,,active
 Piggy Robotics,Hardware,Humanoids & Quadrupeds,,,Affordable humanoid robots for household chores (YC F25).,research,,,,component,,active
 Nori,Hardware,Humanoids & Quadrupeds,,,"Sub-$2,000 bimanual mobile robot for homes and businesses (YC).",research,,,,component,,active
 Charge Robotics,Vertical Robotics Companies,Energy & Solar,chargerobotics.com,"San Leandro, CA","Field factory that assembles and places solar rows automatically; MIT founders, YC S21.",research,,,,neo-integrator,Bay Area,active
@@ -328,11 +328,11 @@ Estun,Hardware,Arms & Cobots,estun.com,"Nanjing, CN","China's largest domestic i
 Siasun,Hardware,Arms & Cobots,siasun.com,"Shenyang, CN",State-backed Chinese robot maker spun out of the Chinese Academy of Sciences.,research,,,,component,,active
 JAKA,Hardware,Arms & Cobots,jaka.com,"Shanghai, CN",Collaborative arms sold on price into Asian and European mid-market.,research,,,,component,,active
 MiR,Hardware,Mobile Bases & AMRs,mobile-industrial-robots.com,"Odense, DK",The default autonomous mobile robot for factory material transport.,research,,,,component,,part of Teradyne
-Harmonic Drive Systems,Hardware,Actuators & Drives,harmonicdrive.net,"Tokyo, JP",Invented the strain wave gear; still the precision benchmark every rival is priced against.,research,,,,component,,active
-Nabtesco,Hardware,Actuators & Drives,nabtesco.com,"Tokyo, JP",Cycloidal reducers carrying most of the world's industrial robot joints.,research,,,,component,,active
-Laifual,Hardware,Actuators & Drives,laifualdrive.com,"Zhejiang, CN",Harmonic reducers and integrated actuator modules at 40-60% of Japanese pricing.,research,,,,component,,active
-Tuopu Group,Hardware,Actuators & Drives,tuopu-group.com,"Ningbo, CN",Auto supplier turned robot actuator maker; named in Tesla Optimus supply chain.,research,,,,component,,active
-ZHAOWEI,Hardware,Actuators & Drives,zhaowei.net,"Shenzhen, CN","Micro drive systems, and China's first high-DOF dexterous hand.",research,,,,component,,active
+Harmonic Drive Systems,Hardware,Actuators & Motion,harmonicdrive.net,"Tokyo, JP",Invented the strain wave gear; still the precision benchmark every rival is priced against.,research,,,,component,,active
+Nabtesco,Hardware,Actuators & Motion,nabtesco.com,"Tokyo, JP",Cycloidal reducers carrying most of the world's industrial robot joints.,research,,,,component,,active
+Laifual,Hardware,Actuators & Motion,laifualdrive.com,"Zhejiang, CN",Harmonic reducers and integrated actuator modules at 40-60% of Japanese pricing.,research,,,,component,,active
+Tuopu Group,Hardware,Actuators & Motion,tuopu-group.com,"Ningbo, CN",Auto supplier turned robot actuator maker; named in Tesla Optimus supply chain.,research,,,,component,,active
+ZHAOWEI,Hardware,Actuators & Motion,zhaowei.net,"Shenzhen, CN","Micro drive systems, and China's first high-DOF dexterous hand.",research,,,,component,,active
 Robotiq,Hardware,End Effectors & Grippers,robotiq.com,"Quebec, CA",The default gripper and force sensor for collaborative arms.,research,,,,component,,active
 SCHUNK,Hardware,End Effectors & Grippers,schunk.com,"Lauffen, DE",The broadest industrial gripper and clamping catalogue in the market.,research,,,,component,,active
 OnRobot,Hardware,End Effectors & Grippers,onrobot.com,"Odense, DK",One-stop end-of-arm tooling built for fast cobot changeover.,research,,,,component,,active
@@ -367,7 +367,34 @@ Rockwell Automation,Market Infrastructure,Safety & Compliance,rockwellautomation
 Dexmate,Hardware,Humanoids & Quadrupeds,dexmate.ai,"Santa Clara, CA","Vega, a folding wheeled humanoid with a 7ft reach, from $89,999; backed by LG CNS and NEC.",research,,,,component,,active
 Coco Robotics,Vertical Robotics Companies,Last-Mile & Delivery,cocorobotics.com,"Los Angeles, CA","~1,300 electric sidewalk robots across four cities; trades its road data to OpenAI for model access.",research,,,,neo-integrator,,active
 Project Prometheus,Intelligence,Foundation Models,,"Seattle, WA",Bezos and Vik Bajaj's stealth lab building an 'artificial general engineer' to design and manufacture physical systems; ~$12B raised.,research,,,,lab,,active
-Eccentric Machines,Hardware,Actuators & Drives,eccentricmachines.com,,AI-designed actuators sold with the motion software that drives them.,research,,,,component,,active
-Modal Motors,Hardware,Actuators & Drives,modalmotors.com,,High-torque motors made in America without rare-earth magnets.,research,,,,component,,active
+Eccentric Machines,Hardware,Actuators & Motion,eccentricmachines.com,,AI-designed actuators sold with the motion software that drives them.,research,,,,component,,active
+Modal Motors,Hardware,Actuators & Motion,modalmotors.com,,High-torque motors made in America without rare-earth magnets.,research,,,,component,,active
 Endiatx,Vertical Robotics Companies,Healthcare & Life Sciences,endiatx.com,"Hayward, CA","PillBot, a swallowable robot that streams live video from inside the stomach.",research,,,,neo-integrator,,active
 Purple Rhombus,Vertical Robotics Companies,Defense & Aerospace,purplerhombus.com,,Uncrewed aircraft designed for rapid scale-up and immediate combat use.,research,,,,component,,active
+Alloy Robotics,Platform,Fleet Ops & Remote Operations,alloyrobotics.com,"Sydney, AU",AI agents that diagnose why a robot fleet failed; $8M seed at $80M led by Square Peg.,research,,,,platform,,active
+Viam,Platform,Dev Tools & Middleware,viam.com,"New York, NY","Config, control, data and fleet management in one robot software platform; from MongoDB's Eliot Horowitz.",research,,,,platform,,active
+Nuro,Vertical Robotics Companies,Last-Mile & Delivery,nuro.ai,"Mountain View, CA",Pivoted from its own delivery pods to licensing the Nuro Driver to carmakers and fleets.,research,,,,lab,Bay Area,active
+Kodiak AI,Vertical Robotics Companies,Last-Mile & Delivery,kodiak.ai,"Mountain View, CA",Driverless trucks running commercially in the Permian Basin; public since 2025.,research,,,,neo-integrator,Bay Area,active
+Numurus,Platform,Dev Tools & Middleware,numurus.com,"Seattle, WA","NEPI, an edge AI software platform that makes sensors and payloads interoperable.",research,,,,platform,,active
+THK,Hardware,Actuators & Motion,thk.com,"Tokyo, JP",Invented the linear motion guide; the rails and ballscrews most machines slide on.,research,,,,component,,active
+WITTENSTEIN,Hardware,Actuators & Motion,wittenstein.de,"Igersheim, DE",Low-backlash servo gearboxes and drive systems for precision robotics.,research,,,,component,,active
+Nidec Drive Technology,Hardware,Actuators & Motion,nidec.com,"Kyoto, JP",Cycloidal and planetary reducers at volume; the main alternative to Nabtesco.,research,,,,component,,part of Nidec
+ADVANCED Motion Controls,Hardware,Actuators & Motion,a-m-c.com,"Camarillo, CA",Servo drives and motion controllers for robots and autonomous vehicles.,research,,,,component,,active
+Cone Drive,Hardware,Actuators & Motion,conedrive.com,"Traverse City, MI","Precision gearboxes and slew drives, including harmonic alternatives.",research,,,,component,,active
+Performance Motion Devices,Hardware,Actuators & Motion,pmdcorp.com,"Dover, NH",Motion control ICs and modules that sit between the controller and the motor.,research,,,,component,Boston,active
+ElectroCraft,Hardware,Actuators & Motion,electrocraft.com,"Dover, NH",Fractional-horsepower motors and gearmotors for mobile robots and medical devices.,research,,,,component,Boston,active
+Motus Labs,Hardware,Actuators & Motion,motuslabs.com,"Austin, TX",Gearboxes using a meshless design aimed at higher torque density than harmonic drives.,research,,,,component,,active
+Bishop-Wisecarver,Hardware,Actuators & Motion,bwc.com,"Pittsburg, CA","Guided motion systems, linear actuators and track rollers.",research,,,,component,Bay Area,active
+Doodle Labs,Hardware,Power & Connectivity,doodlelabs.com,"San Diego, CA","Mesh Rider radios: resilient private networking for drones, robots and field teams.",research,,,,component,,active
+WiBotic,Hardware,Power & Connectivity,wibotic.com,"Seattle, WA","Wireless charging and power optimisation for drone, AMR and underwater fleets.",research,,,,component,,active
+VARTA,Hardware,Power & Connectivity,varta-ag.com,"Ellwangen, DE",Lithium cells and battery packs for mobile robots and cordless equipment.,research,,,,component,,active
+RoboDock,Hardware,Power & Connectivity,,,Automated charging for electric and autonomous vehicle fleets (YC W2026).,research,,,,component,,active
+RGo Robotics,Platform,Perception & Sensing,rgorobotics.com,"Boston, MA",Perception Engine giving AMRs human-like spatial understanding from cameras alone.,research,,,,platform,Boston,active
+NVIDIA Jetson,Platform,Robot Compute & Runtime,developer.nvidia.com/embedded-computing,"Santa Clara, CA","Thor and Orin modules: the default on-robot compute, and what GR00T is built to run on.",research,,,,component,,part of NVIDIA
+Hailo,Platform,Robot Compute & Runtime,hailo.ai,"Tel Aviv, IL","Edge AI accelerators running transformer models at a few watts, for battery-powered robots.",research,,,,component,,active
+Qualcomm Robotics,Platform,Robot Compute & Runtime,qualcomm.com,"San Diego, CA",Snapdragon-based robotics platforms (RB series) where low power and connectivity matter most.,research,,,,component,,part of Qualcomm
+Ambarella,Platform,Robot Compute & Runtime,ambarella.com,"Santa Clara, CA","Low-power vision SoCs doing perception on-device in cameras, drones and robots.",research,,,,component,Bay Area,active
+Axelera AI,Platform,Robot Compute & Runtime,axelera.ai,"Eindhoven, NL",Edge inference silicon aimed at datacenter-class throughput inside an embedded power budget.,research,,,,component,,active
+Apex.AI,Platform,Robot Compute & Runtime,apex.ai,"Palo Alto, CA","Apex.Grace, a ROS 2-compatible SDK certified to ISO 26262 ASIL D so autonomy can ship in production vehicles.",research,,,,platform,Bay Area,active
+ZettaScale,Platform,Robot Compute & Runtime,zettascale.tech,"Paris, FR","Zenoh, the pub/sub protocol replacing DDS where robots need to talk across the network edge.",research,,,,platform,,active
+eProsima,Platform,Robot Compute & Runtime,eprosima.com,"Madrid, ES","Fast DDS, the default middleware underneath ROS 2 communication.",research,,,,platform,,active
