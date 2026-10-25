@@ -9,7 +9,7 @@ from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 ARTIFACT = "--artifact" in sys.argv   # emit a body-only page for claude.ai hosting
-TITLE = "ROBOTICS LANDSCAPE"   # one line, one weight (brand.md)
+TITLE = "Robotics & Physical AI Landscape"   # one line, one weight (brand.md)
 BYLINE   = "by Khalil Fuller & Claude"
 NOTE     = ""          # optional scope caveat under the byline
 
@@ -94,12 +94,12 @@ data = {r["name"]: {"b": r["bucket"], "t": r["tier"], "m": r.get("model", ""),
 tok = "\n".join(f"  {k}: {v};" for k, v in TOKENS.items())
 HEAD_STANDALONE = f'''<!doctype html><html lang=en><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>Robotics Landscape</title>
+<title>Robotics &amp; Physical AI Landscape</title>
 <link rel=preconnect href="https://fonts.googleapis.com">
 <link rel=preconnect href="https://fonts.gstatic.com" crossorigin>
 <link rel=stylesheet href="{FONT_URL}">'''
 
-HEAD_ARTIFACT = f'''<title>Robotics Landscape</title>
+HEAD_ARTIFACT = f'''<title>Robotics &amp; Physical AI Landscape</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel=stylesheet href="{FONT_URL}">'''
 
@@ -160,13 +160,13 @@ h1 {{ margin:0; font-size:var(--title-size); font-weight:700;
   border-radius:var(--r-chip); padding:5px 10px; font-size:var(--cat-size);
   font-weight:600; letter-spacing:var(--cat-track); text-transform:uppercase;
   margin-bottom:14px; }}
-ul {{ margin:0; padding:0; list-style:none; columns:225px 2; column-gap:22px; }}
+ul {{ margin:0; padding:0; list-style:none; columns:220px 2; column-gap:22px; }}
 .cat.narrow ul {{ columns:1; }}
-li button {{ white-space:nowrap; }}
 li {{ break-inside:avoid; }}
 li button {{ font-family:var(--mono); font-size:var(--name-size);
   line-height:var(--name-leading); color:var(--ink); background:none; border:0;
-  padding:1px 0; text-align:left; cursor:pointer; display:block; width:100%; }}
+  padding:1px 0 1px 1.1em; text-indent:-1.1em; text-align:left; cursor:pointer;
+  display:block; width:100%; overflow-wrap:normal; word-break:normal; }}
 .own {{ color:var(--accent); margin-left:2px; }}
 li button:hover {{ color:var(--accent); }}
 li button:focus-visible {{ outline:2px solid var(--accent); outline-offset:2px; }}
@@ -206,7 +206,6 @@ li.dim {{ opacity:.2; }}
 @media (max-width:760px) {{
   :root {{ --cols:1; --title-size:23px; --panel-w:100%; }}
   ul, .cat.narrow ul {{ columns:1; }}
-li button {{ white-space:nowrap; }}
   header {{ flex-wrap:wrap; gap:12px; }}
   #q {{ width:100%; }}
   .count {{ margin-left:0; }}
@@ -215,7 +214,7 @@ li button {{ white-space:nowrap; }}
 <div class=page>
 <header>
   <div>
-    <h1>{TITLE}</h1>
+    <h1>{html.escape(TITLE)}</h1>
     <p class=byline>{BYLINE}</p>
     {f'<p class=note>{NOTE}</p>' if NOTE else ''}
   </div>

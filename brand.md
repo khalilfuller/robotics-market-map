@@ -75,8 +75,10 @@ the map should not present a subsidiary as independent, nor bury it.
 
 - Max canvas `1680px`, page padding `36px`
 - Three cards across at full width, two at 1150px, one at 760px
-- Name lists use `columns: 225px 2` — a second column appears only when each
-  can hold the longest company name, so a name never breaks mid-way
+- Name lists use `columns: 220px 2`, sized so two columns fit inside a card at
+  full width. A name too long for its column wraps at a space with a `-1.1em`
+  hanging indent, so it still reads as one entry and never spills into the
+  neighbouring column
 - Company names are `14px / 1.8`; readability beats density at this size
 
 ## Voice
