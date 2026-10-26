@@ -38,7 +38,9 @@ python3 -I build_map.py --artifact   # map.artifact.html — then publish this o
 **Data gaps**
 - 4 unverified, excluded from the map: TempoWorks, MWbotics, Workwise Robotics, Hexagon Robotics
 - 2 ambiguous, on the map but unconfirmed: AgRobotics, Intuition.dev
-- No domain: AMI (ami.inc is an unrelated Japanese medtech firm), Mantle, TempoWorks
+- No domain, after a full sweep: AMI (ami.inc is an unrelated Japanese medtech firm),
+  Mantle, Cortex AI, Moving Atoms, Synapse Semiconductor, Libra Robotics, Manifold,
+  Deploy, and Project Prometheus (deliberately stealth, no public site)
 - Lux and Eclipse sites only exposed partial portfolios — more to pull
 
 **Known structural weaknesses** (from the critique, still true)
