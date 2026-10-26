@@ -44,6 +44,7 @@ Everything visual is in two places at the top of `build_map.py`:
   then paste the winning values back.
 - **`TITLE` / `BYLINE` / `WORDMARK`** — header text; empty `WORDMARK` hides it
 - **`SHOW_MODEL`** — off. True re-enables the business-model dots, legend and filters
+- **`FOOTNOTES`** — per-category scope notes; add one only where the boundary confuses
 - **`TIER_ORDER` / `BUCKET_ORDER`** — controls what appears where. A bucket not
   listed in `BUCKET_ORDER` sorts to the end.
 

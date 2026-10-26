@@ -63,6 +63,14 @@ A single committed dark look — deliberately one theme, not a missing one.
 - Tier headings are accent-coloured over a `--rule` hairline
 - No shadows. Nothing is pill-shaped.
 
+## Scope notes
+
+A category whose boundary confuses gets one line of `--ink-2` mono under its
+label, saying where the neighbouring cases live. They exist to answer "why isn't
+X in here?" before the reader has to ask it. Defined in `FOOTNOTES` in
+`build_map.py`; only add one where the edge is genuinely ambiguous, since a note
+on every box is noise.
+
 ## Status
 
 A company owned by a larger one gets an accent-coloured `*` after its name, with

@@ -545,7 +545,7 @@
   },
   {
     "name": "Labelbox",
-    "tier": "Platform",
+    "tier": "Intelligence",
     "bucket": "Training Data & Demonstration",
     "domain": "labelbox.com",
     "hq": "San Francisco, CA",
@@ -562,7 +562,7 @@
   },
   {
     "name": "Voxel51",
-    "tier": "Platform",
+    "tier": "Intelligence",
     "bucket": "Training Data & Demonstration",
     "domain": "voxel51.com",
     "hq": "Ann Arbor, MI",
@@ -647,7 +647,7 @@
   },
   {
     "name": "Bucket Robotics",
-    "tier": "Platform",
+    "tier": "Intelligence",
     "bucket": "Training Data & Demonstration",
     "domain": "bucket.bot",
     "hq": "Pittsburgh, PA",
@@ -6789,15 +6789,15 @@
     "domain": "adamohq.com",
     "hq": "San Francisco, CA",
     "description": "Managed teleoperation as a service: the software plus the operators, for autonomous vehicles, humanoids and industrial arms. Founded 2025 by James Naylor and Sam Considine, aimed at teams that need remote intervention without staffing their own control room.",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
     "model": "service",
     "cluster": "",
     "status": "active",
     "funding": "",
-    "lead_investor": "",
-    "source": "research",
-    "notes": "",
-    "logo_file": "",
-    "logo_status": ""
+    "lead_investor": ""
   },
   {
     "name": "Sanctuary AI",
@@ -6806,15 +6806,15 @@
     "domain": "sanctuary.ai",
     "hq": "Vancouver, CA",
     "description": "Builds Phoenix, a humanoid with hydraulic hands and unusually rich tactile sensing, controlled by its Carbon software. Teleoperation is explicit in the design: human operators feel what the robot feels, which both supervises the work and generates the training data.",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
     "model": "component",
     "cluster": "",
     "status": "active",
     "funding": "~$148M total",
-    "lead_investor": "",
-    "source": "research",
-    "notes": "",
-    "logo_file": "",
-    "logo_status": ""
+    "lead_investor": ""
   },
   {
     "name": "Reflex Robotics",
@@ -6823,15 +6823,15 @@
     "domain": "reflexrobotics.com",
     "hq": "New York, NY",
     "description": "A wheeled humanoid aimed at reliable repetitive work rather than demos, with remote operators covering what autonomy misses.",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
     "status": "active",
     "funding": "",
-    "lead_investor": "",
-    "source": "research",
-    "notes": "",
-    "logo_file": "",
-    "logo_status": ""
+    "lead_investor": ""
   },
   {
     "name": "Vay",
@@ -6840,15 +6840,15 @@
     "domain": "vay.io",
     "hq": "Berlin, DE",
     "description": "Teledriving: a human drives the car remotely from a station with real controls, no autonomy claimed. Runs a commercial mobility service in Las Vegas and licenses the stack to others, including Kodiak.",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
     "status": "active",
     "funding": "$185M total",
-    "lead_investor": "",
-    "source": "research",
-    "notes": "",
-    "logo_file": "",
-    "logo_status": ""
+    "lead_investor": ""
   },
   {
     "name": "Fernride",
@@ -6857,15 +6857,15 @@
     "domain": "fernride.com",
     "hq": "Munich, DE",
     "description": "Teleoperation-first ground autonomy for yard trucks and container handling, where a remote operator supervises several vehicles and autonomy takes over the routine legs.",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
     "model": "neo-integrator",
     "cluster": "",
     "status": "active",
     "funding": "",
-    "lead_investor": "",
-    "source": "research",
-    "notes": "",
-    "logo_file": "",
-    "logo_status": ""
+    "lead_investor": ""
   },
   {
     "name": "Human Archive",
@@ -6874,15 +6874,15 @@
     "domain": "humanarchive.ai",
     "hq": "San Francisco, CA",
     "description": "Captures human work as training data for embodied models (YC W2026).",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
     "model": "platform",
     "cluster": "",
     "status": "active",
     "funding": "",
-    "lead_investor": "",
-    "source": "research",
-    "notes": "",
-    "logo_file": "",
-    "logo_status": ""
+    "lead_investor": ""
   },
   {
     "name": "Cogito Tech",
@@ -6891,14 +6891,14 @@
     "domain": "cogitotech.com",
     "hq": "Fairfield, NJ",
     "description": "Managed training-data operations, including teleoperation capture and annotation of multimodal robot data.",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
     "model": "service",
     "cluster": "",
     "status": "active",
     "funding": "",
-    "lead_investor": "",
-    "source": "research",
-    "notes": "",
-    "logo_file": "",
-    "logo_status": ""
+    "lead_investor": ""
   }
 ]

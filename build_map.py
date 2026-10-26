@@ -75,12 +75,57 @@ BUCKET_ORDER = [
     "Finance & Insurance", "Marketplaces & Sourcing",
     "Classic Automation Integrators", "Deployment & Field Service", "Safety & Compliance",
 ]
+# Scope notes: one line under a category label saying where its boundary is.
+# These exist to pre-empt "why isn't X in here?" -- the question a market map
+# gets asked most. Only categories whose edge genuinely confuses get one.
+FOOTNOTES = {
+    "Foundation Models":
+        "Companies that sell models to others. Ones that build a model and also ship the system running it sit in their vertical.",
+    "Research Labs":
+        "Corporate and nonprofit research organisations, not vendors.",
+    "Simulation":
+        "Physics engines and simulators. Simulation used as CI for robot policies is under Dev Tools.",
+    "Training Data & Demonstration":
+        "Collecting, capturing and curating data to train on. Teleoperation used to run live fleets is under Fleet Ops.",
+    "Fleet Ops & Remote Operations":
+        "Running and supervising deployed fleets, teleoperation included. Teleop for data capture is under Training Data; companies whose whole product is remote-operated work sit in their vertical.",
+    "Robot Compute & Runtime":
+        "Robotics-specific silicon and runtimes. General GPU clouds and AI infrastructure are out of scope.",
+    "Humanoids & Quadrupeds":
+        "Grouped by form factor. Several target the home; consumer robots already shipping are under Consumer & Home.",
+    "Mobile Bases & AMRs":
+        "Platforms sold for others to build on. Companies operating warehouse fleets are under Warehouse & Logistics.",
+    "Consumer & Home":
+        "Consumer products on sale today. Home humanoids still in development are under Humanoids & Quadrupeds.",
+    "Marine & Subsea":
+        "Commercial marine work. Naval and armed maritime autonomy is under Defense & Aerospace.",
+    "Metal & Fabrication":
+        "Welding, grinding, machining and additive. General assembly and machine tending is the next box.",
+    "Assembly & Machine Tending":
+        "Assembly, material handling and tending machines. Metalworking is the previous box.",
+    "Classic Automation Integrators":
+        "Project work: designing and building the cell. Keeping it running afterwards is under Deployment & Field Service.",
+    "Deployment & Field Service":
+        "Installing, repairing and maintaining robots someone else built. The firms that design the system are under Classic Automation Integrators.",
+    "Finance & Insurance":
+        "Financing and insuring deployments. Venture funds and equity vehicles are not on this map.",
+}
+
 bidx = {b: i for i, b in enumerate(BUCKET_ORDER)}
 MODELS = [("all", "All"), ("neo-integrator", "Neo-integrators"), ("lab", "Labs"),
           ("component", "Components"), ("platform", "Platforms"), ("service", "Services")]
 
 rows = [r for r in csv.DictReader(open(os.path.join(ROOT, "companies.csv")))
         if "UNVERIFIED" not in r["notes"]]
+# A bucket must live in exactly one tier, or it renders as two separate cards.
+# This has bitten twice now: moving a company's bucket without its tier.
+_bt = defaultdict(set)
+for _r in rows:
+    _bt[_r["bucket"]].add(_r["tier"])
+_split = {b: sorted(t) for b, t in _bt.items() if len(t) > 1}
+if _split:
+    raise SystemExit(f"bucket spans more than one tier: {_split}")
+
 tiers = defaultdict(lambda: defaultdict(list))
 for r in rows:
     tiers[r["tier"]][r["bucket"]].append(r)
@@ -160,6 +205,8 @@ h1 {{ margin:0; font-size:var(--title-size); font-weight:700;
   border-radius:var(--r-chip); padding:5px 10px; font-size:var(--cat-size);
   font-weight:600; letter-spacing:var(--cat-track); text-transform:uppercase;
   margin-bottom:14px; }}
+.cat-note {{ margin:-6px 0 14px; font-family:var(--mono); font-size:10.5px;
+  line-height:1.65; color:var(--ink-2); max-width:46ch; }}
 ul {{ margin:0; padding:0; list-style:none; columns:220px 2; column-gap:22px; }}
 .cat.narrow ul {{ columns:1; }}
 li {{ break-inside:avoid; }}
@@ -260,7 +307,10 @@ for tier in TIER_ORDER:
         total += len(items)
         cls = "cat narrow" if len(items) <= 4 else "cat"
         lis = "".join(li(r) for r in items)
-        out.append(f'<div class="{cls}"><div class=cat-label>{html.escape(bucket)}</div><ul>{lis}</ul></div>')
+        note = FOOTNOTES.get(bucket, "")
+        note_el = f'<p class=cat-note>{html.escape(note)}</p>' if note else ''
+        out.append(f'<div class="{cls}"><div class=cat-label>{html.escape(bucket)}</div>'
+                   f'{note_el}<ul>{lis}</ul></div>')
     out.append("</div></section>")
 
 out.append('</div>')
