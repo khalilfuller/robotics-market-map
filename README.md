@@ -3,7 +3,7 @@
 ## Build
 
 ```
-python3 -I build_map.py              # map.html          — standalone file
+python3 -I build_map.py              # index.html        — the public site file
 python3 -I build_map.py --artifact   # map.artifact.html — for claude.ai hosting
 ```
 
@@ -11,7 +11,7 @@ python3 -I build_map.py --artifact   # map.artifact.html — for claude.ai hosti
 Private by default — share it from the page's Share menu.
 To update, rebuild with `--artifact` and republish the same file path.
 
-Open `map.html` directly in a browser — self-contained apart from the Google Fonts link.
+Open `index.html` directly in a browser — self-contained apart from the Google Fonts link.
 
 The map is interactive: click any company for a card with its blurb, HQ and link;
 filter by business model; search by name.
@@ -22,7 +22,7 @@ filter by business model; search by name.
 |---|---|
 | `companies.csv` | source of truth — 166 companies. Edit this. |
 | `build_map.py` | generator: design tokens + layout + ordering |
-| `map.html` | the rendered map, interactive (generated — don't hand-edit) |
+| `index.html` | the public site, served by GitHub Pages (generated — don't hand-edit) |
 | `brand.md` | type, colour, corners, voice — the design source of truth |
 | `enrich.py` | fetches each site's title + meta description into `site_meta.json` |
 | `WORDMARK` in build_map.py | empty = no wordmark; set a string to show one top-right |

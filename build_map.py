@@ -137,9 +137,23 @@ data = {r["name"]: {"b": r["bucket"], "t": r["tier"], "m": r.get("model", ""),
         for r in rows}
 
 tok = "\n".join(f"  {k}: {v};" for k, v in TOKENS.items())
+SITE_URL  = "https://khalilfuller.github.io/robotics-market-map/"
+SITE_DESC = ("A map of the robotics and physical AI industry: "
+             "400+ companies across five tiers, from foundation models "
+             "and compute to the integrators and insurers who get robots deployed.")
+
 HEAD_STANDALONE = f'''<!doctype html><html lang=en><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>Robotics &amp; Physical AI Landscape</title>
+<meta name=description content="{SITE_DESC}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Robotics &amp; Physical AI Landscape">
+<meta property="og:description" content="{SITE_DESC}">
+<meta property="og:url" content="{SITE_URL}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Robotics &amp; Physical AI Landscape">
+<meta name="twitter:description" content="{SITE_DESC}">
+<link rel="canonical" href="{SITE_URL}">
 <link rel=preconnect href="https://fonts.googleapis.com">
 <link rel=preconnect href="https://fonts.gstatic.com" crossorigin>
 <link rel=stylesheet href="{FONT_URL}">'''
@@ -381,6 +395,6 @@ function apply(){{
 apply();
 </script>""")
 
-name = "map.artifact.html" if ARTIFACT else "map.html"
+name = "map.artifact.html" if ARTIFACT else "index.html"
 open(os.path.join(ROOT, name), "w").write("\n".join(out))
 print(f"{name} written: {total} companies")

@@ -6,7 +6,7 @@
 402 companies on the map, 406 in `companies.csv`, 5 tiers, 37 categories.
 
 ```
-python3 -I build_map.py              # map.html          — standalone
+python3 -I build_map.py              # index.html        — the public site
 python3 -I build_map.py --artifact   # map.artifact.html — then publish this one
 ```
 
