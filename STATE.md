@@ -1,7 +1,8 @@
 # Where we left off — 24 Oct 2026
 
-**Live map:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS (v14)
-**Repo:** https://github.com/khalilfuller/robotics-market-map — **private**
+**Live site:** https://khalilfuller.github.io/robotics-market-map/
+**Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
+**Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
 402 companies on the map, 406 in `companies.csv`, 5 tiers, 37 categories.
 
@@ -32,7 +33,6 @@ python3 -I build_map.py --artifact   # map.artifact.html — then publish this o
 ## Open threads
 
 **Decide**
-- Make the repo public? It's private now.
 - Should capital sources (funds) get a box after all? Currently no, by the rule above.
 
 **Data gaps**

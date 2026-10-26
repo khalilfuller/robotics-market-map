@@ -282,7 +282,7 @@ li.dim {{ opacity:.2; }}
   {f'<div class=wordmark>{WORDMARK}</div>' if WORDMARK else ''}
 </header>
 <div class=controls>
-  <input id=q type=search placeholder="Search companies" autocomplete=off>"""]
+  <input id=q type=search placeholder="Search companies, categories, keywords" autocomplete=off>"""]
 
 if SHOW_MODEL:
     out.append('<div class=filters>')
@@ -341,6 +341,11 @@ out.append(f"""
 const DATA = {json.dumps(data)};
 const SHOW_MODEL = {json.dumps(SHOW_MODEL)};
 const $ = id => document.getElementById(id);
+// search across name, category and blurb -- people type concepts, not names
+const BLOB = {{}};
+for (const [n, d] of Object.entries(DATA)) {{
+  BLOB[n.toLowerCase()] = (n + ' ' + d.b + ' ' + d.t + ' ' + (d.d || '') + ' ' + (d.h || '')).toLowerCase();
+}}
 const panel=$('panel'), q=$('q'), countEl=$('count'), closeBtn=$('closeBtn'),
       pname=$('pname'), pmeta=$('pmeta'), pbadge=$('pbadge'), pfund=$('pfund'),
       pblurb=$('pblurb'), plink=$('plink');
@@ -380,7 +385,7 @@ function apply(){{
   const term=q.value.trim().toLowerCase(); let n=0;
   document.querySelectorAll('li').forEach(li=>{{
     const okM = model==='all' || li.dataset.m===model;
-    const okQ = !term || li.dataset.n.includes(term);
+    const okQ = !term || (BLOB[li.dataset.n] || li.dataset.n).includes(term);
     li.classList.toggle('dim', !(okM&&okQ));
     if(okM&&okQ) n++;
   }});

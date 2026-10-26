@@ -7,9 +7,12 @@ python3 -I build_map.py              # index.html        — the public site fil
 python3 -I build_map.py --artifact   # map.artifact.html — for claude.ai hosting
 ```
 
-**Hosted:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
-Private by default — share it from the page's Share menu.
-To update, rebuild with `--artifact` and republish the same file path.
+**Live site:** https://khalilfuller.github.io/robotics-market-map/
+Served by GitHub Pages from `index.html` on `main`. Every push redeploys it.
+
+**Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
+Private; share from the page's Share menu. Rebuild with `--artifact` and
+republish the same file path to update.
 
 Open `index.html` directly in a browser — self-contained apart from the Google Fonts link.
 
