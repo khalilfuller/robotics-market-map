@@ -1,4 +1,4 @@
-# Brand — v3
+# Brand — v4
 
 Source of truth for how the map looks. Change this first, then mirror it in
 `TOKENS` in `build_map.py`.
@@ -17,28 +17,34 @@ interactive state and the tier headings. Nothing else is coloured.
 
 ## Typeface
 
-**IBM Plex**, both widths. Drawn for an engineering company, which is the point,
-and it is neither of the two faces that make a page look auto-generated.
+**B612**, both the sans and the mono. Drawn by Airbus for cockpit displays, so
+it is built to stay legible at small sizes under bad conditions — which is the
+same problem a 400-entry reference page has.
 
 ```
-https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@400;600;700&display=swap
+https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400&family=B612+Mono:ital,wght@0,400;0,700;1,400&display=swap
 ```
 
-- **IBM Plex Sans Condensed** — title, tier labels, category labels, UI
-- **IBM Plex Mono** — company names, metadata, anything that reads as data
+- **B612** (sans) — title, tier labels, category chips, UI
+- **B612 Mono** — company names, metadata, anything that reads as data
 
-Fallbacks: `ui-sans-serif, system-ui` and `ui-monospace, Menlo, monospace`.
+Fallbacks: `ui-sans-serif, system-ui` and `ui-monospace, SF Mono, Menlo, monospace`.
 
 **One weight per element.** Never mix weights inside a line.
 
 | use | face | weight | size | tracking | case |
 |---|---|---|---|---|---|
-| page title | Sans Cond | 700 | 32px | 0.02em | upper |
+| page title | Sans | 700 | 32px | 0.02em | upper |
 | byline / note | Mono | 400 | 11px | 0.02em | as written |
-| tier label | Sans Cond | 700 | 12px | 0.22em | upper |
-| category label | Sans Cond | 600 | 10.5px | 0.16em | upper |
+| tier label | Sans | 700 | 12px | 0.22em | upper |
+| category label | Sans | 600 | 10.5px | 0.14em | upper |
+| scope note | Mono | 400 | 10.5px | 0 | sentence |
 | company name | Mono | 400 | 14px | 0 | as written |
-| UI / meta | Mono | 400 | 10.5px | 0.08em | upper |
+| UI / meta | Mono | 400 | 11px | 0.08em | upper |
+
+**B612 Mono is wider than most monos**, so anything sized against it needs
+measuring rather than assuming. Switching to it from IBM Plex pushed the longest
+company name to 239px and clipped the search placeholder at its old 220px width.
 
 ## Colour
 

@@ -19,8 +19,8 @@ NOTE     = ""          # optional scope caveat under the byline
 SHOW_MODEL = False
 WORDMARK = ""          # set a string to show a wordmark top-right
 
-FONT_URL = ("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500"
-            "&family=IBM+Plex+Sans+Condensed:wght@400;600;700&display=swap")
+FONT_URL = ("https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400"
+            "&family=B612+Mono:ital,wght@0,400;0,700;1,400&display=swap")
 
 # ------------------------------------------------------------- design tokens
 # Mirrors brand.md. Change there first.
@@ -166,8 +166,8 @@ out = [(HEAD_ARTIFACT if ARTIFACT else HEAD_STANDALONE) + f"""
 <style>
 :root {{
 {tok}
-  --sans: 'IBM Plex Sans Condensed', ui-sans-serif, system-ui, sans-serif;
-  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --sans: 'B612', ui-sans-serif, system-ui, sans-serif;
+  --mono: 'B612 Mono', ui-monospace, 'SF Mono', Menlo, monospace;
   color-scheme: dark;
 }}
 * {{ box-sizing: border-box; }}
@@ -192,7 +192,7 @@ h1 {{ margin:0; font-size:var(--title-size); font-weight:700;
   margin:22px 0 26px; padding-bottom:16px; border-bottom:1px solid var(--rule); }}
 #q {{ font-family:var(--mono); font-size:var(--meta-size); letter-spacing:.04em;
   background:transparent; border:1px solid var(--rule); color:var(--chalk);
-  padding:8px 11px; border-radius:var(--r-chip); width:220px; }}
+  padding:8px 11px; border-radius:var(--r-chip); width:250px; }}
 #q::placeholder {{ color:var(--chalk-2); }}
 #q:focus {{ outline:none; border-color:var(--accent); }}
 .filters {{ display:flex; gap:14px; flex-wrap:wrap; }}
@@ -282,7 +282,7 @@ li.dim {{ opacity:.2; }}
   {f'<div class=wordmark>{WORDMARK}</div>' if WORDMARK else ''}
 </header>
 <div class=controls>
-  <input id=q type=search placeholder="Search companies, categories, keywords" autocomplete=off>"""]
+  <input id=q type=search placeholder="Search name or keyword" autocomplete=off>"""]
 
 if SHOW_MODEL:
     out.append('<div class=filters>')
