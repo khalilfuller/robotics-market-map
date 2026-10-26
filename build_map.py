@@ -207,6 +207,9 @@ h1 {{ margin:0; font-size:var(--title-size); font-weight:700;
 .key i {{ font-style:normal; color:var(--accent); }}
 .count {{ margin-left:auto; }}
 
+.empty {{ font-family:var(--mono); font-size:13px; line-height:1.7; color:var(--chalk-2);
+  margin:28px 0; max-width:52ch; }}
+.empty b {{ color:var(--accent); font-weight:400; }}
 .tier {{ margin-bottom:30px; }}
 .tier-label {{ font-size:var(--tier-size); font-weight:700; letter-spacing:var(--tier-track);
   text-transform:uppercase; color:var(--accent); margin:0 0 13px; padding-bottom:9px;
@@ -221,7 +224,7 @@ h1 {{ margin:0; font-size:var(--title-size); font-weight:700;
   margin-bottom:14px; }}
 .cat-note {{ margin:-6px 0 14px; font-family:var(--mono); font-size:10.5px;
   line-height:1.65; color:var(--ink-2); max-width:46ch; }}
-ul {{ margin:0; padding:0; list-style:none; columns:220px 2; column-gap:22px; }}
+ul {{ margin:0; padding:0; list-style:none; columns:185px 2; column-gap:22px; }}
 .cat.narrow ul {{ columns:1; }}
 li {{ break-inside:avoid; }}
 li button {{ font-family:var(--mono); font-size:var(--name-size);
@@ -263,9 +266,10 @@ li.dim {{ opacity:.2; }}
   cursor:pointer; }}
 #closeBtn:hover {{ border-color:var(--accent); color:var(--accent); }}
 
-@media (max-width:1150px) {{ :root {{ --cols:2; }} }}
+@media (max-width:1400px) {{ :root {{ --cols:2; }} }}
 @media (max-width:760px) {{
   :root {{ --cols:1; --title-size:23px; --panel-w:100%; }}
+  li button {{ padding-top:8px; padding-bottom:8px; }}
   ul, .cat.narrow ul {{ columns:1; }}
   header {{ flex-wrap:wrap; gap:12px; }}
   #q {{ width:100%; }}
@@ -295,6 +299,8 @@ out.append('<div class=hint><b>Click</b> a name for its blurb</div>'
 if SHOW_MODEL:
     out.append('<div class=legend><i></i>Neo-integrator</div>')
 out.append('<div class=count id=count></div></div>')
+out.append('<p class=empty id=empty hidden>No companies match that search. '
+           'Try a category, a place or a keyword &mdash; <b>solar</b>, <b>teleop</b>, <b>zurich</b>.</p>')
 
 def li(r):
     """One company: muted when it is owned by a larger company."""
@@ -396,6 +402,7 @@ function apply(){{
     s.style.display = s.querySelector('.cat:not(.hidden)') ? '' : 'none';
   }});
   countEl.textContent = n + ' shown';
+  document.getElementById('empty').hidden = n > 0;
 }}
 apply();
 </script>""")
