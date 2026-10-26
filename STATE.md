@@ -3,7 +3,7 @@
 **Live map:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS (v14)
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **private**
 
-395 companies on the map, 399 in `companies.csv`, 5 tiers, 37 categories.
+402 companies on the map, 406 in `companies.csv`, 5 tiers, 37 categories.
 
 ```
 python3 -I build_map.py              # map.html          — standalone

@@ -82,7 +82,7 @@ Layout knobs worth knowing:
 
 ## Structure
 
-5 tiers, 37 buckets, 395 companies on the map (399 in the CSV; 4 held back as unverified).
+5 tiers, 37 buckets, 402 companies on the map (406 in the CSV; 4 held back as unverified).
 
 By cluster: 55 Bay Area, 37 Boston, 26 Zurich. 27 companies are owned by a larger company.
 
