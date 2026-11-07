@@ -23,7 +23,7 @@ filter by business model; search by name.
 
 | file | what it is |
 |---|---|
-| `companies.csv` | source of truth — 166 companies. Edit this. |
+| `companies.csv` | source of truth — 444 companies (440 on the map). Edit this. |
 | `build_map.py` | generator: design tokens + layout + ordering |
 | `index.html` | the public site, served by GitHub Pages (generated — don't hand-edit) |
 | `brand.md` | type, colour, corners, voice — the design source of truth |
