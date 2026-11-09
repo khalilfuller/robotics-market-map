@@ -4,7 +4,15 @@
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-440 companies on the map, 444 in `companies.csv`, 5 tiers, 39 categories.
+444 companies on the map, 448 in `companies.csv`, 5 tiers, 39 categories.
+
+## Weekly sweep 2026-11-09
+
+Added 4:
+- Fauna Robotics: Humanoids & Quadrupeds (part of Amazon)
+- Motherboard Labs: Fleet Ops & Remote Operations
+- NorBot: Robot Operators & RaaS
+- Helsing: Defense & Aerospace
 
 ## 6 Nov 2026 — channel and service layer
 
