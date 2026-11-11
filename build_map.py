@@ -72,9 +72,8 @@ BUCKET_ORDER = [
     "Data Centers", "Inspection & Infrastructure", "Marine & Subsea",
     "Food & Hospitality", "Healthcare & Life Sciences",
     "Facilities, Retail & Security", "Consumer & Home", "Defense & Aerospace",
-    "Robot Operators & RaaS", "Deployment & Field Service", "Distribution & Dealer Channels",
     "Finance & Insurance", "Marketplaces & Sourcing",
-    "Classic Automation Integrators", "Safety & Compliance",
+    "Classic Automation Integrators", "Deployment & Field Service", "Safety & Compliance",
 ]
 # Scope notes: one line under a category label saying where its boundary is.
 # These exist to pre-empt "why isn't X in here?" -- the question a market map
@@ -106,12 +105,8 @@ FOOTNOTES = {
         "Assembly, material handling and tending machines. Metalworking is the previous box.",
     "Classic Automation Integrators":
         "Project work: designing and building the cell. Keeping it running afterwards is under Deployment & Field Service.",
-    "Robot Operators & RaaS":
-        "Own the customer contract and run robots from several makers as a monthly service. Makers renting only their own robots sit in their vertical.",
     "Deployment & Field Service":
-        "Installing, repairing and maintaining robots for the makers that built them. Firms that own the customer contract are under Robot Operators; firms that design the system are under Classic Automation Integrators.",
-    "Distribution & Dealer Channels":
-        "Dealers, distributors and resellers selling other makers' robots through a customer base they already have.",
+        "Installing, repairing and maintaining robots someone else built. The firms that design the system are under Classic Automation Integrators.",
     "Finance & Insurance":
         "Financing and insuring deployments. Venture funds and equity vehicles are not on this map.",
 }
