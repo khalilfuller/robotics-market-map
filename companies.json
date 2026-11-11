@@ -3859,6 +3859,23 @@
     "lead_investor": ""
   },
   {
+    "name": "Tau Robotics",
+    "tier": "Vertical Robotics Companies",
+    "bucket": "Consumer & Home",
+    "domain": "tau-robotics.com",
+    "hq": "San Francisco, CA",
+    "description": "Rents out pairs of humanoid robots that clean homes by the hour in San Francisco, with a remote human operator supervising each job. The paid cleanings double as training data for taking the operator out of the loop.",
+    "source": "research",
+    "notes": "service launch: MIT Technology Review, Nov 2026",
+    "logo_file": "",
+    "logo_status": "",
+    "model": "neo-integrator",
+    "cluster": "Bay Area",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
+  },
+  {
     "name": "MathWorks",
     "tier": "Platform",
     "bucket": "Dev Tools & Middleware",
