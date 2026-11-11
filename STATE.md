@@ -1,10 +1,35 @@
-# Where we left off — 24 Oct 2026
+# Where we left off — 6 Nov 2026
 
 **Live site:** https://khalilfuller.github.io/robotics-market-map/
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-403 companies on the map, 407 in `companies.csv`, 5 tiers, 37 categories.
+444 companies on the map, 448 in `companies.csv`, 5 tiers, 39 categories.
+
+## Weekly sweep 2026-11-09
+
+Added 4:
+- Fauna Robotics: Humanoids & Quadrupeds (part of Amazon)
+- Motherboard Labs: Fleet Ops & Remote Operations
+- NorBot: Robot Operators & RaaS
+- Helsing: Defense & Aerospace
+
+## 6 Nov 2026 — channel and service layer
+
+Market Infrastructure restructured around who owns the customer:
+- **Robot Operators & RaaS** (new): own the contract, run several makers' robots as a monthly
+  service. Formic (from Finance), Cardinal Robotics (from Field Service), Deploy (from Fleet Ops),
+  SoftBank Robotics, TechForce Robotics.
+- **Deployment & Field Service**: now strictly subcontracted uptime work for makers. Added Ricoh Service Advantage.
+- **Distribution & Dealer Channels** (new): Crickets Continuum, Allied Universal Technology Services,
+  Trimble, Motion Automation Intelligence, Applied Industrial Technologies, RobotLAB.
+- Finance + Mitsubishi HC Capital America; Marketplaces + Konnex, RobotShop.
+
+38 companies added, mostly facility service-line makers (cleaning, security, hospital logistics,
+UV, aerial and sewer inspection, milking, solar cleaning). Cardinal's 35,000-robot / 3,000-tech /
+$800M figures are the company's own claims (cardinalrobot.com), labelled as such.
+No domain found yet: TechForce Robotics, Crickets Continuum, Mitsubishi HC Capital America, Konnex,
+Asylon, UVD Robots. Left off on purpose: non-robotics channel analogs (Telarus, ADT, JAN-PRO).
 
 ```
 python3 -I build_map.py              # index.html        — the public site
