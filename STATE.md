@@ -4,7 +4,14 @@
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-444 companies on the map, 448 in `companies.csv`, 5 tiers, 39 categories.
+448 companies on the map, 452 in `companies.csv`, 5 tiers, 38 categories.
+
+## Weekly sweep 2026-11-13
+
+Added 3:
+- GreyOrange: Fleet Ops & Remote Operations
+- Ocado Intelligent Automation: Warehouse & Logistics (part of Ocado Group)
+- Intuitive: Healthcare & Life Sciences
 
 ## Weekly sweep 2026-11-09
 

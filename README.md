@@ -23,7 +23,7 @@ filter by business model; search by name.
 
 | file | what it is |
 |---|---|
-| `companies.csv` | source of truth — 448 companies (444 on the map). Edit this. |
+| `companies.csv` | source of truth — 452 companies (448 on the map). Edit this. |
 | `build_map.py` | generator: design tokens + layout + ordering |
 | `index.html` | the public site, served by GitHub Pages (generated — don't hand-edit) |
 | `brand.md` | type, colour, corners, voice — the design source of truth |
@@ -86,7 +86,7 @@ Layout knobs worth knowing:
 
 ## Structure
 
-5 tiers, 37 buckets, 402 companies on the map (406 in the CSV; 4 held back as unverified).
+5 tiers, 38 buckets, 448 companies on the map (452 in the CSV; 4 held back as unverified).
 
 By cluster: 55 Bay Area, 37 Boston, 26 Zurich. 27 companies are owned by a larger company.
 
