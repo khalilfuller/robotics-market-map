@@ -69,6 +69,7 @@ BUCKET_ORDER = [
     "Actuators & Motion", "Power & Connectivity", "End Effectors & Grippers",
     "Construction", "Energy & Solar", "Agriculture & Landscaping",
     "Warehouse & Logistics", "Last-Mile & Delivery", "Manufacturing & Fabrication",
+    "Contract Manufacturing",
     "Data Centers", "Inspection & Infrastructure", "Marine & Subsea",
     "Food & Hospitality", "Healthcare & Life Sciences",
     "Facilities, Retail & Security", "Consumer & Home", "Defense & Aerospace",
@@ -104,6 +105,8 @@ FOOTNOTES = {
         "Welding, grinding, machining and additive. General assembly and machine tending is the next box.",
     "Assembly & Machine Tending":
         "Assembly, material handling and tending machines. Metalworking is the previous box.",
+    "Contract Manufacturing":
+        "Building robots and other hardware for the companies that design them. Robots that do factory work for a plant are under Metal & Fabrication and Assembly & Machine Tending.",
     "Classic Automation Integrators":
         "Project work: designing and building the cell. Keeping it running afterwards is under Deployment & Field Service.",
     "Robot Operators & RaaS":

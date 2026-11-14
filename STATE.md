@@ -4,7 +4,12 @@
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-450 companies on the map, 454 in `companies.csv`, 5 tiers, 38 categories.
+451 companies on the map, 455 in `companies.csv`, 5 tiers, 39 categories.
+
+## 14 Nov 2026: Contract Manufacturing
+
+New category under Vertical Robotics Companies for firms that build robots and other hardware
+for the companies that design them. Added Matter; moved Foundry Robotics in from Metal & Fabrication.
 
 ## Weekly sweep 2026-11-13
 
