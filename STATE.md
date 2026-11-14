@@ -4,7 +4,19 @@
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-447 companies on the map, 451 in `companies.csv`, 5 tiers, 39 categories.
+450 companies on the map, 454 in `companies.csv`, 5 tiers, 38 categories.
+
+## Weekly sweep 2026-11-13
+
+Added 3:
+- GreyOrange: Fleet Ops & Remote Operations
+- Ocado Intelligent Automation: Warehouse & Logistics (part of Ocado Group)
+- Intuitive: Healthcare & Life Sciences
+
+## Added 2026-11-11
+
+- Tau Robotics: Consumer & Home
+- DEEP Robotics: Humanoids & Quadrupeds
 
 ## Weekly sweep 2026-11-09
 
