@@ -4,7 +4,7 @@
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-444 companies on the map, 448 in `companies.csv`, 5 tiers, 39 categories.
+447 companies on the map, 451 in `companies.csv`, 5 tiers, 39 categories.
 
 ## Weekly sweep 2026-11-09
 

@@ -3859,6 +3859,23 @@
     "lead_investor": ""
   },
   {
+    "name": "Tau Robotics",
+    "tier": "Vertical Robotics Companies",
+    "bucket": "Consumer & Home",
+    "domain": "tau-robotics.com",
+    "hq": "San Francisco, CA",
+    "description": "Rents out pairs of humanoid robots that clean homes by the hour in San Francisco, with a remote human operator supervising each job. The paid cleanings double as training data for taking the operator out of the loop.",
+    "source": "research",
+    "notes": "service launch: MIT Technology Review, Nov 2026",
+    "logo_file": "",
+    "logo_status": "",
+    "model": "neo-integrator",
+    "cluster": "Bay Area",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
+  },
+  {
     "name": "MathWorks",
     "tier": "Platform",
     "bucket": "Dev Tools & Middleware",
@@ -6865,6 +6882,23 @@
     "cluster": "",
     "status": "part of Amazon",
     "funding": "",
+    "lead_investor": ""
+  },
+  {
+    "name": "DEEP Robotics",
+    "tier": "Hardware",
+    "bucket": "Humanoids & Quadrupeds",
+    "domain": "deeprobotics.cn",
+    "hq": "Hangzhou, CN",
+    "description": "Hangzhou maker of quadruped and wheeled-legged robots sold mainly for industrial inspection, security patrol and emergency response, now adding humanoids and robot joints. Filed for a Shanghai STAR Market listing in 2026.",
+    "source": "research",
+    "notes": "IPO filing: Caixin, May 2026; Series C: Pandaily",
+    "logo_file": "",
+    "logo_status": "",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "funding": "$70M+ Series C",
     "lead_investor": ""
   },
   {
