@@ -4,7 +4,11 @@
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-451 companies on the map, 455 in `companies.csv`, 5 tiers, 39 categories.
+452 companies on the map, 456 in `companies.csv`, 5 tiers, 39 categories.
+
+## 14 Nov 2026: Trossen Robotics
+
+Added Trossen Robotics to Arms & Cobots.
 
 ## 14 Nov 2026: Contract Manufacturing
 

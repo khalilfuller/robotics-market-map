@@ -5661,6 +5661,23 @@
     "lead_investor": ""
   },
   {
+    "name": "Trossen Robotics",
+    "tier": "Hardware",
+    "bucket": "Arms & Cobots",
+    "domain": "trossenrobotics.com",
+    "hq": "Downers Grove, IL",
+    "description": "Low-cost research arms, bimanual workstations and teleoperation rigs, including the official ALOHA kits many robot-learning labs use to collect demonstration data and train policies.",
+    "source": "research",
+    "notes": "",
+    "logo_file": "",
+    "logo_status": "",
+    "model": "component",
+    "cluster": "",
+    "status": "active",
+    "funding": "",
+    "lead_investor": ""
+  },
+  {
     "name": "MiR",
     "tier": "Hardware",
     "bucket": "Mobile Bases & AMRs",
