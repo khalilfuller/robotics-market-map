@@ -4,7 +4,15 @@
 **Claude artifact:** https://claude.ai/artifact/DkB4hnUpUssNbfrmkYwjKS
 **Repo:** https://github.com/khalilfuller/robotics-market-map — **public**
 
-452 companies on the map, 456 in `companies.csv`, 5 tiers, 39 categories.
+456 companies on the map, 460 in `companies.csv`, 5 tiers, 39 categories.
+
+## Weekly sweep 2026-11-20
+
+Added 4:
+- Anvil Robotics: Arms & Cobots
+- Miru: Dev Tools & Middleware
+- Bimotal: Actuators & Motion
+- Festo: Actuators & Motion
 
 ## 14 Nov 2026: Trossen Robotics
 
